@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "rejseplanen",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rejseplanen~dk~gtfs"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1292"
         },
         {
             "name": "rejseplanen",

@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "Amtrak",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9-amtrak~amtrakcalifornia~amtrakcharteredvehicle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-11",
             "fix": true,
             "drop-shapes": false,
             "script": "us-amtrak.lua"
@@ -26,8 +26,9 @@
         },
         {
             "name": "Brightline",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-brightline~trails"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1126",
+            "url-override": "https://feed.gobrightline.com/bl_gtfs.zip"
         },
         {
             "name": "Brightline",
@@ -50,8 +51,8 @@
         },
         {
             "name": "Megabus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-megabus~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-5741"
         }
     ]
 }

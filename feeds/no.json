@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "Entur",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u4-ruter~flybussen~stfoldkollektivtrafikk~hedmarktrafikk~oppla",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1078",
             "fix": true,
             "http-options": {
                 "fetch-interval-days": 1

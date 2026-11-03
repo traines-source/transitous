@@ -8,21 +8,24 @@
     "sources": [
         {
             "name": "Iowa-City-Transit-System",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-iowa~city~transit",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-559",
+            "fix": true,
+            "url-override": "https://data.trilliumtransit.com/gtfs/iowacitytransit-ia-us/iowacitytransit-ia-us.zip"
         },
         {
             "name": "Coralville-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9zqv-coralvilletransitsystem~ia~us",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-196",
+            "fix": true,
+            "url-override": "https://data.trilliumtransit.com/gtfs/coralvilletransitsystem-ia-us/coralvilletransitsystem-ia-us.zip"
         },
         {
             "name": "CAMBUS",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9zqvh-cambus~ia~us",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-197",
+            "fix": true,
+            "url-override": "https://data.trilliumtransit.com/gtfs/cambus-ia-us/cambus-ia-us.zip"
         }
     ]
 }

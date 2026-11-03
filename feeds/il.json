@@ -24,8 +24,8 @@
         },
         {
             "name": "Israel-MOT",
-            "type": "http",
-            "url": "https://gtfs.mot.gov.il/gtfsfiles/israel-public-transportation.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2519",
             "http-options": {
                 "headers": {
                     "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15"

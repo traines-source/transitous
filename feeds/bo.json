@@ -16,9 +16,9 @@
     "sources": [
         {
             "name": "mi-teleferico",
-            "type": "http",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3491",
             "spec": "gtfs",
-            "url": "https://datosbolivia.github.io/gtfs/mi-teleferico.zip",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             },
@@ -26,9 +26,9 @@
         },
         {
             "name": "trufi-cochabamba",
-            "type": "http",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3507",
             "spec": "gtfs",
-            "url": "https://raw.githubusercontent.com/trufi-association/trufi-gtfs-builder/refs/heads/main/examples/Bolivia-Cochabamba/out/cochabamba.gtfs.zip",
             "license": {
                 "spdx-identifier": "ODbL-1.0",
                 "url": "https://www.openstreetmap.org/copyright",

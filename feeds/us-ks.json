@@ -8,37 +8,54 @@
     "sources": [
         {
             "name": "Wichita-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9ydy-wichitatransit",
+            "type": "mobility-database",
+            "mdb-id": "tld-395",
             "skip": true,
             "skip-reason": "Feed expired"
         },
         {
             "name": "Wichita-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9ydy-wichitatransit~rt",
+            "type": "mobility-database",
+            "mdb-id": "tld-6669-vp",
+            "spec": "gtfs-rt",
+            "skip": true,
+            "skip-reason": "Feed expired"
+        },
+        {
+            "name": "Wichita-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6669-tu",
+            "spec": "gtfs-rt",
+            "skip": true,
+            "skip-reason": "Feed expired"
+        },
+        {
+            "name": "Wichita-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6669-sa",
+            "spec": "gtfs-rt",
             "skip": true,
             "skip-reason": "Feed expired"
         },
         {
             "name": "RideKC",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9yum-thejo"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2303"
         },
         {
             "name": "Lawrence-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9yum-kuonwheels~lawrencetransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "tld-1039"
         },
         {
             "name": "Topeka-Metro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-topeka~metro"
+            "type": "mobility-database",
+            "mdb-id": "tld-1660_1"
         },
         {
             "name": "Flint-Hills",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ata~bus~ks"
+            "type": "mobility-database",
+            "mdb-id": "tld-4273"
         },
         {
             "name": "Flint-Hills",

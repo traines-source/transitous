@@ -21,15 +21,15 @@
         },
         {
             "name": "lanka-metro-transit",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://api.transit.seyone.dev/api/v1/realtime/vehicle-positions"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3489",
+            "spec": "gtfs-rt"
         },
         {
             "name": "lanka-metro-transit",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://api.transit.seyone.dev/api/v1/realtime/trip-updates"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3488",
+            "spec": "gtfs-rt"
         }
     ]
 }

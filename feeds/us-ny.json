@@ -16,14 +16,15 @@
     "sources": [
         {
             "name": "CDTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dre-cdta",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-538",
+            "fix": true,
+            "url-override": "https://www.cdta.org/schedules/google_transit.zip"
         },
         {
             "name": "UCAT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr7-ulstercountyareatransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-526"
         },
         {
             "name": "TransitOrange",
@@ -32,13 +33,14 @@
         },
         {
             "name": "LIRR",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5-mtanyclirr"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3136"
         },
         {
             "name": "LIRR",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~lirr"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1624",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
@@ -47,48 +49,57 @@
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~1~2~3~4~5~6~7"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1635",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~a~c~e"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1630",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~b~d~f~m"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1631",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~g"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1632",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~j~z"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1633",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~l"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1636",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~n~q~r~w"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1634",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-NYCSubway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mta~nyc~rt~subway~sir"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1637",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-BusManhattan",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5r-mtanyctbusmanhattan"
+            "type": "mobility-database",
+            "mdb-id": "mdb-513",
+            "url-override": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_m.zip"
         },
         {
             "name": "MTA-BusManhattan",
@@ -106,8 +117,9 @@
         },
         {
             "name": "MTA-BusQueens",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5x-mtanyctbusqueens"
+            "type": "mobility-database",
+            "mdb-id": "mdb-520",
+            "url-override": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_q.zip"
         },
         {
             "name": "MTA-BusQueens",
@@ -125,8 +137,9 @@
         },
         {
             "name": "MTA-BusStatenIsland",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5r-mtanyctbusstatenisland"
+            "type": "mobility-database",
+            "mdb-id": "mdb-514",
+            "url-override": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_si.zip"
         },
         {
             "name": "MTA-BusStatenIsland",
@@ -144,8 +157,9 @@
         },
         {
             "name": "MTA-BusBrooklyn",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5r-mtanyctbusbrooklyn"
+            "type": "mobility-database",
+            "mdb-id": "mdb-512",
+            "url-override": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_b.zip"
         },
         {
             "name": "MTA-BusBrooklyn",
@@ -163,8 +177,9 @@
         },
         {
             "name": "MTA-BusBronx",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr72-mtanyctbusbronx"
+            "type": "mobility-database",
+            "mdb-id": "mdb-528",
+            "url-override": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_bx.zip"
         },
         {
             "name": "MTA-BusBronx",
@@ -182,8 +197,9 @@
         },
         {
             "name": "MTA-BusCompany",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5r-mtabc"
+            "type": "mobility-database",
+            "mdb-id": "mdb-510",
+            "url-override": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_busco.zip"
         },
         {
             "name": "MTA-BusCompany",
@@ -208,8 +224,8 @@
         },
         {
             "name": "MetroNorth",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr7-mtanyc~metro~north"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3110"
         },
         {
             "name": "MetroNorth",
@@ -218,8 +234,9 @@
         },
         {
             "name": "SuffolkCountyTransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drk-ny~suffolkcountytransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3115",
+            "url-override": "http://tracksctbus.org/gtfs"
         },
         {
             "name": "SuffolkCountyTransit",
@@ -240,49 +257,50 @@
         },
         {
             "name": "NassauInterCountyExpress",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5x-wwwnicebuscom"
+            "type": "mobility-database",
+            "mdb-id": "mdb-521"
         },
         {
             "name": "NassauInterCountyExpress",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-nice~rt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1623",
+            "spec": "gtfs-rt",
             "url-override": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-nice~rt&feed_type=trip"
         },
         {
             "name": "LongBeach",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-clbt~nassau~ny~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-916"
         },
         {
             "name": "GlenCove",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-glen~cove~ny"
+            "type": "mobility-database",
+            "mdb-id": "tld-5787"
         },
         {
             "name": "Seastreak",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drk-seastreak"
+            "type": "mobility-database",
+            "mdb-id": "ntd-20226"
         },
         {
             "name": "NY-Waterway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr7-nywaterway"
+            "type": "mobility-database",
+            "mdb-id": "tld-918"
         },
         {
             "name": "NYC-Ferry",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5r-nycferry"
+            "type": "mobility-database",
+            "mdb-id": "mdb-515"
         },
         {
             "name": "NewYorkCityDOT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5r7-nycdotsiferry"
+            "type": "mobility-database",
+            "mdb-id": "mdb-518"
         },
         {
             "name": "NationalParkService",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-statue~of~liberty~ferries"
+            "type": "mobility-database",
+            "mdb-id": "tld-6909"
         },
         {
             "name": "RGRTA-MonroeCounty",
@@ -296,58 +314,71 @@
         },
         {
             "name": "RGRTA-SenecaCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rts~seneca~ny"
+            "type": "mobility-database",
+            "mdb-id": "tld-1200"
         },
         {
             "name": "RGRTA-GeneseeCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rts~genesee"
+            "type": "mobility-database",
+            "mdb-id": "tld-7040"
         },
         {
             "name": "RGRTA-WyomingCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rts~wyoming"
+            "type": "mobility-database",
+            "mdb-id": "tld-7043"
         },
         {
             "name": "RGRTA-OrleansCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rts~orleans"
+            "type": "mobility-database",
+            "mdb-id": "tld-7042"
         },
         {
             "name": "RGRTA-WayneCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rts~wayne~ny"
+            "type": "mobility-database",
+            "mdb-id": "tld-1201"
         },
         {
             "name": "RGRTA-LivingstonCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rts~livingston"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3114"
         },
         {
             "name": "RGRTA-OntarioCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rts~ontario"
+            "type": "mobility-database",
+            "mdb-id": "tld-7041"
         },
         {
             "name": "RIT-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rochester~institute~of~technology"
+            "type": "mobility-database",
+            "mdb-id": "tld-5863"
         },
         {
             "name": "RIT-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rochester~institute~of~technology~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6884-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RIT-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-6884-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RIT-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-6884-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Trailways-nyp",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-trailways~nyp~ny"
+            "type": "mobility-database",
+            "mdb-id": "mdb-824"
         },
         {
             "name": "Trailways-adp",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-trailways~adp~ny"
+            "type": "mobility-database",
+            "mdb-id": "mdb-823"
         },
         {
             "name": "Trailways-uiuc",

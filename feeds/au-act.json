@@ -8,33 +8,33 @@
     "sources": [
         {
             "name": "Transport-Canberra",
-            "type": "http",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2675",
             "spec": "gtfs",
-            "url": "https://transport.api.act.gov.au/gtfs/data/gtfs/v2/gtfs.zip",
             "skip": true,
             "skip-reason": "api-key is missing"
         },
         {
             "name": "Transport-Canberra",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2678",
             "spec": "gtfs-rt",
-            "url": "https://transport.api.act.gov.au/gtfs/data/gtfs/v2/vehicle-positions-mywayplus.pb",
             "skip": true,
             "skip-reason": "api-key is missing"
         },
         {
             "name": "Transport-Canberra",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2676",
             "spec": "gtfs-rt",
-            "url": "https://transport.api.act.gov.au/gtfs/data/gtfs/v2/trip-updates.pb",
             "skip": true,
             "skip-reason": "api-key is missing"
         },
         {
             "name": "Transport-Canberra",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2677",
             "spec": "gtfs-rt",
-            "url": "https://transport.api.act.gov.au/gtfs/data/gtfs/v2/service-alerts.pb",
             "skip": true,
             "skip-reason": "api-key is missing"
         }

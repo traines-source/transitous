@@ -12,8 +12,9 @@
     "sources": [
         {
             "name": "STM",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25d-socitdetransportdemontral"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2126",
+            "url-override": "http://www.stm.info/sites/default/files/gtfs/gtfs_stm.zip"
         },
         {
             "name": "STM",
@@ -24,8 +25,8 @@
         },
         {
             "name": "Exo-reseaudetransportmetropolitain",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25d-exo~reseaudetransportmetropolitain"
+            "type": "mobility-database",
+            "mdb-id": "mdb-748"
         },
         {
             "name": "Exo-reseaudetransportmetropolitain",
@@ -35,8 +36,8 @@
         },
         {
             "name": "Exo-varannes",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25-exo~citsorel~varennes"
+            "type": "mobility-database",
+            "mdb-id": "mdb-741"
         },
         {
             "name": "Exo-varannes",
@@ -46,8 +47,8 @@
         },
         {
             "name": "Exo-citsud",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f253-exo~citsud~ouest",
+            "type": "mobility-database",
+            "mdb-id": "mdb-742",
             "fix": true
         },
         {
@@ -58,8 +59,8 @@
         },
         {
             "name": "Exo-citlapresquîle",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f256-exo~citlapresquîle"
+            "type": "mobility-database",
+            "mdb-id": "mdb-743"
         },
         {
             "name": "Exo-citlapresquîle",
@@ -69,8 +70,8 @@
         },
         {
             "name": "Exo-citlaurentides",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f257-exo~citlaurentides"
+            "type": "mobility-database",
+            "mdb-id": "mdb-744"
         },
         {
             "name": "Exo-citlaurentides",
@@ -91,8 +92,8 @@
         },
         {
             "name": "Exo-richelain-roussillon",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25d-exo~richelain~roussillon"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2142"
         },
         {
             "name": "Exo-richelain-roussillon",
@@ -102,8 +103,8 @@
         },
         {
             "name": "Exo-citchambly-richelieu-carignan",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25f-exo~citchambly~richelieu~carignan"
+            "type": "mobility-database",
+            "mdb-id": "mdb-750"
         },
         {
             "name": "Exo-citchambly-richelieu-carignan",
@@ -113,8 +114,8 @@
         },
         {
             "name": "Exo-citvallée-du-richelieu",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25g-exo~citvallée~du~richelieu"
+            "type": "mobility-database",
+            "mdb-id": "mdb-752"
         },
         {
             "name": "Exo-citvallée-du-richelieu",
@@ -124,8 +125,8 @@
         },
         {
             "name": "Exo-omitsainte-julie",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25g-exo~omitsainte~julie"
+            "type": "mobility-database",
+            "mdb-id": "mdb-753"
         },
         {
             "name": "Exo-omitsainte-julie",
@@ -135,8 +136,8 @@
         },
         {
             "name": "Exo-mrclesmoulinsurbis",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25s-exo~mrclesmoulinsurbis"
+            "type": "mobility-database",
+            "mdb-id": "mdb-754"
         },
         {
             "name": "Exo-mrclesmoulinsurbis",
@@ -146,8 +147,8 @@
         },
         {
             "name": "Exo-mrcdelassomption",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25u-exo~mrcdelassomption"
+            "type": "mobility-database",
+            "mdb-id": "mdb-755"
         },
         {
             "name": "Exo-mrcdelassomption",
@@ -167,18 +168,18 @@
         },
         {
             "name": "RTC",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f2m6-rseaudetransportdelacapitalertc"
+            "type": "mobility-database",
+            "mdb-id": "mdb-757"
         },
         {
             "name": "STLevis",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-societedetransportdelevis"
+            "type": "mobility-database",
+            "mdb-id": "mdb-763"
         },
         {
             "name": "RTL",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f25f-rseaudetransportdelongueuil"
+            "type": "mobility-database",
+            "mdb-id": "mdb-751"
         },
         {
             "name": "STO",
@@ -222,8 +223,8 @@
         },
         {
             "name": "REM",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-reseau~express~metropolitain"
+            "type": "mobility-database",
+            "mdb-id": "tld-6691"
         }
     ]
 }

@@ -8,46 +8,47 @@
     "sources": [
         {
             "name": "bus-kuantan",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rapid~bus~kuantan"
+            "type": "mobility-database",
+            "mdb-id": "tld-6768"
         },
         {
             "name": "bus-penang",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rapid~bus~penang"
+            "type": "mobility-database",
+            "mdb-id": "tld-6770"
         },
         {
             "name": "bus-kl",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rapid~bus~kl"
+            "type": "mobility-database",
+            "mdb-id": "tld-6767"
         },
         {
             "name": "rail-kl",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rapid~rail~kl"
+            "type": "mobility-database",
+            "mdb-id": "tld-6771"
         },
         {
             "name": "bus-mrt-feeder",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rapid~bus~mrt~feeder"
+            "type": "mobility-database",
+            "mdb-id": "tld-6769"
         },
         {
             "name": "ktmb",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ktmb",
+            "type": "mobility-database",
+            "mdb-id": "tld-6758",
             "fix": true,
             "extend-calendar": true
         },
         {
             "name": "ktmb",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ktmb~rt",
+            "type": "mobility-database",
+            "mdb-id": "tld-6759-vp",
+            "spec": "gtfs-rt",
             "use-feed-proxy": true
         },
         {
             "name": "BAS.MY-Seremban-A",
-            "type": "http",
-            "url": "https://api.data.gov.my/gtfs-static/mybas-seremban-a",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3162",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             },
@@ -55,8 +56,8 @@
         },
         {
             "name": "BAS.MY-Seremban-B",
-            "type": "http",
-            "url": "https://api.data.gov.my/gtfs-static/mybas-seremban-b",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3163",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             },
@@ -64,8 +65,8 @@
         },
         {
             "name": "BAS.MY-Kuching",
-            "type": "http",
-            "url": "https://api.data.gov.my/gtfs-static/mybas-kuching",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3166",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             },

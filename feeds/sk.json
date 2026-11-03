@@ -55,8 +55,8 @@
         },
         {
             "name": "Bratislava",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u2s1vm0ergtc~bratislava",
+            "type": "mobility-database",
+            "mdb-id": "tld-3363",
             "url-override": "https://www.arcgis.com/sharing/rest/content/items/aba12fd2cbac4843bc7406151bc66106/data"
         },
         {
@@ -67,9 +67,9 @@
         },
         {
             "name": "idsbk-regional-buses",
-            "type": "http",
-            "fix": true,
-            "url": "https://transiq.xhyrom.dev/gtfs/sk/ids-bk_regional.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2919",
+            "fix": true
         },
         {
             "name": "A-Express",
@@ -163,8 +163,8 @@
         },
         {
             "name": "kompa-vojka",
-            "type": "http",
-            "url": "https://github.gtfs.sk/kompa-vojka/gtfs.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3478"
         },
         {
             "name": "Detska-zeleznica-Kosice",

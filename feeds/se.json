@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "Trafiklab",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u-se",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2661",
             "fix": true,
             "drop-agency-names": [
                 "Flixbus"

@@ -82,42 +82,42 @@
         },
         {
             "name": "Rzeszów",
-            "type": "http",
-            "url": "https://www.mpkrzeszow.pl/gtfs/latest.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3156",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
         },
         {
             "name": "Rzeszów",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3429",
             "spec": "gtfs-rt",
-            "url": "https://www.mpkrzeszow.pl/gtfs/rt/gtfsrt.pb",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
         },
         {
             "name": "PKS-Rzeszów",
-            "type": "http",
-            "url": "https://www.mpkrzeszow.pl/gtfs-pks/latest.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3180",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
         },
         {
             "name": "PKS-Rzeszów",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3428",
             "spec": "gtfs-rt",
-            "url": "https://www.mpkrzeszow.pl/gtfs-pks/rt/gtfsrt.pb",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
         },
         {
             "name": "Jarosław",
-            "type": "http",
-            "url": "https://github.com/rozkladnik/gtfs-pwik-jaroslaw/releases/latest/download/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3189",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             },
@@ -166,16 +166,16 @@
         },
         {
             "name": "Bydgoszcz",
-            "type": "http",
-            "url": "https://mkuran.pl/gtfs/bydgoszcz.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1009",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
         },
         {
             "name": "Toruń",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3mj-torun",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2089",
             "url-override": "https://api.zbiorkom.live/api6-open/torun/gtfs/default"
         },
         {
@@ -248,29 +248,29 @@
         },
         {
             "name": "Warszawska-Kolej-Dojazdowa",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3qb-warszawskakolejdojazdowa"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2091"
         },
         {
             "name": "Warszawska-Kolej-Dojazdowa",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3qb-warszawskakolejdojazdowa~rt",
+            "type": "mobility-database",
+            "mdb-id": "tld-6069-tu",
             "spec": "gtfs-rt"
         },
         {
             "name": "Łomża",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3rw-lomza"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1012"
         },
         {
             "name": "Wejherowo",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3sy-wejherowo"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2084"
         },
         {
             "name": "Gdańsk",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ztm~gdansk"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2093"
         },
         {
             "name": "Gdańsk",
@@ -281,7 +281,7 @@
             "name": "Gdynia",
             "type": "http",
             "url": "https://api.zbiorkom.live/api6-open/tricity/gtfs/GDYNIA",
-            "license":{
+            "license": {
                 "spdx-identifier": "MIT"
             }
         },
@@ -297,8 +297,8 @@
         },
         {
             "name": "Giżycko",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3x7-gizycko"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1010"
         },
         {
             "name": "Lublin",
@@ -341,14 +341,22 @@
         },
         {
             "name": "Poznań",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3k4-miejskieprzedsiębiorstwokomunikacyjnespzoowpoznaniu~kórni",
+            "type": "mobility-database",
+            "mdb-id": "mdb-982",
             "fix": true
         },
         {
             "name": "Poznań",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3k4-poznan~rt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2335",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "Poznań",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2334",
+            "spec": "gtfs-rt",
             "use-feed-proxy": true
         },
         {
@@ -359,13 +367,26 @@
         },
         {
             "name": "Szczecin",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u36r-zditmszczecin"
+            "type": "mobility-database",
+            "mdb-id": "mdb-981"
         },
         {
             "name": "Szczecin",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u36r-zditmszczecin~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1968",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Szczecin",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1966",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Szczecin",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1967",
+            "spec": "gtfs-rt"
         },
         {
             "name": "TransportGZM",
@@ -412,9 +433,9 @@
         },
         {
             "name": "ZTP-Kraków-T",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://gtfs.ztp.krakow.pl/TripUpdates_T.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2339",
+            "spec": "gtfs-rt"
         },
         {
             "name": "ZTP-Kraków-A",
@@ -441,14 +462,15 @@
         },
         {
             "name": "MZK-Ełk",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3xf-elk",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2086",
             "fix": true
         },
         {
             "name": "MZK-Ełk",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u3xf-elk~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6075-tu_vp",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Łódzka-Kolej-Aglomeracyjna-bus",
@@ -731,9 +753,9 @@
         },
         {
             "name": "Kutno",
-            "type": "http",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3125",
             "spec": "gtfs",
-            "url": "https://api.zbiorkom.live/api6-open/kutno/gtfs/default",
             "license": {
                 "spdx-identifier": "MIT"
             }
@@ -1097,7 +1119,7 @@
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
-            "skip" :true,
+            "skip": true,
             "skip-reason": "Feed expired"
         },
         {
@@ -1131,9 +1153,9 @@
         },
         {
             "name": "Przemyśl",
-            "type": "http",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3538",
             "spec": "gtfs",
-            "url": "https://api.zbiorkom.live/api6-open/przemysl/gtfs/default",
             "license": {
                 "spdx-identifier": "MIT"
             }
@@ -1216,7 +1238,7 @@
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
-            "fix":true
+            "fix": true
         },
         {
             "name": "Tribus",
@@ -1470,7 +1492,7 @@
             "type": "http",
             "spec": "gtfs",
             "url": "https://files.girlc.at/gtfs/zywiec.zip",
-            "url-override":"https://api.zbiorkom.live/api6-open/zywiec/gtfs/default",
+            "url-override": "https://api.zbiorkom.live/api6-open/zywiec/gtfs/default",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -1539,7 +1561,7 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://api.zbiorkom.live/api6-open/default/gtfsRealtime/OBORNIKI/tripUpdates,serviceAlerts",
-            "license":{
+            "license": {
                 "spdx-identifier": "MIT"
             },
             "use-feed-proxy": true
@@ -1698,7 +1720,7 @@
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
-            },
+        },
         {
             "name": "Koszalin",
             "type": "http",
@@ -1888,9 +1910,9 @@
         },
         {
             "name": "Krosno",
-            "type": "http",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3539",
             "spec": "gtfs",
-            "url": "https://mks.ekrosno.pl/GTFS-ST/GTFS.zip",
             "url-override": "https://api.zbiorkom.live/api6-open/krosno/gtfs/default",
             "license": {
                 "spdx-identifier": "MIT"

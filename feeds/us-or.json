@@ -16,13 +16,13 @@
     "sources": [
         {
             "name": "CanbyAreaTransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c209-canbytransit~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-252"
         },
         {
             "name": "ColumbiaAreaTransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c21-hoodriver~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-260"
         },
         {
             "name": "Cherriots",
@@ -36,18 +36,31 @@
         },
         {
             "name": "ClackamasCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-clackamascounty~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2740"
         },
         {
             "name": "ClackamasCounty",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-clackamascounty~or~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2744",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ClackamasCounty",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2743",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ClackamasCounty",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2742",
+            "spec": "gtfs-rt"
         },
         {
             "name": "C-TRAN",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20g-c~tran"
+            "type": "mobility-database",
+            "mdb-id": "mdb-258"
         },
         {
             "name": "C-TRAN",
@@ -71,8 +84,9 @@
         },
         {
             "name": "POINT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-point~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-800",
+            "url-override": "https://oregon-gtfs.trilliumtransit.com/gtfs_data/point-or-us/point-or-us.zip"
         },
         {
             "name": "RideConnection",
@@ -81,33 +95,59 @@
         },
         {
             "name": "RVTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9r88-rogue~valley~transportation~district"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3219"
         },
         {
             "name": "RVTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rogue~valley~transportation~district~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3458",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RVTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3457",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RVTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3456",
+            "spec": "gtfs-rt"
         },
         {
             "name": "SAM",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c214-sandy~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2739"
         },
         {
             "name": "SAM",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c214-sandy~or~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2747",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SAM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2746",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SAM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2745",
+            "spec": "gtfs-rt"
         },
         {
             "name": "SCTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20c-sctd~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-883"
         },
         {
             "name": "SETD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0p-sunsetempiretransportationdistrict"
+            "type": "mobility-database",
+            "mdb-id": "tld-4211"
         },
         {
             "name": "SETD",
@@ -118,18 +158,31 @@
         },
         {
             "name": "SMART",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20-wilsonville~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2706"
         },
         {
             "name": "SMART",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-southmetroarearegionaltransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2707",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SMART",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2697",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SMART",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3414",
+            "spec": "gtfs-rt"
         },
         {
             "name": "TriMet",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20-trimet",
+            "type": "mobility-database",
+            "mdb-id": "mdb-247",
             "fix": true
         },
         {
@@ -140,18 +193,19 @@
         },
         {
             "name": "WashingtonPark",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20dz-washingtonparkshuttle~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-254"
         },
         {
             "name": "WashingtonPark",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20dz-washingtonparkshuttle~or~us~alerts"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1745",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Wave",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20-tillamook~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-246"
         },
         {
             "name": "Wave",
@@ -160,13 +214,26 @@
         },
         {
             "name": "YCTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20-yamhillcounty~or~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-250"
         },
         {
             "name": "YCTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20-yamhillcounty~or~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5555-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "YCTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-5555-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "YCTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-5555-sa",
+            "spec": "gtfs-rt"
         }
     ]
 }

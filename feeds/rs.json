@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "Srbijavoz",
-            "type": "http",
-            "url": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/srbijavoz-merged-gtfs/latest/srbijavoz_merged.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2927",
             "fix": true
         },
         {
@@ -24,19 +24,19 @@
         },
         {
             "name": "Subotica",
-            "type": "http",
-            "url": "https://data.gov.rs/sr/datasets/r/c1b7db4b-cd0c-49c6-bfa1-a08dab70a446",
+            "type": "mobility-database",
+            "mdb-id": "tld-7489",
             "extend-calendar": true
         },
         {
             "name": "Beograd",
-            "type": "http",
-            "url": "https://data.gov.rs/sr/datasets/r/729be9a1-7ed9-453d-9a3d-68fa30f07529"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1027"
         },
         {
             "name": "Beograd-Prigrad",
-            "type": "http",
-            "url": "https://data.gov.rs/sr/datasets/r/60f82229-16c7-4939-961b-2c24873d3e06"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2925"
         },
         {
             "name": "Beograd",
@@ -116,8 +116,8 @@
         },
         {
             "name": "Nis",
-            "type": "http",
-            "url": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/nis-gtfs/latest/nis_gtfs.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2928"
         },
         {
             "name": "Nis",

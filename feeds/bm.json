@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "Bermuda-Department-of-Public-Transportation",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bermuda~bm"
+            "type": "mobility-database",
+            "mdb-id": "tld-6684"
         }
     ]
 }

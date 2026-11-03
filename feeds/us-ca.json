@@ -26,14 +26,14 @@
         },
         {
             "name": "Capitolcorridor",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qc-capitolcorridor",
+            "type": "mobility-database",
+            "mdb-id": "mdb-74",
             "fix": true
         },
         {
             "name": "GOVCbus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q5-govcbus",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90163",
             "fix": true
         },
         {
@@ -51,14 +51,15 @@
         },
         {
             "name": "Goldengatetransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qb-goldengatetransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-67",
             "fix": true
         },
         {
             "name": "Caltrain",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q9-caltrain"
+            "type": "mobility-database",
+            "mdb-id": "mdb-54",
+            "url-override": "https://data.trilliumtransit.com/gtfs/caltrain-ca-us/caltrain-ca-us.zip"
         },
         {
             "name": "Samtrans",
@@ -69,8 +70,8 @@
         },
         {
             "name": "Santa-Cruz-Metro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q9-scmtdcom"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2425"
         },
         {
             "name": "Santa-Cruz-Metro",
@@ -85,13 +86,26 @@
         },
         {
             "name": "Sacramento-Regional-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qce-sacramentoregionaltransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-3391-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sacramento-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-3391-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sacramento-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-3391-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Metro-LosAngeles",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q5-metro~losangeles",
+            "type": "mobility-database",
+            "mdb-id": "mdb-29",
             "fix": true
         },
         {
@@ -102,8 +116,8 @@
         },
         {
             "name": "Metro-LosAngeles-Rail",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q5-metro~losangeles~rail"
+            "type": "mobility-database",
+            "mdb-id": "mdb-30"
         },
         {
             "name": "Metro-LosAngeles-Rail",
@@ -118,20 +132,33 @@
         },
         {
             "name": "Antelope-Valley-Transit-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-antelope~valley~transit~authority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4485-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Antelope-Valley-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4485-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Antelope-Valley-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4485-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Glendale-Beeline",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q5f-glendalebeeline",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3177",
             "skip": true,
             "skip-reason": "403 error code when downloading, no documentation from agency on fix, supposedly requires compression on download which isnt supported yet"
         },
         {
             "name": "Burbank-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q5f7-burbankbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2149",
             "fix": true
         },
         {
@@ -142,18 +169,31 @@
         },
         {
             "name": "Santa-Clarita-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-santa~clarita"
+            "type": "mobility-database",
+            "mdb-id": "tld-1256"
         },
         {
             "name": "Santa-Clarita-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-santa~clarita~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4328-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Clarita-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4328-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Clarita-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4328-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Metrolink",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qh-metrolinktrains"
+            "type": "mobility-database",
+            "mdb-id": "mdb-96"
         },
         {
             "name": "Metrolink",
@@ -163,14 +203,15 @@
         },
         {
             "name": "Catalina-Express",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-catalina~express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-299",
             "fix": true
         },
         {
             "name": "LA-County",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q5-dpwlacounty~ca~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-28",
+            "url-override": "https://data.trilliumtransit.com/gtfs/dpwlacounty-ca-us/dpwlacounty-ca-us.zip"
         },
         {
             "name": "Elkgrove",
@@ -185,8 +226,9 @@
         },
         {
             "name": "SDMTS",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9mu-mts"
+            "type": "mobility-database",
+            "mdb-id": "mdb-13",
+            "url-override": "http://www.sdmts.com/google_transit_files/google_transit.zip"
         },
         {
             "name": "SDMTS",
@@ -196,8 +238,9 @@
         },
         {
             "name": "Monterey-Salinas-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q9-monterey~salinastransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-56",
+            "url-override": "https://mst.org/google/google_transit.zip"
         },
         {
             "name": "Monterey-Salinas-Transit",
@@ -207,8 +250,9 @@
         },
         {
             "name": "Roseville-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qcs-rosevilletransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1067",
+            "url-override": "https://cityofroseville.tripshot.com/v1/gtfs.zip?regionId=CA558DDC-D7F2-4B48-9CAC-DEEA1134F820"
         },
         {
             "name": "Roseville-Transit",
@@ -222,13 +266,14 @@
         },
         {
             "name": "Sage-Stage",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9r-sagestage"
+            "type": "mobility-database",
+            "mdb-id": "mdb-113",
+            "url-override": "https://data.trilliumtransit.com/gtfs/sagestage-ca-us/sagestage-ca-us.zip"
         },
         {
             "name": "OC-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9mu-orangecountytransportationauthority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-15",
             "url-override": "https://github.com/catenarytransit/agency-gtfs-mirror/raw/refs/heads/main/octa_gtfs.zip"
         },
         {
@@ -274,8 +319,8 @@
         },
         {
             "name": "Foothill-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qh1-foothilltransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-101"
         },
         {
             "name": "Foothill-Transit",
@@ -284,13 +329,13 @@
         },
         {
             "name": "Stanford-Marguerite",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9q9h-stanford~marguerite"
+            "type": "mobility-database",
+            "mdb-id": "mdb-59"
         },
         {
             "name": "Unitrans",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qc7-unitransdavis"
+            "type": "mobility-database",
+            "mdb-id": "mdb-82"
         },
         {
             "name": "Unitrans",

@@ -44,8 +44,8 @@
         },
         {
             "name": "livnobus",
-            "type": "http",
-            "url": "https://livnobus.com/gtfs/google-transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3427",
             "fix": true
         }
     ]

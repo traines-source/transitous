@@ -104,12 +104,13 @@
         },
         {
             "name": "VBB",
-            "type": "http",
-            "url": "https://www.vbb.de/vbbgtfs",
+            "type": "mobility-database",
+            "mdb-id": "mdb-782",
             "fix": true,
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
-            }
+            },
+            "url-override": "https://www.vbb.de/vbbgtfs"
         },
         {
             "name": "VBB",
@@ -163,8 +164,8 @@
         },
         {
             "name": "KVV",
-            "type": "http",
-            "url": "https://projekte.kvv-efa.de/GTFS/google_transit.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2231",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }

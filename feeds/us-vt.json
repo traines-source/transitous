@@ -8,8 +8,9 @@
     "sources": [
         {
             "name": "greenmtncn",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dre-greenmtncn~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-539",
+            "url-override": "https://data.trilliumtransit.com/gtfs/greenmtncn-vt-us/greenmtncn-vt-us.zip"
         },
         {
             "name": "greenmtncn",
@@ -20,8 +21,9 @@
         },
         {
             "name": "gmt",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dru-chittendoncounty~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-629",
+            "url-override": "https://data.trilliumtransit.com/gtfs/ccta-vt-us/ccta-vt-us.zip"
         },
         {
             "name": "gmt",
@@ -32,13 +34,14 @@
         },
         {
             "name": "lake-champlain-ferries",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drgv-lctferries~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-547",
+            "url-override": "https://data.trilliumtransit.com/gtfs/lctferries-vt-us/lctferries-vt-us.zip"
         },
         {
             "name": "thebus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drs-thebus~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2831"
         },
         {
             "name": "thebus",
@@ -49,13 +52,13 @@
         },
         {
             "name": "rensselaer-county-yankee-trails",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rensselaer~county~yankee~trails"
+            "type": "mobility-database",
+            "mdb-id": "mdb-804"
         },
         {
             "name": "dvtamoover",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drsh-dvtamoover~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2884"
         },
         {
             "name": "dvtamoover",
@@ -66,8 +69,9 @@
         },
         {
             "name": "ruralcommunity",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dru-ruralcommunity~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-448",
+            "url-override": "https://data.trilliumtransit.com/gtfs/ruralcommunity-vt-us/ruralcommunity-vt-us.zip"
         },
         {
             "name": "ruralcommunity",
@@ -78,8 +82,9 @@
         },
         {
             "name": "tri-valley-transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dru-tri~valleytransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-852",
+            "url-override": "https://data.trilliumtransit.com/gtfs/trivalleytransit-vt-us/trivalleytransit-vt-us.zip"
         },
         {
             "name": "tri-valley-transit",
@@ -90,8 +95,9 @@
         },
         {
             "name": "vt-translines",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dru-vttranslines~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-450",
+            "url-override": "https://data.trilliumtransit.com/gtfs/vttranslines-vt-us/vttranslines-vt-us.zip"
         },
         {
             "name": "vt-translines",

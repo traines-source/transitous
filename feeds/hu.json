@@ -115,8 +115,8 @@
         },
         {
             "name": "bkk",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u2m-bkk",
+            "type": "mobility-database",
+            "mdb-id": "mdb-990",
             "fix": true
         },
         {
@@ -156,8 +156,8 @@
         },
         {
             "name": "budaors",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u2mmz-budaörsvárosönkormányzata"
+            "type": "mobility-database",
+            "mdb-id": "tld-1162"
         },
         {
             "name": "urom",
@@ -241,8 +241,9 @@
         },
         {
             "name": "szkt",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u2nr-dakkzrt~szkt"
+            "type": "mobility-database",
+            "mdb-id": "tfs-625",
+            "url-override": "http://szegedimenetrend.hu/google_transit.zip"
         },
         {
             "name": "vbusz",
@@ -274,13 +275,13 @@
         },
         {
             "name": "tukebusz",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u2hy-biokomnonprofitkft"
+            "type": "mobility-database",
+            "mdb-id": "mdb-861"
         },
         {
             "name": "blaguss-agora",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-blasguss~szombathely"
+            "type": "mobility-database",
+            "mdb-id": "tld-7875"
         },
         {
             "name": "paksbusz",
@@ -348,26 +349,26 @@
         },
         {
             "name": "oroshaza",
-            "type": "http",
-            "url": "https://gtfs.gpspositions.net/storage/exports/OROSH_V_ONK/gtfs_latest.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3482"
         },
         {
             "name": "oroshaza",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://gtfs.gpspositions.net/storage/realtime/OROSH_V_ONK/trip_updates.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3486",
+            "spec": "gtfs-rt"
         },
         {
             "name": "oroshaza",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://gtfs.gpspositions.net/storage/realtime/OROSH_V_ONK/vehicle_positions.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3484",
+            "spec": "gtfs-rt"
         },
         {
             "name": "oroshaza",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://gtfs.gpspositions.net/storage/realtime/OROSH_V_ONK/service_alerts.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3485",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Hódmezővásárhely",
@@ -400,8 +401,8 @@
         },
         {
             "name": "kecskemeti-kisvasut",
-            "type": "http",
-            "url": "https://kecskemetikisvasut.hu/wp-content/uploads/jk-gtfs/feed.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3184"
         },
         {
             "name": "volan-ajka",

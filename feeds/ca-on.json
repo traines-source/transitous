@@ -12,18 +12,31 @@
     "sources": [
         {
             "name": "Barrie-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpzk-barrietransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3"
         },
         {
             "name": "Barrie-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-barrie~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1382",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Barrie-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1384",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Barrie-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1383",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Belleville-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-belleville~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1858"
         },
         {
             "name": "Belleville-Transit",
@@ -32,8 +45,8 @@
         },
         {
             "name": "Brampton-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpz2-bramptontransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1994"
         },
         {
             "name": "Brampton-Transit",
@@ -45,27 +58,45 @@
         },
         {
             "name": "Burlington-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpxq-burlingtontransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-724",
             "skip": true,
             "skip-reason": "Not accessible from our import server or the transitland proxy"
         },
         {
             "name": "Burlington-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-burt~rt",
-            "skip": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-1417",
+            "spec": "gtfs-rt",
+            "skip": true,
+            "url-override": "https://opendata.burlington.ca/gtfs-rt/GTFS_VehiclePositions.pb"
+        },
+        {
+            "name": "Burlington-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1419",
+            "spec": "gtfs-rt",
+            "skip": true,
+            "url-override": "https://opendata.burlington.ca/gtfs-rt/GTFS_TripUpdates.pb"
+        },
+        {
+            "name": "Burlington-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1418",
+            "spec": "gtfs-rt",
+            "skip": true,
+            "url-override": "https://opendata.burlington.ca/gtfs-rt/GTFS_ServiceAlerts.pb"
         },
         {
             "name": "Chatham-Kent-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-chatham~kent~on~ca",
+            "type": "mobility-database",
+            "mdb-id": "tld-5552",
             "fix": true
         },
         {
             "name": "Cornwall-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-cornwall~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "mdb-718"
         },
         {
             "name": "Cornwall-Transit",
@@ -74,18 +105,32 @@
         },
         {
             "name": "Durham-Region-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpz-durhamregiontransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-726"
         },
         {
             "name": "Durham-Region-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpz-durhamregiontransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1466",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Durham-Region-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1468",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Durham-Region-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1467",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Metrolinx-gotransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpz-gotransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1993",
+            "url-override": "https://assets.metrolinx.com/raw/upload/v1683228856/Documents/Metrolinx/Open%20Data/GO-GTFS.zip"
         },
         {
             "name": "Metrolinx-gotransit",
@@ -94,16 +139,17 @@
         },
         {
             "name": "Grand-River-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpwz-grandrivertransit~lrt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3151",
             "http-options": {
                 "ignore-tls-errors": true
             }
         },
         {
             "name": "Grand-River-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-grt~alerts~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3447",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Grand-River-Transit",
@@ -112,16 +158,17 @@
         },
         {
             "name": "Grand-River-Transit-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpwz-grandrivertransit~bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3150",
             "http-options": {
                 "ignore-tls-errors": true
             }
         },
         {
             "name": "Grand-River-Transit-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-grt~alerts~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3447",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Grand-River-Transit-Bus",
@@ -130,8 +177,9 @@
         },
         {
             "name": "Greater-Sudbury-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f0q2-greatersudburytransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-737",
+            "url-override": "https://sudbury.tmix.se/gtfs/gtfs.zip"
         },
         {
             "name": "Greater-Sudbury-Transit",
@@ -145,29 +193,57 @@
         },
         {
             "name": "Guelph-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-guelph~rt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2592",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "Guelph-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2594",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "Guelph-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2593",
+            "spec": "gtfs-rt",
             "use-feed-proxy": true
         },
         {
             "name": "Hamilton-Street-Railway",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpxj-hamiltonstreetrailway"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2618"
         },
         {
             "name": "Kingston-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drce-kingstontransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-733"
         },
         {
             "name": "Kingston-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-kingston~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1433",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kingston-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1435",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kingston-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1434",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Lindsay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-kawartha~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4732"
         },
         {
             "name": "Lindsay-Transit",
@@ -176,13 +252,26 @@
         },
         {
             "name": "London-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpwh-londontransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2"
         },
         {
             "name": "London-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpwh-londontransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1561",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "London-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1563",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "London-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1562",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Middlesex-County-Connect",
@@ -192,13 +281,13 @@
         },
         {
             "name": "Mid-Pen-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-midland~penetanguishene~transit"
+            "type": "mobility-database",
+            "mdb-id": "tld-4704"
         },
         {
             "name": "Milton-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-milton~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "mdb-759"
         },
         {
             "name": "Milton-Transit",
@@ -207,18 +296,26 @@
         },
         {
             "name": "MiWay",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpz2-miway"
+            "type": "mobility-database",
+            "mdb-id": "mdb-730",
+            "url-override": "https://www.miapp.ca/GTFS/google_transit.zip?#"
         },
         {
             "name": "MiWay",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-miway~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1612",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MiWay",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1611",
+            "spec": "gtfs-rt"
         },
         {
             "name": "North-Bay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-north~bay~transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4700",
             "fix": true
         },
         {
@@ -228,13 +325,13 @@
         },
         {
             "name": "Oakville-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpxr-oakvilletransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-725"
         },
         {
             "name": "Ontario-Northland",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ontario~northland~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4817"
         },
         {
             "name": "Ontario-Northland",
@@ -243,8 +340,8 @@
         },
         {
             "name": "Orangeville-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-orangeville~transit~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4682"
         },
         {
             "name": "Orangeville-Transit",
@@ -253,8 +350,8 @@
         },
         {
             "name": "Orillia-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-orillia~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4683"
         },
         {
             "name": "Orillia-Transit",
@@ -263,8 +360,8 @@
         },
         {
             "name": "OCTranspo",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f24-octranspo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2154",
             "fix": true
         },
         {
@@ -286,8 +383,8 @@
         },
         {
             "name": "Railway-City-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-stthomas~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4746"
         },
         {
             "name": "Railway-City-Transit",
@@ -296,13 +393,13 @@
         },
         {
             "name": "Ride-Norfolk",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-norfolk~county~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-5874"
         },
         {
             "name": "Sarnia-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-sarnia~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4738"
         },
         {
             "name": "Sarnia-Transit",
@@ -311,8 +408,8 @@
         },
         {
             "name": "Sault-Ste-Marie-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-saultstemarie~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4740"
         },
         {
             "name": "Sault-Ste-Marie-Transit",
@@ -321,8 +418,8 @@
         },
         {
             "name": "Simcoe-County-LINX",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-simcoe~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4742"
         },
         {
             "name": "Simcoe-County-LINX",
@@ -331,8 +428,8 @@
         },
         {
             "name": "Stratford-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-stratford~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4744"
         },
         {
             "name": "Stratford-Transit",
@@ -341,8 +438,8 @@
         },
         {
             "name": "Temiskaming-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-temiskaming~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4748"
         },
         {
             "name": "Temiskaming-Transit",
@@ -351,18 +448,31 @@
         },
         {
             "name": "Thunder-Bay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f08e-thunderbaytransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-736"
         },
         {
             "name": "Thunder-Bay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-thunderbay~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1690",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Thunder-Bay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1692",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Thunder-Bay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1691",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Timmins-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-timmins~on~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4750"
         },
         {
             "name": "Timmins-Transit",
@@ -376,23 +486,31 @@
         },
         {
             "name": "Transit-Windsor",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpsb-transitwindsor"
+            "type": "mobility-database",
+            "mdb-id": "mdb-720"
         },
         {
             "name": "UP-Express",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpz2-upexpress"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1995",
+            "url-override": "https://assets.metrolinx.com/raw/upload/v1682367798/Documents/Metrolinx/Open%20Data/UP-GTFS.zip"
         },
         {
             "name": "York-Region-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpz-yorkregiontransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-728"
         },
         {
             "name": "York-Region-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-yrt~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1750",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "York-Region-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1749",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -20,8 +20,8 @@
     "sources": [
         {
             "name": "hz",
-            "type": "http",
-            "url": "https://www.hzpp.hr/api/v1/repository/download/852f76d2-8df3-4957-b30b-dc4b88b1caca",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2920",
             "url-override": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/hzpp-gtfs/latest/hzpp_gtfs.zip",
             "license": {
                 "spdx-identifier": "CC0-1.0"
@@ -35,14 +35,15 @@
         },
         {
             "name": "zet",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u25k-zagrebačkielektričnitramvaj",
+            "type": "mobility-database",
+            "mdb-id": "tld-1071",
             "fix": true
         },
         {
             "name": "zet",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u25k-zagrebačkielektričnitramvaj~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4323-tu",
+            "spec": "gtfs-rt"
         },
         {
             "name": "jl",
@@ -71,8 +72,8 @@
         },
         {
             "name": "gradski-parking",
-            "type": "http",
-            "url": "https://www.gradski-parking.hr/upload/stranice/2022/08/2022-08-30/89/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2910",
             "fix": true
         },
         {

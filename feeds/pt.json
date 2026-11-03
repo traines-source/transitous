@@ -16,8 +16,8 @@
     "sources": [
         {
             "name": "Carris-Metropolitana",
-            "type": "http",
-            "url": "https://api.carrismetropolitana.pt/gtfs",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2027",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             },
@@ -37,21 +37,21 @@
         },
         {
             "name": "Metro-Lisboa",
-            "type": "http",
-            "url": "https://www.metrolisboa.pt/google_transit/googleTransit.zip",
+            "type": "mobility-database",
+            "mdb-id": "tld-716",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
         },
         {
             "name": "Cascais-Próxima",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyck-cascaispróximaemsa"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1272"
         },
         {
             "name": "Comboios-de-Portugal(CP)",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyc-cp"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2057"
         },
         {
             "name": "Comboios-de-Portugal(CP)",
@@ -61,33 +61,33 @@
         },
         {
             "name": "Fergatus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyce-fertagus"
+            "type": "mobility-database",
+            "mdb-id": "tld-715"
         },
         {
             "name": "Barreiro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-transportes~colectivos~do~barreiro~pt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3186"
         },
         {
             "name": "Funchal",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-etgc-hf~urbano~hf~interurbano"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3104"
         },
         {
             "name": "Algarve-Vamus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ey-vizur"
+            "type": "mobility-database",
+            "mdb-id": "tld-4315"
         },
         {
             "name": "Transportes-Urbanos-de-Braga",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-transportes~urbanos~de~braga"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1927"
         },
         {
             "name": "Autna",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ez-autnatransportes"
+            "type": "mobility-database",
+            "mdb-id": "tld-4257"
         },
         {
             "name": "Porto-STCP",
@@ -100,38 +100,38 @@
         },
         {
             "name": "Tavira",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyd-sobeedesce"
+            "type": "mobility-database",
+            "mdb-id": "tld-4322"
         },
         {
             "name": "Portimao",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ey9-vaivem"
+            "type": "mobility-database",
+            "mdb-id": "tld-4317"
         },
         {
             "name": "Faro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyd-pxm"
+            "type": "mobility-database",
+            "mdb-id": "tld-4321"
         },
         {
             "name": "Albufeira-Giro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyd-giro"
+            "type": "mobility-database",
+            "mdb-id": "tld-4320"
         },
         {
             "name": "Olhao",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyd-circuitoolhao"
+            "type": "mobility-database",
+            "mdb-id": "tld-4319"
         },
         {
             "name": "Apanha-me",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eyd-apanhame"
+            "type": "mobility-database",
+            "mdb-id": "tld-4318"
         },
         {
             "name": "Lagos-Aonda",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ey9-aonda"
+            "type": "mobility-database",
+            "mdb-id": "tld-4316"
         },
         {
             "name": "Metro-Porto",

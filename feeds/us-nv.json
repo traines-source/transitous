@@ -8,8 +8,9 @@
     "sources": [
         {
             "name": "lasvegasloop",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lasvegasloop~nv~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-565",
+            "url-override": "https://data.trilliumtransit.com/gtfs/lasvegasloop-nv-us/lasvegasloop-nv-us.zip"
         },
         {
             "name": "lasvegasloop",
@@ -27,18 +28,20 @@
         },
         {
             "name": "North-Lake-Tahoe",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qf-laketahoe~ca~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-94",
+            "url-override": "https://data.trilliumtransit.com/gtfs/laketahoe-ca-us/laketahoe-ca-us.zip"
         },
         {
             "name": "reno",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9r4-rtcride"
+            "type": "mobility-database",
+            "mdb-id": "mdb-120",
+            "url-override": "https://data.trilliumtransit.com/gtfs/rtc-nv-us/rtc-nv-us.zip"
         },
         {
             "name": "las-vegas-rtc",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9qqj-rtcsnv"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2351"
         },
         {
             "name": "las-vegas-rtc",
@@ -55,8 +58,9 @@
         },
         {
             "name": "tahoe",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-tahoe~ca~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-897",
+            "url-override": "https://tahoe.syncromatics.com/gtfs"
         },
         {
             "name": "tahoe",

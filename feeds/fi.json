@@ -87,37 +87,39 @@
         },
         {
             "name": "229",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ued-oulunjoukkoliikenne"
+            "type": "mobility-database",
+            "mdb-id": "mdb-869"
         },
         {
             "name": "hsl",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ud9-helsinginseudunliikenne",
-            "script": "fi-hsl.lua"
+            "type": "mobility-database",
+            "mdb-id": "mdb-865",
+            "script": "fi-hsl.lua",
+            "url-override": "https://infopalvelut.storage.hsldev.com/gtfs/hsl.zip"
         },
         {
             "name": "hsl",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://realtime.hsl.fi/realtime/trip-updates/v2/hsl"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3228",
+            "spec": "gtfs-rt"
         },
         {
             "name": "hsl",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://realtime.hsl.fi/realtime/service-alerts/v2/hsl"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3227",
+            "spec": "gtfs-rt"
         },
         {
             "name": "hsl",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://realtime.hsl.fi/realtime/vehicle-positions/v2/hsl"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3229",
+            "spec": "gtfs-rt"
         },
         {
             "name": "nysse",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-udb-tampereenjoukkoliikenne"
+            "type": "mobility-database",
+            "mdb-id": "mdb-866",
+            "url-override": "https://data.itsfactory.fi/journeys/files/gtfs/latest/gtfs_tampere.zip"
         }
     ]
 }

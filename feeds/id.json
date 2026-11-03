@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "Transjakarta",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-transjakarta~id",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1909",
             "http-options": {
                 "ignore-tls-errors": true
             },

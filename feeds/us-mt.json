@@ -8,26 +8,27 @@
     "sources": [
         {
             "name": "Mountain-Line",
-            "type": "http",
-            "url": "https://mountainline.com/files/MUTD_GTFS.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-292",
+            "url-override": "https://mountainline.com/files/MUTD_GTFS.zip"
         },
         {
             "name": "Mountain-Line",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://bt.mountainline.com/gtfsrt/vehicles"
+            "type": "mobility-database",
+            "mdb-id": "tld-4795-vp",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Mountain-Line",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://bt.mountainline.com/gtfsrt/trips"
+            "type": "mobility-database",
+            "mdb-id": "tld-4795-tu",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Mountain-Line",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://bt.mountainline.com/gtfsrt/alerts"
+            "type": "mobility-database",
+            "mdb-id": "tld-4795-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "UDASH",
@@ -54,27 +55,27 @@
         },
         {
             "name": "Billings-MET",
-            "type": "http",
-            "url": "https://passio3.com/billings/passioTransit/gtfs/google_transit.zip",
+            "type": "mobility-database",
+            "mdb-id": "tld-5893",
             "fix": true
         },
         {
             "name": "Billings-MET",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://passio3.com/billings/passioTransit/gtfs/realtime/serviceAlerts"
+            "type": "mobility-database",
+            "mdb-id": "tld-5894-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Billings-MET",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://passio3.com/billings/passioTransit/gtfs/realtime/tripUpdates"
+            "type": "mobility-database",
+            "mdb-id": "tld-5894-tu",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Billings-MET",
-            "spec": "gtfs-rt",
-            "type": "url",
-            "url": "https://passio3.com/billings/passioTransit/gtfs/realtime/vehiclePositions"
+            "type": "mobility-database",
+            "mdb-id": "tld-5894-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

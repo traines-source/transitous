@@ -46,9 +46,10 @@
         },
         {
             "name": "flixbus",
-            "type": "http",
-            "url": "https://gtfs.gis.flix.tech/gtfs_generic_gb.zip",
-            "script": "generic-bus-to-coach.lua"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2900",
+            "script": "generic-bus-to-coach.lua",
+            "url-override": "https://gtfs.gis.flix.tech/gtfs_generic_gb.zip"
         },
         {
             "name": "flixbus",

@@ -8,14 +8,14 @@
     "sources": [
         {
             "name": "TheRide",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dps2-annarborareatransportationauthority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-415",
             "fix": true
         },
         {
             "name": "Bay-Area-Transportation-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bay~area~transportation~authority~mi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2254",
             "fix": true,
             "http-options": {
                 "fetch-interval-days": 1
@@ -23,13 +23,13 @@
         },
         {
             "name": "CATA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpeg-capitalareatransportationauthority"
+            "type": "mobility-database",
+            "mdb-id": "mdb-402"
         },
         {
             "name": "DDOT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpsc-detroitdepartmentoftransportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-464",
             "fix": true
         },
         {
@@ -53,8 +53,8 @@
         },
         {
             "name": "smart",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dps-smart"
+            "type": "mobility-database",
+            "mdb-id": "mdb-414"
         },
         {
             "name": "smart",
@@ -72,13 +72,14 @@
         },
         {
             "name": "DPM",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpsby4-detroitpeoplemover"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2281"
         },
         {
             "name": "Mass-Transportation-Authority-Flint",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpsk-masstransportationauthorityflint"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2287",
+            "url-override": "https://flint.connexionz.net/rtt/public/resource/gtfs.zip"
         },
         {
             "name": "MAX",
@@ -87,13 +88,14 @@
         },
         {
             "name": "Michigan-Flyer",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dps-michiganflyer~mi~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-413",
+            "url-override": "https://data.trilliumtransit.com/gtfs/michiganflyer-mi-us/michiganflyer-mi-us.zip"
         },
         {
             "name": "MATS",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-muskegon~area~transit"
+            "type": "mobility-database",
+            "mdb-id": "tld-4831"
         },
         {
             "name": "STARS",
@@ -104,18 +106,32 @@
         },
         {
             "name": "The-Rapid",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpe-therapid"
+            "type": "mobility-database",
+            "mdb-id": "mdb-400",
+            "url-override": "https://connect.ridetherapid.org/InfoPoint/gtfs-zip.ashx"
         },
         {
             "name": "The-Rapid",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpe-therapid~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4676-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "The-Rapid",
+            "type": "mobility-database",
+            "mdb-id": "tld-4676-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "The-Rapid",
+            "type": "mobility-database",
+            "mdb-id": "tld-4676-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "University-of-Michigan-Transit-Services",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dps2w-universityofmichigantransitservices"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2072"
         }
     ]
 }

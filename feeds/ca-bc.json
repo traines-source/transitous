@@ -8,199 +8,434 @@
     "sources": [
         {
             "name": "BC-Ferries",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0-bcferries~bc~ca",
-            "fix": "true"
+            "type": "mobility-database",
+            "mdb-id": "mdb-690",
+            "fix": "true",
+            "url-override": "https://data.trilliumtransit.com/gtfs/bcferries-bc-ca/bcferries-bc-ca.zip"
         },
         {
             "name": "Black-Ball-Ferry-Line",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c284-blackballferryline"
+            "type": "mobility-database",
+            "mdb-id": "mdb-286"
         },
         {
             "name": "Campbell-River-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0yu-bctransit~campbellrivertransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2514"
         },
         {
             "name": "Campbell-River-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0yu-bctransit~campbellrivertransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1378",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Campbell-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1377",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Campbell-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1376",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Comox-Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0z4-bctransit~comoxvalleytransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2524"
         },
         {
             "name": "Comox-Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0z4-bctransit~comoxvalleytransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2527",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Comox-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2526",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Comox-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2525",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Cowichan-Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-bctransit~cowichanvalleyregionaltransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2528"
         },
         {
             "name": "Cowichan-Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-bctransit~cowichanvalleyregionaltransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1379",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Cowichan-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1381",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Cowichan-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1380",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Creston-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-bctransit~creston"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2536"
         },
         {
             "name": "Creston-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-bctransit~creston~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2539",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Creston-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2538",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Creston-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2537",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Dawson-Creek-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c3ft0-bctransit~dawsoncreektransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-710"
         },
         {
             "name": "Dawson-Creek-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c3ft0-bctransit~dawsoncreektransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2542",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Dawson-Creek-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2541",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Dawson-Creek-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2540",
+            "spec": "gtfs-rt"
         },
         {
             "name": "East-Kootenay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~east~kootenay~region"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2520"
         },
         {
             "name": "East-Kootenay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~east~kootenay~region~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2523",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "East-Kootenay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2522",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "East-Kootenay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2521",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Fort-St-John-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c3fpf-bctransit~fortstjohntransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2547"
         },
         {
             "name": "Fort-St-John-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c3fpf-bctransit~fortstjohntransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2550",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fort-St-John-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2549",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fort-St-John-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2548",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Fraser-Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~fraser~valley~region"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1991"
         },
         {
             "name": "Fraser-Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~fraser~valley~region~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2517",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fraser-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2516",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fraser-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2507",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Kamloops-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c342-bctransit~kamloopstransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2551"
         },
         {
             "name": "Kamloops-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c342-bctransit~kamloopstransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2554",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kamloops-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2553",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kamloops-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2552",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Nanaimo-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0z-bctransit~rdntransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2473"
         },
         {
             "name": "Nanaimo-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0z-bctransit~rdntransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2476",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Nanaimo-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2475",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Nanaimo-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2474",
+            "spec": "gtfs-rt"
         },
         {
             "name": "North-Okanagan-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~north~okanagan~region"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2508"
         },
         {
             "name": "North-Okanagan-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~north~okanagan~region~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2535",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "North-Okanagan-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2534",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "North-Okanagan-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2533",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Port-Alberni-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~port~alberni"
+            "type": "mobility-database",
+            "mdb-id": "mdb-761"
         },
         {
             "name": "Port-Alberni-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~port~alberni~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1405",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Port-Alberni-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1407",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Port-Alberni-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1406",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Powell-River-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~powell~river"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2529"
         },
         {
             "name": "Powell-River-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~powell~river~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2559",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Powell-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2531",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Powell-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2530",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Prince-George-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c38d-bctransit~princegeorgetransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2510"
         },
         {
             "name": "Prince-George-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c38d-bctransit~princegeorgetransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2513",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Prince-George-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2512",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Prince-George-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2511",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Prince-Rupert-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~prince~rupert"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2543"
         },
         {
             "name": "Prince-Rupert-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~prince~rupert~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2546",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Prince-Rupert-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2545",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Prince-Rupert-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2544",
+            "spec": "gtfs-rt"
         },
         {
             "name": "South-Okanagan-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~south~okanagan~similkameen"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2532"
         },
         {
             "name": "South-Okanagan-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bctransit~south~okanagan~similkameen~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2562",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Okanagan-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2561",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Okanagan-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2560",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Squamish-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2b6v-bctransit~squamishtransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2563"
         },
         {
             "name": "Squamish-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2b6v-bctransit~squamishtransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2566",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Squamish-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2565",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Squamish-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2564",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Sunshine-Coast-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2b1-bctransit~sunshinecoasttransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2567"
         },
         {
             "name": "Sunshine-Coast-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2b1-bctransit~sunshinecoasttransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2570",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sunshine-Coast-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2569",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sunshine-Coast-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2568",
+            "spec": "gtfs-rt"
         },
         {
             "name": "TransLink",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-nstranslinkca",
+            "type": "mobility-database",
+            "mdb-id": "mdb-696",
             "fix": true
         },
         {
@@ -211,33 +446,72 @@
         },
         {
             "name": "Victoria-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-bctransit~victoriaregionaltransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2571"
         },
         {
             "name": "Victoria-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-bctransit~victoriaregionaltransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2574",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Victoria-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2573",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Victoria-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2572",
+            "spec": "gtfs-rt"
         },
         {
             "name": "West-Kootenay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2u-bctransit~westkootenaytransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2579"
         },
         {
             "name": "West-Kootenay-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2u-bctransit~westkootenaytransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2582",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "West-Kootenay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2581",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "West-Kootenay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2580",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Whistler-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2bt-bctransit~whistlertransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2583"
         },
         {
             "name": "Whistler-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2bt-bctransit~whistlertransitsystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2586",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Whistler-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2585",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Whistler-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2584",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Mobi",

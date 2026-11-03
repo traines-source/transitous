@@ -8,13 +8,29 @@
     "sources": [
         {
             "name": "TARC",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dng1-transitauthorityofrivercity"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2662"
         },
         {
             "name": "TARC",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-tarc~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2665",
+            "spec": "gtfs-rt",
+            "url-override": "https://tarc.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=vehicleposition"
+        },
+        {
+            "name": "TARC",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2664",
+            "spec": "gtfs-rt",
+            "url-override": "https://tarc.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=tripupdate"
+        },
+        {
+            "name": "TARC",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2663",
+            "spec": "gtfs-rt",
+            "url-override": "https://tarc.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=alert"
         }
     ]
 }

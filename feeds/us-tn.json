@@ -8,20 +8,20 @@
     "sources": [
         {
             "name": "bristol",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-city~of~bristol~tennessee",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40055",
             "skip": true,
             "skip-reason": "cloudflare blocking and transitland cache needs account?"
         },
         {
             "name": "chattanooga",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dn5r-carta"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3474"
         },
         {
             "name": "gatlinburg",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-gatlinburg~tn~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-6775"
         },
         {
             "name": "murfreesboro",
@@ -39,8 +39,8 @@
         },
         {
             "name": "cleveland",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-cuats~tn~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-7827"
         },
         {
             "name": "cleveland",
@@ -61,29 +61,42 @@
         },
         {
             "name": "franklin",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dn6hr-tma~tn~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-361",
+            "url-override": "https://data.trilliumtransit.com/gtfs/tma-tn-us/tma-tn-us.zip"
         },
         {
             "name": "johnson-city",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-johnson~city~tn~us"
+            "type": "mobility-database",
+            "mdb-id": "ntd-40054"
         },
         {
             "name": "kingsport",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-kats~tn"
+            "type": "mobility-database",
+            "mdb-id": "ntd-40080"
         },
         {
             "name": "knoxville",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnkk-knoxvilleareatransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3512"
         },
         {
             "name": "knoxville",
-            "spec": "gtfs-rt",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnkk-knoxvilleareatransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3513",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "knoxville",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3514",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "knoxville",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3515",
+            "spec": "gtfs-rt"
         },
         {
             "name": "memphis",
@@ -99,24 +112,37 @@
         },
         {
             "name": "nashville",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dn6-regionaltransportationauthorityofmiddletennessee~nashville"
+            "type": "mobility-database",
+            "mdb-id": "mdb-360",
+            "url-override": "https://www.wegotransit.com/GoogleExport/Google_Transit.zip"
         },
         {
             "name": "nashville",
-            "spec": "gtfs-rt",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-nashvillemta~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1622",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "nashville",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1620",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "nashville",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1621",
+            "spec": "gtfs-rt"
         },
         {
             "name": "pigeon-forge",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-pigeon~forge~tn~us"
+            "type": "mobility-database",
+            "mdb-id": "ntd-41136"
         },
         {
             "name": "columbia",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-muletown",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2420",
             "skip": true,
             "skip-reason": "Outdated GTFS"
         },

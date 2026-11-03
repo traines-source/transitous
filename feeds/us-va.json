@@ -8,8 +8,9 @@
     "sources": [
         {
             "name": "alexandria-dash",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqchv-alexandriatransitcompanydash"
+            "type": "mobility-database",
+            "mdb-id": "mdb-482",
+            "url-override": "https://www.dashbus.com/google_transit.zip"
         },
         {
             "name": "alexandria-dash",
@@ -20,41 +21,51 @@
         },
         {
             "name": "altavista",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-altavista~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-882",
+            "url-override": "https://data.trilliumtransit.com/gtfs/altavista-va-us/altavista-va-us.zip"
         },
         {
             "name": "arlington",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqcjj-arlingtontransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-485",
             "use-feed-proxy": true
         },
         {
             "name": "arlington",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-art~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1790",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "arlington",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1372",
+            "spec": "gtfs-rt"
         },
         {
             "name": "bay-transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bay~transit~va"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2439"
         },
         {
             "name": "blacksburgtransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnwg-blacksburgtransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1189",
             "skip": true,
             "skip-reason": "Not accessible from our import server or the transitland proxy"
         },
         {
             "name": "blackstone",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-blackstone~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-235",
+            "url-override": "https://data.trilliumtransit.com/gtfs/blackstone-va-us/blackstone-va-us.zip"
         },
         {
             "name": "bristol",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bristol~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-238",
+            "url-override": "https://data.trilliumtransit.com/gtfs/bristol-va-us/bristol-va-us.zip"
         },
         {
             "name": "brite-bus",
@@ -63,59 +74,77 @@
         },
         {
             "name": "danville",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-danville~va~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-4145"
         },
         {
             "name": "fairfax-connector",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqcj-fairfaxconnector"
+            "type": "mobility-database",
+            "mdb-id": "mdb-483"
         },
         {
             "name": "fairfax-connector",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-fairfaxconnector~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4347-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "fairfax-connector",
+            "type": "mobility-database",
+            "mdb-id": "tld-4347-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "fairfax-connector",
+            "type": "mobility-database",
+            "mdb-id": "tld-4347-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Fairfax-CUE-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqcj1-fairfaxcue"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2885",
+            "url-override": "http://cue.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
         },
         {
             "name": "farmville",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-farmville~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-461",
+            "url-override": "https://data.trilliumtransit.com/gtfs/farmville-va-us/farmville-va-us.zip"
         },
         {
             "name": "four-county",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-four~county~transit~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2308"
         },
         {
             "name": "graham",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-grahamtransit~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-611",
+            "url-override": "https://data.trilliumtransit.com/gtfs/grahamtransit-va-us/grahamtransit-va-us.zip"
         },
         {
             "name": "gltc-lynchburg",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnxs-gltc~lynchburg~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-381",
+            "url-override": "https://data.trilliumtransit.com/gtfs/gltc-lynchburg-va-us/gltc-lynchburg-va-us.zip"
         },
         {
             "name": "richmond",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-grtc~va",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3518",
             "fix": true
         },
         {
             "name": "Greensville-Emporia",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-get~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-463",
+            "url-override": "https://data.trilliumtransit.com/gtfs/get-va-us/get-va-us.zip"
         },
         {
             "name": "hrt",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq9-hrt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-473"
         },
         {
             "name": "hrt",
@@ -129,55 +158,60 @@
         },
         {
             "name": "jaunt",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-jaunt~inc~va"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3492"
         },
         {
             "name": "loudoun-county",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-loudouncounty~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1053"
         },
         {
             "name": "districtthree",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-districtthree~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-334",
+            "url-override": "https://data.trilliumtransit.com/gtfs/districtthree-va-us/districtthree-va-us.zip"
         },
         {
             "name": "hafe-shuttle-transport",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-hafe~shuttle~transport"
+            "type": "mobility-database",
+            "mdb-id": "tld-6678"
         },
         {
             "name": "petersburg",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-petersburg~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-591",
+            "url-override": "https://data.trilliumtransit.com/gtfs/petersburg-va-us/petersburg-va-us.zip"
         },
         {
             "name": "dqch-prtc",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqch-prtc",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-1156",
+            "fix": true,
+            "url-override": "https://omniride.com/omniride/assets/File/google_transit.zip"
         },
         {
             "name": "pulaski",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnwe-pulaski~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2198"
         },
         {
             "name": "radartransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnx-radartransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-832",
+            "url-override": "https://data.trilliumtransit.com/gtfs/radar-va-us/radar-va-us.zip"
         },
         {
             "name": "radford",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnwe-radford~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-380"
         },
         {
             "name": "star-transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-startransit~va~us",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-819",
+            "fix": true,
+            "url-override": "https://data.trilliumtransit.com/gtfs/startransit-va-us/startransit-va-us.zip"
         },
         {
             "name": "university-virginia",
@@ -188,8 +222,8 @@
         },
         {
             "name": "roanoke",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnx-roanoke~va~us",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2274",
             "fix": true
         },
         {
@@ -199,24 +233,32 @@
         },
         {
             "name": "virginia-railway-express",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqc-virginiarailwayexpress",
+            "type": "mobility-database",
+            "mdb-id": "tld-61",
             "fix": true
         },
         {
             "name": "virginia-railway-express",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-vre~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-1127-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "virginia-railway-express",
+            "type": "mobility-database",
+            "mdb-id": "tld-1127-tu",
+            "spec": "gtfs-rt"
         },
         {
             "name": "vatransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-vatransit~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-621",
+            "url-override": "https://data.trilliumtransit.com/gtfs/vatransit-va-us/vatransit-va-us.zip"
         },
         {
             "name": "williamsburg",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq9k-wata",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2649",
             "fix": true
         },
         {
@@ -228,8 +270,9 @@
         },
         {
             "name": "winchester",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-wintran~va~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-608",
+            "url-override": "https://data.trilliumtransit.com/gtfs/wintran-va-us/wintran-va-us.zip"
         }
     ]
 }

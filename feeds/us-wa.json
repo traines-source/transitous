@@ -33,8 +33,8 @@
         },
         {
             "name": "Sound-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c23-soundtransit"
+            "type": "mobility-database",
+            "mdb-id": "ntd-40-3"
         },
         {
             "name": "Sound-Transit",
@@ -56,8 +56,9 @@
         },
         {
             "name": "Everett-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c290-everetttransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3038",
+            "url-override": "https://everett.mapstrat.com/current/google_transit.zip"
         },
         {
             "name": "Everett-Transit",
@@ -67,13 +68,14 @@
         },
         {
             "name": "Kitsap-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c22y-kitsaptransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1304",
+            "url-override": "https://pride.kitsaptransit.com/gtfs/google_transit.zip"
         },
         {
             "name": "Washington-State-Ferries",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-washingtonstateferries"
+            "type": "mobility-database",
+            "mdb-id": "mdb-283"
         },
         {
             "name": "Washington-State-Ferries",
@@ -84,8 +86,8 @@
         },
         {
             "name": "Appleline-Goldline-Dungenessline-Grapeline",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2-appleline~goldline~dungenessline~grapeline",
+            "type": "mobility-database",
+            "mdb-id": "mdb-245",
             "skip": true,
             "skip-reason": "This feed is currently broken"
         },
@@ -97,65 +99,107 @@
         },
         {
             "name": "Microsoft-Shuttles",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c23n-microsoftshuttles",
+            "type": "mobility-database",
+            "mdb-id": "mdb-269",
             "skip": true,
             "skip-reason": "Expired"
         },
         {
             "name": "Community-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c29-communitytransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-287"
         },
         {
             "name": "Community-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c29-communitytransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1448",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Community-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1450",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Community-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1449",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Ben-Franklin-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c25p-benfranklintransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2122"
         },
         {
             "name": "Ben-Franklin-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c25p-benfranklintransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2125",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Ben-Franklin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2124",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Ben-Franklin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2123",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Clallam-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-clallamtransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-279"
         },
         {
             "name": "Grant-Transit-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-granttransit~wa~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2309"
         },
         {
             "name": "Intercity-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c22e-intercitytransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-266",
+            "url-override": "https://its.rideralerts.com/InfoPoint/GTFS-Zip.ashx"
         },
         {
             "name": "Intercity-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-intercitytransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1537",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Intercity-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1539",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Intercity-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1538",
+            "spec": "gtfs-rt",
+            "url-override": "https://its.rideralerts.com/InfoPoint/GTFS-Realtime.ashx?Type=alert"
         },
         {
             "name": "Island-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-islandtransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-280",
+            "url-override": "https://passio3.com/islandtransit/passioTransit/gtfs/google_transit.zip"
         },
         {
             "name": "Jefferson-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-jeffersontransitauthority"
+            "type": "mobility-database",
+            "mdb-id": "mdb-838"
         },
         {
             "name": "Link-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c26-linktransit~wa~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-275"
         },
         {
             "name": "Link-Transit",
@@ -164,63 +208,116 @@
         },
         {
             "name": "Mason-Transit-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c22-mason~wa~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-264"
         },
         {
             "name": "Pacific-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c0r-pacifictransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3112"
         },
         {
             "name": "RiverCities-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c20w-rivercitiestransit~wa~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-259",
+            "url-override": "https://data.trilliumtransit.com/gtfs/rivercitiestransit-wa-us/rivercitiestransit-wa-us.zip"
         },
         {
             "name": "Skagit-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-skagit~wa~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-5895"
         },
         {
             "name": "Skagit-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-skagit~wa~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5896-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Skagit-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5896-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Skagit-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5896-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Spokane-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c2kx-spokanetransitauthority"
+            "type": "mobility-database",
+            "mdb-id": "mdb-290"
         },
         {
             "name": "Spokane-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-spokanetransitauthority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4363-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Spokane-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4363-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Spokane-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4363-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c25y-valleytransit"
+            "type": "mobility-database",
+            "mdb-id": "tld-820"
         },
         {
             "name": "Valley-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c25y-valleytransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4793-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4793-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4793-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Whatcom-Transporation-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c28-whatcomtransportationauthority"
+            "type": "mobility-database",
+            "mdb-id": "mdb-284"
         },
         {
             "name": "Whatcom-Transporation-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-whatcomtransportationauthority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4358-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Whatcom-Transporation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4358-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Whatcom-Transporation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4358-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Pullman-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-pullman~transit~wa~us",
+            "type": "mobility-database",
+            "mdb-id": "ntd-294",
             "fix": true
         },
         {
@@ -230,28 +327,31 @@
         },
         {
             "name": "Selah-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c263-selah~wa~us"
+            "type": "mobility-database",
+            "mdb-id": "tfs-1029",
+            "url-override": "https://data.trilliumtransit.com/gtfs/selah-wa-us/selah-wa-us.zip"
         },
         {
             "name": "Union-Gap-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c262f-uniongaptransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-277",
+            "url-override": "https://data.trilliumtransit.com/gtfs/uniongap-wa-us/uniongap-wa-us.zip"
         },
         {
             "name": "Yakima-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c26-yakimatransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-276",
+            "url-override": "https://yakima.connexionz.net/rtt/public/utility/gtfs.aspx"
         },
         {
             "name": "Grays-Harbor-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c22-graysharbortransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-263"
         },
         {
             "name": "Asotin-County-PTBA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-asotincounty~wa~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2298"
         }
     ]
 }

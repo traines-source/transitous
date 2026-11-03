@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "Otago-Regional-Council",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-pz-otagoregionalcouncil~otagoregionalcouncil"
+            "type": "mobility-database",
+            "mdb-id": "mdb-983"
         },
         {
             "name": "Flamingo-Dunedin",

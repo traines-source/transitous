@@ -25,7 +25,7 @@
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
-			"script": "cz-CZPTT.lua"
+            "script": "cz-CZPTT.lua"
         },
         {
             "name": "CZPTT",
@@ -35,8 +35,8 @@
         },
         {
             "name": "PID",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u2f-pražskáintegrovanádoprava"
+            "type": "mobility-database",
+            "mdb-id": "mdb-767"
         },
         {
             "name": "PID",
@@ -46,9 +46,9 @@
         },
         {
             "name": "PID",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://api.golemio.cz/v2/vehiclepositions/gtfsrt/alerts.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2388",
+            "spec": "gtfs-rt"
         },
         {
             "name": "IDS-JMK",
@@ -69,21 +69,21 @@
         },
         {
             "name": "DPMLJ",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u348-dpmlj",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1902",
             "skip": true,
             "skip-reason": "Feed not available"
         },
         {
             "name": "DPMO",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u2u6-dpmo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1901",
             "fix": true
         },
         {
             "name": "PMDP",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-plzen",
+            "type": "mobility-database",
+            "mdb-id": "tld-7926",
             "http-options": {
                 "fetch-interval-days": 1
             }

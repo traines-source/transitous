@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "Horizons-Regional-Council",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rck-horizons~regional~council"
+            "type": "mobility-database",
+            "mdb-id": "tld-7912"
         },
         {
             "name": "Flamingo-Palmerston-North",

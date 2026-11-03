@@ -8,13 +8,26 @@
     "sources": [
         {
             "name": "RIPTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drm-rhodeislandpublictransitauthority"
+            "type": "mobility-database",
+            "mdb-id": "mdb-624"
         },
         {
             "name": "RIPTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ripta~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1662",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RIPTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1660",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RIPTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1661",
+            "spec": "gtfs-rt"
         }
     ]
 }

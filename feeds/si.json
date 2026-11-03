@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "nap",
-            "type": "http",
-            "url": "https://b2b.nap.si/data/b2b.gtfs",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2940",
             "url-override": "https://gitlab.com/api/v4/projects/derp-si%2Fgtfs-generators/packages/generic/IJPP/latest/ijpp_intl_gtfs.zip",
             "fix": true,
             "license": {
@@ -35,8 +35,8 @@
         },
         {
             "name": "lpp",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u24q-ljubljanskipotniškipromet",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1827",
             "http-options": {
                 "fetch-interval-days": 2
             }
@@ -49,8 +49,8 @@
         },
         {
             "name": "kranjska-gora",
-            "type": "http",
-            "url": "https://b2b.nap.si/data/b2b.gtfs.kranjska-gora",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2943",
             "url-override": "https://jbb.ghsq.de/gtfs/si-kranjska-gora.gtfs.zip",
             "license": {
                 "spdx-identifier": "CC-BY-SA-4.0",

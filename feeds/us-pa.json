@@ -18,8 +18,21 @@
         },
         {
             "name": "SEPTA-Rail",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-septa~rail~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3060",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SEPTA-Rail",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3061",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SEPTA-Rail",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2409",
+            "spec": "gtfs-rt"
         },
         {
             "name": "SEPTA-Bus",
@@ -29,38 +42,78 @@
         },
         {
             "name": "SEPTA-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-septa~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3063",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SEPTA-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3062",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SEPTA-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2410",
+            "spec": "gtfs-rt"
         },
         {
             "name": "altoona",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-altoona~metro~transit"
+            "type": "mobility-database",
+            "mdb-id": "tld-4669"
         },
         {
             "name": "altoona",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-altoona~metro~transit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4670-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "altoona",
+            "type": "mobility-database",
+            "mdb-id": "tld-4670-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "altoona",
+            "type": "mobility-database",
+            "mdb-id": "tld-4670-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "north-central",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-area~transit~authority~north~central~pa"
+            "type": "mobility-database",
+            "mdb-id": "tld-4551"
         },
         {
             "name": "north-central",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-area~transit~authority~north~central~pa~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4552-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "north-central",
+            "type": "mobility-database",
+            "mdb-id": "tld-4552-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "north-central",
+            "type": "mobility-database",
+            "mdb-id": "tld-4552-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "beaver",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpnz-bcta"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2262",
+            "url-override": "https://bcta.rideralerts.com/infopoint/gtfs-zip.ashx"
         },
         {
             "name": "barta",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-barta~pa"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2064"
         },
         {
             "name": "barta",
@@ -69,148 +122,330 @@
         },
         {
             "name": "butler",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-butler~transit~authority~pa"
+            "type": "mobility-database",
+            "mdb-id": "tld-4659"
         },
         {
             "name": "butler",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-butler~transit~authority~pa~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4660-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "butler",
+            "type": "mobility-database",
+            "mdb-id": "tld-4660-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "butler",
+            "type": "mobility-database",
+            "mdb-id": "tld-4660-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "cambria",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-cambria~county~transit~authority"
+            "type": "mobility-database",
+            "mdb-id": "tld-4671"
         },
         {
             "name": "cambria",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-cambria~county~transit~authority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4672-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "cambria",
+            "type": "mobility-database",
+            "mdb-id": "tld-4672-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "cambria",
+            "type": "mobility-database",
+            "mdb-id": "tld-4672-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "CAT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-capitalareatransit~pa"
+            "type": "mobility-database",
+            "mdb-id": "tld-4298"
         },
         {
             "name": "CAT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-capitalareatransit~pa~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4299-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CAT",
+            "type": "mobility-database",
+            "mdb-id": "tld-4299-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CAT",
+            "type": "mobility-database",
+            "mdb-id": "tld-4299-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "cata",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr28-wwwcatabuscom"
+            "type": "mobility-database",
+            "mdb-id": "ntd-30054"
         },
         {
             "name": "cata",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr28-wwwcatabuscom~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4673-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "cata",
+            "type": "mobility-database",
+            "mdb-id": "tld-4673-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "cata",
+            "type": "mobility-database",
+            "mdb-id": "tld-4673-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "lackawanna",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-county~of~lackawanna~transit"
+            "type": "mobility-database",
+            "mdb-id": "tld-4553"
         },
         {
             "name": "lackawanna",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-county~of~lackawanna~transit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4554-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lackawanna",
+            "type": "mobility-database",
+            "mdb-id": "tld-4554-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lackawanna",
+            "type": "mobility-database",
+            "mdb-id": "tld-4554-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "crawford",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-crawford~area~transportation~authority~pa"
+            "type": "mobility-database",
+            "mdb-id": "tld-4674"
         },
         {
             "name": "crawford",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-crawford~area~transportation~authority~pa~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4675-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "crawford",
+            "type": "mobility-database",
+            "mdb-id": "tld-4675-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "crawford",
+            "type": "mobility-database",
+            "mdb-id": "tld-4675-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "BeST",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-endless~mountains~transportation~authority"
+            "type": "mobility-database",
+            "mdb-id": "tld-7021"
         },
         {
             "name": "BeST",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-endless~mountains~transportation~authority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-7022-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BeST",
+            "type": "mobility-database",
+            "mdb-id": "tld-7022-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BeST",
+            "type": "mobility-database",
+            "mdb-id": "tld-7022-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "fayette",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-fayette~area~coordinated~transportation"
+            "type": "mobility-database",
+            "mdb-id": "tld-7027"
         },
         {
             "name": "fayette",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-fayette~area~coordinated~transportation~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-7028-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "fayette",
+            "type": "mobility-database",
+            "mdb-id": "tld-7028-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "fayette",
+            "type": "mobility-database",
+            "mdb-id": "tld-7028-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "freedom",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-freedom~transit~pa~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-4134"
         },
         {
             "name": "freedom",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-freedom~transit~pa~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-7029-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "freedom",
+            "type": "mobility-database",
+            "mdb-id": "tld-7029-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "freedom",
+            "type": "mobility-database",
+            "mdb-id": "tld-7029-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "hazleton",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-hazleton~public~transit"
+            "type": "mobility-database",
+            "mdb-id": "tld-4665"
         },
         {
             "name": "hazleton",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-hazleton~public~transit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4666-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "hazleton",
+            "type": "mobility-database",
+            "mdb-id": "tld-4666-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "hazleton",
+            "type": "mobility-database",
+            "mdb-id": "tld-4666-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "IndiGO",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-indiana~county~transit~authority"
+            "type": "mobility-database",
+            "mdb-id": "tld-4661"
         },
         {
             "name": "IndiGO",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-indiana~county~transit~authority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4662-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "IndiGO",
+            "type": "mobility-database",
+            "mdb-id": "tld-4662-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "IndiGO",
+            "type": "mobility-database",
+            "mdb-id": "tld-4662-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "lebanon",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lebanon~transit~pa~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-5531"
         },
         {
             "name": "lebanon",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lebanon~transit~pa~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5532-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lebanon",
+            "type": "mobility-database",
+            "mdb-id": "tld-5532-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lebanon",
+            "type": "mobility-database",
+            "mdb-id": "tld-5532-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "lanta",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr4r-lanta"
+            "type": "mobility-database",
+            "mdb-id": "tld-279"
         },
         {
             "name": "lanta",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr4r-lanta~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4785-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lanta",
+            "type": "mobility-database",
+            "mdb-id": "tld-4785-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lanta",
+            "type": "mobility-database",
+            "mdb-id": "tld-4785-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "lower-anthracite",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lower~anthracite~transit~system"
+            "type": "mobility-database",
+            "mdb-id": "tld-7023"
         },
         {
             "name": "lower-anthracite",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lower~anthracite~transit~system~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-7024-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lower-anthracite",
+            "type": "mobility-database",
+            "mdb-id": "tld-7024-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lower-anthracite",
+            "type": "mobility-database",
+            "mdb-id": "tld-7024-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "luzerne",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-luzerne~county~transit~authority"
+            "type": "mobility-database",
+            "mdb-id": "tld-4555"
         },
         {
             "name": "luzerne",
@@ -220,23 +455,49 @@
         },
         {
             "name": "MMVTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mid~mon~valley~transit~authority~pa"
+            "type": "mobility-database",
+            "mdb-id": "tld-5503"
         },
         {
             "name": "MMVTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mid~mon~valley~transit~authority~pa~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5504-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MMVTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-5504-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MMVTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-5504-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "NCATA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-new~castle~area~transit~authority"
+            "type": "mobility-database",
+            "mdb-id": "tld-7030"
         },
         {
             "name": "NCATA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-new~castle~area~transit~authority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-7031-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NCATA",
+            "type": "mobility-database",
+            "mdb-id": "tld-7031-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NCATA",
+            "type": "mobility-database",
+            "mdb-id": "tld-7031-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "PRT",
@@ -257,78 +518,169 @@
         },
         {
             "name": "PATCO",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr4e-patco"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3035"
         },
         {
             "name": "pottstown",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-pottstown~area~rapid~transit"
+            "type": "mobility-database",
+            "mdb-id": "tld-7025"
         },
         {
             "name": "pottstown",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-pottstown~area~rapid~transit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-7026-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "pottstown",
+            "type": "mobility-database",
+            "mdb-id": "tld-7026-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "pottstown",
+            "type": "mobility-database",
+            "mdb-id": "tld-7026-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "rabbittransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr1-rabbittransit"
+            "type": "mobility-database",
+            "mdb-id": "tld-223"
         },
         {
             "name": "rabbittransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr1-rabbittransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5539-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "rabbittransit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5539-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "rabbittransit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5539-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "redrosetransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rrta~pa"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2000"
         },
         {
             "name": "redrosetransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rrta~pa~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5840-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "redrosetransit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5840-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "redrosetransit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5840-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "river-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-river~valley~transit~authority"
+            "type": "mobility-database",
+            "mdb-id": "tld-4548"
         },
         {
             "name": "river-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-river~valley~transit~authority~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4549-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "river-valley",
+            "type": "mobility-database",
+            "mdb-id": "tld-4549-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "river-valley",
+            "type": "mobility-database",
+            "mdb-id": "tld-4549-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "schuylkill",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-schuylkill~transportation~system"
+            "type": "mobility-database",
+            "mdb-id": "tld-4688"
         },
         {
             "name": "schuylkill",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-schuylkill~transportation~system~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4689-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "schuylkill",
+            "type": "mobility-database",
+            "mdb-id": "tld-4689-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "schuylkill",
+            "type": "mobility-database",
+            "mdb-id": "tld-4689-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "shenango-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-shenango~valley~shuttle~service~pa"
+            "type": "mobility-database",
+            "mdb-id": "tld-4663"
         },
         {
             "name": "shenango-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-shenango~valley~shuttle~service~pa~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4664-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "shenango-valley",
+            "type": "mobility-database",
+            "mdb-id": "tld-4664-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "shenango-valley",
+            "type": "mobility-database",
+            "mdb-id": "tld-4664-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "westmoreland",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-westmoreland~pa~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-6785"
         },
         {
             "name": "westmoreland",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-westmoreland~pa~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6786-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "westmoreland",
+            "type": "mobility-database",
+            "mdb-id": "tld-6786-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "westmoreland",
+            "type": "mobility-database",
+            "mdb-id": "tld-6786-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "SCTA-Lancaster",

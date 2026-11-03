@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "addisababatransportall",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-addis~ababa"
+            "type": "mobility-database",
+            "mdb-id": "tld-6782"
         }
     ]
 }

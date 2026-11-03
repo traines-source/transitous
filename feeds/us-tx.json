@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "dallas-area-rapidtransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9vg-dallasarearapidtransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-152"
         },
         {
             "name": "dallas-area-rapidtransit",
@@ -18,8 +18,8 @@
         },
         {
             "name": "houston-metro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9vk-metropolitantransitauthorityofharriscounty"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2060"
         },
         {
             "name": "houston-metro",
@@ -30,14 +30,21 @@
         },
         {
             "name": "capital-metro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9v6-capitalmetro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-150",
             "fix": true
         },
         {
             "name": "capital-metro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-capitalmetro~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1427",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "capital-metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1429",
+            "spec": "gtfs-rt"
         },
         {
             "name": "capital-metro",
@@ -45,17 +52,29 @@
             "transitland-atlas-id": "f-capitalmetro~rt~alerts",
             "skip": true,
             "skip-reason": "api-key is missing"
-
         },
         {
             "name": "via-san-antonio",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9v1z-viametropolitantransit"
+            "type": "mobility-database",
+            "mdb-id": "tld-217"
         },
         {
             "name": "via-san-antonio",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-via~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-1125-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "via-san-antonio",
+            "type": "mobility-database",
+            "mdb-id": "tld-1125-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "via-san-antonio",
+            "type": "mobility-database",
+            "mdb-id": "tld-1125-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "amarillo",
@@ -67,8 +86,9 @@
         },
         {
             "name": "lubbock",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lubbock~tx~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-569",
+            "url-override": "https://data.trilliumtransit.com/gtfs/lubbock-tx-us/lubbock-tx-us.zip"
         },
         {
             "name": "lubbock",
@@ -91,13 +111,26 @@
         },
         {
             "name": "concho-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-concho~valley~tx~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-5864"
         },
         {
             "name": "concho-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-concho~valley~tx~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5865-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "concho-valley",
+            "type": "mobility-database",
+            "mdb-id": "tld-5865-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "concho-valley",
+            "type": "mobility-database",
+            "mdb-id": "tld-5865-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "corpus-christi",
@@ -119,24 +152,25 @@
         },
         {
             "name": "fortworth-TA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9vff-fortworthtransportationauthority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-885",
             "fix": true
         },
         {
             "name": "sun-metro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9tsk-sunmetro"
+            "type": "mobility-database",
+            "mdb-id": "mdb-148"
         },
         {
             "name": "star-transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9vg3-startransit~tx~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-153",
+            "url-override": "https://data.trilliumtransit.com/gtfs/startransit-tx-us/startransit-tx-us.zip"
         },
         {
             "name": "laredo",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-laredo~tx~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-7038"
         }
     ]
 }

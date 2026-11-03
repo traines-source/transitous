@@ -8,23 +8,37 @@
     "sources": [
         {
             "name": "epta",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-epta~wv"
+            "type": "mobility-database",
+            "mdb-id": "tld-4459"
         },
         {
             "name": "mlta",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpp-mountainlinetransitauthority~wvuprt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-407",
+            "url-override": "https://remote.busride.org/ws/google/google_transit.zip"
         },
         {
             "name": "beckley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-beckley~wv~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-6713"
         },
         {
             "name": "beckley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-beckley~wv~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6714-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "beckley",
+            "type": "mobility-database",
+            "mdb-id": "tld-6714-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "beckley",
+            "type": "mobility-database",
+            "mdb-id": "tld-6714-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "WVU-PRT",

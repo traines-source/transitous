@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "UTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9x0-uta"
+            "type": "mobility-database",
+            "mdb-id": "mdb-170"
         },
         {
             "name": "UTA",
@@ -18,8 +18,8 @@
         },
         {
             "name": "high-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-high~valley~transit~district"
+            "type": "mobility-database",
+            "mdb-id": "tld-7037"
         },
         {
             "name": "park-city",
@@ -28,9 +28,10 @@
         },
         {
             "name": "cache-valley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9x2-cachevalleytransitdistrict",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "ntd-80028",
+            "fix": true,
+            "url-override": "https://mycvtdbus.org/gtfs"
         },
         {
             "name": "cache-valley",

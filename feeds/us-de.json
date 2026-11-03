@@ -8,8 +8,9 @@
     "sources": [
         {
             "name": "DART-First-State",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr4-dartfirststate"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1235",
+            "url-override": "https://dartfirststate.com/RiderInfo/Routes/gtfs_data/dartfirststate_de_us.zip"
         },
         {
             "name": "DART-First-State",

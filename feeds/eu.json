@@ -48,23 +48,23 @@
         },
         {
             "name": "eurostar",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eurostar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2431",
             "skip": true,
             "skip-reason": "Use up to date feed generated in fr.json"
         },
         {
             "name": "optimaexpress",
-            "type": "http",
-            "url": "https://github.com/jonaes/gtfs/raw/refs/heads/main/output/optima_gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3123",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
         },
         {
             "name": "european-sleeper",
-            "type": "http",
-            "url": "https://jbb.ghsq.de/gtfs/eu-es.gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3107",
             "license": {
                 "spdx-identifier": "ODbL-1.0"
             }

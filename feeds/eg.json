@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "CairoPublicRoadTransport",
-            "type": "http",
-            "url": "https://data.transportforcairo.com/documents/88/link",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3355",
             "extend-calendar": true,
             "license": {
                 "spdx-identifier": "CC-BY-4.0",
@@ -18,8 +18,8 @@
         },
         {
             "name": "CairoMetro",
-            "type": "http",
-            "url": "https://data.transportforcairo.com/documents/87/link",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3354",
             "extend-calendar": true,
             "license": {
                 "spdx-identifier": "CC-BY-4.0",

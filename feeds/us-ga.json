@@ -8,8 +8,9 @@
     "sources": [
         {
             "name": "MARTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnh-marta"
+            "type": "mobility-database",
+            "mdb-id": "mdb-368",
+            "url-override": "https://itsmarta.com/google_transit_feed/google_transit.zip"
         },
         {
             "name": "MARTA",

@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "Kauai",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-kauai",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90237",
             "fix": true
         },
         {
@@ -19,13 +19,13 @@
         },
         {
             "name": "TheBus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-87z-thebus"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2350"
         },
         {
             "name": "Maui",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-maui~county~transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90241",
             "fix": true
         },
         {
@@ -35,9 +35,10 @@
         },
         {
             "name": "Hele-On",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-hele~on~hi",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-2608",
+            "fix": true,
+            "url-override": "https://myheleonbus.org/gtfs"
         },
         {
             "name": "Hele-On",

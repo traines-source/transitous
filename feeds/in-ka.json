@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "BMTC",
-            "type": "http",
-            "url": "https://github.com/Vonter/bmtc-gtfs/raw/refs/heads/main/gtfs/bmtc.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2595"
         },
         {
             "name": "KSRTC",

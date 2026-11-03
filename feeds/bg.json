@@ -16,8 +16,8 @@
     "sources": [
         {
             "name": "sofia",
-            "type": "http",
-            "url": "https://gtfs.sofiatraffic.bg/api/v1/static",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2848",
             "fix": true,
             "license": {
                 "spdx-identifier": "CC-BY-4.0",
@@ -26,9 +26,9 @@
         },
         {
             "name": "sofia",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2847",
             "spec": "gtfs-rt",
-            "url": "https://gtfs.sofiatraffic.bg/api/v1/vehicle-positions",
             "license": {
                 "spdx-identifier": "CC-BY-4.0",
                 "url": "https://www.sofia.bg/web/guest/transport-data"
@@ -36,9 +36,9 @@
         },
         {
             "name": "sofia",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2849",
             "spec": "gtfs-rt",
-            "url": "https://gtfs.sofiatraffic.bg/api/v1/alerts",
             "license": {
                 "spdx-identifier": "CC-BY-4.0",
                 "url": "https://www.sofia.bg/web/guest/transport-data"
@@ -46,9 +46,9 @@
         },
         {
             "name": "sofia",
-            "type": "url",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2850",
             "spec": "gtfs-rt",
-            "url": "https://gtfs.sofiatraffic.bg/api/v1/trip-updates",
             "license": {
                 "spdx-identifier": "CC-BY-4.0",
                 "url": "https://www.sofia.bg/web/guest/transport-data"
@@ -127,8 +127,8 @@
         },
         {
             "name": "aytos",
-            "type": "http",
-            "url": "https://transport.aytos.bg/gtfs/AytosGTFS.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3155",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }

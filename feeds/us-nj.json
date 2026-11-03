@@ -8,14 +8,14 @@
     "sources": [
         {
             "name": "NJ-Transit-Bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5-nj~transit~bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-508",
             "fix": true
         },
         {
             "name": "NJ-Transit-Rail",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr5-nj~transit~rail"
+            "type": "mobility-database",
+            "mdb-id": "mdb-509"
         }
     ]
 }

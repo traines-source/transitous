@@ -12,23 +12,50 @@
     "sources": [
         {
             "name": "Minneapolis-St-Paul",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9zv-twin~cities~minnesota"
+            "type": "mobility-database",
+            "mdb-id": "mdb-205"
         },
         {
             "name": "Minneapolis-St-Paul",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-twin~cities~minnesota~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1683",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Minneapolis-St-Paul",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1681",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Minneapolis-St-Paul",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1682",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Duluth-Transit-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-cbq6-duluthtransitauthority"
+            "type": "mobility-database",
+            "mdb-id": "mdb-301",
+            "url-override": "http://duluthtransit.com/gtf/google_transit.zip"
         },
         {
             "name": "Duluth-Transit-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-duluthtransitauthority~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1461",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Duluth-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1463",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Duluth-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1462",
+            "spec": "gtfs-rt"
         }
     ]
 }

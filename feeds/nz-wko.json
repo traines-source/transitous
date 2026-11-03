@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "BUSIT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-busit~nz",
+            "type": "mobility-database",
+            "mdb-id": "tld-6738",
             "script": "nz-wko-BUSIT.lua"
         }
     ]

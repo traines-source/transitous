@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "abq",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9whp-abqride"
+            "type": "mobility-database",
+            "mdb-id": "mdb-166"
         },
         {
             "name": "abq",
@@ -27,8 +27,8 @@
         },
         {
             "name": "atomic-city",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-atomic~city~transit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1240"
         },
         {
             "name": "gallup-express",
@@ -37,38 +37,52 @@
         },
         {
             "name": "bandalier-national-monument",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-bandalier~national~monument"
+            "type": "mobility-database",
+            "mdb-id": "tld-6902"
         },
         {
             "name": "navajo-transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9w-navajotransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2346"
         },
         {
             "name": "ncrtd",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ncrtd~nm"
+            "type": "mobility-database",
+            "mdb-id": "tld-1319"
         },
         {
             "name": "ncrtd",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ncrtd~nm~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6744-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ncrtd",
+            "type": "mobility-database",
+            "mdb-id": "tld-6744-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ncrtd",
+            "type": "mobility-database",
+            "mdb-id": "tld-6744-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "nm-dot-park-and-ride",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-nm~dot~park~and~ride~nm~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-5537"
         },
         {
             "name": "red-apple-transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9we1-redappletransit~nm~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-160",
+            "url-override": "https://data.trilliumtransit.com/gtfs/redappletransit-nm-us/redappletransit-nm-us.zip"
         },
         {
             "name": "las-cruces",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-las~cruces~road~runner"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2075"
         },
         {
             "name": "santa-fe-trails",

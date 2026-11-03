@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "straeto",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ge2kx-straeto",
+            "type": "mobility-database",
+            "mdb-id": "tld-4056",
             "fix": true
         },
         {

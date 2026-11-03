@@ -22,21 +22,21 @@
         },
         {
             "name": "izmir-metro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-izmir~metro"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1824"
         },
         {
             "name": "izmir-izban",
-            "type": "http",
-            "url": "https://www.izban.com.tr/gtfs/rail-izban-gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1828",
             "fix": true,
             "skip": true,
             "skip-reason": "Expired feed"
         },
         {
             "name": "izmir-tram",
-            "type": "http",
-            "url": "https://www.tramizmir.com/gtfs/rail-tramizmir-gtfs.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1829"
         },
         {
             "name": "istanbul-iett",
@@ -82,8 +82,8 @@
         },
         {
             "name": "flixbus",
-            "type": "http",
-            "url": "http://gtfs.gis.flix.tech/gtfs_generic_turkey.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2922",
             "script": "generic-bus-to-coach.lua"
         },
         {
@@ -102,8 +102,8 @@
         },
         {
             "name": "adana",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/adana.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3407",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -128,16 +128,16 @@
         },
         {
             "name": "burdur",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/burdur.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3405",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
         },
         {
             "name": "canakkale",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/canakkale.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3404",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -145,8 +145,8 @@
         },
         {
             "name": "duzce",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/duzce.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3403",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -174,8 +174,8 @@
         },
         {
             "name": "erzurum",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/erzurum.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3402",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -183,8 +183,8 @@
         },
         {
             "name": "kastamonu",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/kastamonu.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3400",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -192,8 +192,8 @@
         },
         {
             "name": "kirklareli",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/kirklareli.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3399",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -210,8 +210,8 @@
         },
         {
             "name": "mardin",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/mardin.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3397",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -219,8 +219,8 @@
         },
         {
             "name": "mugla",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/mugla.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3396",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             },
@@ -228,24 +228,24 @@
         },
         {
             "name": "ordu",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/ordu.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3395",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
         },
         {
             "name": "osmaniye",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/osmaniye.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3394",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
         },
         {
             "name": "safranbolu",
-            "type": "http",
-            "url": "https://github.com/Egezenn/kk-gtfs/raw/main/data/safranbolu.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3393",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }

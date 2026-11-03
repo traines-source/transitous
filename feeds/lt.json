@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "visimarsrutai",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-visimarsrutai~lt~all",
+            "type": "mobility-database",
+            "mdb-id": "tld-4477",
             "fix": true,
             "drop-agency-names": [
                 "UAB LTG Link",
@@ -90,15 +90,15 @@
         },
         {
             "name": "klaipeda",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://stops.lt/klaipeda/trip_updates.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3440",
+            "spec": "gtfs-rt"
         },
         {
             "name": "klaipeda",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://stops.lt/klaipeda/service_alerts.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3441",
+            "spec": "gtfs-rt"
         },
         {
             "name": "druskininkai",
@@ -107,15 +107,15 @@
         },
         {
             "name": "druskininkai",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://www.stops.lt/druskininkai/trip_updates.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3438",
+            "spec": "gtfs-rt"
         },
         {
             "name": "druskininkai",
-            "type": "url",
-            "spec": "gtfs-rt",
-            "url": "https://www.stops.lt/druskininkai/vehicle_positions.pb"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3439",
+            "spec": "gtfs-rt"
         },
         {
             "name": "alytus",
@@ -130,8 +130,8 @@
         },
         {
             "name": "taurage",
-            "type": "http",
-            "url": "https://stops.lt/taurage/taurage/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3121",
             "fix": true
         },
         {
@@ -142,8 +142,8 @@
         },
         {
             "name": "LTG-Link",
-            "type": "http",
-            "url": "https://jbb.ghsq.de/gtfs/lt-ltglink.gtfs.zip"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2991"
         },
         {
             "name": "kautra",

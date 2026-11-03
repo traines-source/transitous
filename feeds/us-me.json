@@ -13,18 +13,31 @@
         },
         {
             "name": "acadia",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-acadia~national~park~island~explorer~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3214",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "acadia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3213",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "acadia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3212",
+            "spec": "gtfs-rt"
         },
         {
             "name": "biddeford-saco-old-orchard-beach",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-biddeford~saco~old~orchard~beach"
+            "type": "mobility-database",
+            "mdb-id": "tld-4756"
         },
         {
             "name": "casco-bay",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dry0-cascobayislandtransitdistrict"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3537"
         },
         {
             "name": "lewiston",
@@ -34,13 +47,14 @@
         },
         {
             "name": "greater-portland-metro-bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dry0-maine~greaterportlandmetrobus"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2642"
         },
         {
             "name": "lakes-region-explorer",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drvc-rtp~me~us"
+            "type": "mobility-database",
+            "mdb-id": "tfs-755",
+            "url-override": "https://data.trilliumtransit.com/gtfs/rtp-me-us/rtp-me-us.zip"
         },
         {
             "name": "south-portland",

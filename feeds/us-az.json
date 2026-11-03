@@ -8,9 +8,10 @@
     "sources": [
         {
             "name": "mountainline",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mountain~line~az",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-1979",
+            "fix": true,
+            "url-override": "https://mountainline.syncromatics.com/gtfs"
         },
         {
             "name": "suntran",
@@ -19,8 +20,9 @@
         },
         {
             "name": "valleymetro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9tb-valleymetro"
+            "type": "mobility-database",
+            "mdb-id": "mdb-147",
+            "url-override": "https://www.phoenixopendata.com/dataset/3eae9a4a-98b9-40c8-8df7-8c00c1756235/resource/28ccc0a5-49c8-495c-b91f-193de5ce2cb7/download/googletransit.zip"
         },
         {
             "name": "valleymetro",

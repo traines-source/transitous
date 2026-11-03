@@ -12,19 +12,19 @@
     "sources": [
         {
             "name": "Bloomington-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnfq-bloomingtontransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2066",
             "fix": true
         },
         {
             "name": "CityBus-of-Greater-Lafayette-Indiana",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp4j-citybus"
+            "type": "mobility-database",
+            "mdb-id": "mdb-391"
         },
         {
             "name": "Gary-Public-Transportation-Corporation",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-gary~public~transportation~in~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-4129"
         },
         {
             "name": "IndyGo",
@@ -39,16 +39,17 @@
         },
         {
             "name": "Indiana-County-Transit-Authority",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-indiana~county~transit~authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4661",
             "http-options": {
                 "fetch-interval-days": 1
             }
         },
         {
             "name": "Interurban-Trolley",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-macog"
+            "type": "mobility-database",
+            "mdb-id": "mdb-571",
+            "url-override": "https://passio3.com/macog/passioTransit/gtfs/google_transit.zip"
         },
         {
             "name": "Muncie-Indiana-Transit-System",
@@ -57,8 +58,8 @@
         },
         {
             "name": "Northern-Indiana-Commuter-Transportation-District",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-northern~indiana~commuter~transportation~district",
+            "type": "mobility-database",
+            "mdb-id": "mdb-585",
             "fix": true
         },
         {
@@ -68,8 +69,9 @@
         },
         {
             "name": "Valparaiso-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-valpotransit~chi~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-620",
+            "url-override": "https://data.trilliumtransit.com/gtfs/valpotransit-chi-us/valpotransit-chi-us.zip"
         }
     ]
 }

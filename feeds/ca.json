@@ -12,27 +12,40 @@
     "sources": [
         {
             "name": "Brandon-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-brandon~mb~ca",
+            "type": "mobility-database",
+            "mdb-id": "tld-4820",
             "fix": true
         },
         {
             "name": "Calgary-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c3nf-calgarytransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-712",
             "http-options": {
                 "fetch-interval-days": 2
             }
         },
         {
             "name": "Calgary-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-calgarytransit~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-1080-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Calgary-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-1080-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Calgary-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-1080-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Codiac-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f81y-codiactranspo"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1111"
         },
         {
             "name": "Cold-Lake-Transit",
@@ -43,46 +56,77 @@
         },
         {
             "name": "Edmonton-Transit-Service",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c3x-edmontontransitsystem"
+            "type": "mobility-database",
+            "mdb-id": "tfs-27",
+            "url-override": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/GTFS/gtfs.zip"
         },
         {
             "name": "Edmonton-Transit-Service",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-ets~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1496",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Edmonton-Transit-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1498",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Edmonton-Transit-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1497",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Fredericton-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-frederictontransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2460",
             "fix": true,
             "skip": true,
             "skip-reason": "Getting 403 error"
         },
         {
             "name": "Grande-Prairie-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-grande~prairie~ab~ca"
+            "type": "mobility-database",
+            "mdb-id": "tld-4821"
         },
         {
             "name": "Halifax-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dxfy-halifaxtransit~hrm"
+            "type": "mobility-database",
+            "mdb-id": "mdb-734",
+            "url-override": "https://gtfs.halifax.ca/static/google_transit.zip"
         },
         {
             "name": "Halifax-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-halifax~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1607",
+            "spec": "gtfs-rt",
+            "url-override": "https://gtfs.halifax.ca/realtime/Vehicle/VehiclePositions.pb"
+        },
+        {
+            "name": "Halifax-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1605",
+            "spec": "gtfs-rt",
+            "url-override": "https://gtfs.halifax.ca/realtime/TripUpdate/TripUpdates.pb"
+        },
+        {
+            "name": "Halifax-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1606",
+            "spec": "gtfs-rt",
+            "url-override": "https://gtfs.halifax.ca/realtime/Alert/Alerts.pb"
         },
         {
             "name": "Lethbridge-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lethbridgetransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1997"
         },
         {
             "name": "Medicine-Hat-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-medicine~hat~transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2591",
             "http-options": {
                 "fetch-interval-days": 2
             }
@@ -94,8 +138,8 @@
         },
         {
             "name": "Metrobus-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-fb6q-metrobus"
+            "type": "mobility-database",
+            "mdb-id": "mdb-758"
         },
         {
             "name": "Prince-Albert-Transit",
@@ -105,13 +149,13 @@
         },
         {
             "name": "Red-Deer-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c3r1-red~deer~alberta"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1992"
         },
         {
             "name": "Regina-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c8vx-thecityofregina"
+            "type": "mobility-database",
+            "mdb-id": "mdb-715"
         },
         {
             "name": "Roam-Transit",
@@ -129,8 +173,8 @@
         },
         {
             "name": "Saskatoon-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-c9k0-saskatoontransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3503"
         },
         {
             "name": "Saskatoon-Transit",
@@ -139,13 +183,13 @@
         },
         {
             "name": "T3-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-coachatlantic~pe~ca"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2132"
         },
         {
             "name": "Viarail",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-f-viarail~traindecharlevoix",
+            "type": "mobility-database",
+            "mdb-id": "mdb-735",
             "script": "ca-viarail.lua"
         },
         {
@@ -161,19 +205,26 @@
         },
         {
             "name": "Winnipeg-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-cbfg-winnipegtransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-717"
         },
         {
             "name": "Wood-Buffalo-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-regional~municipality~of~wood~buffalo",
+            "type": "mobility-database",
+            "mdb-id": "tld-4690",
             "fix": true
         },
         {
             "name": "Wood-Buffalo-Transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-regional~municipality~of~wood~buffalo~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4691-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Wood-Buffalo-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4691-tu",
+            "spec": "gtfs-rt"
         }
     ]
 }

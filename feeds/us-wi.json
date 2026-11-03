@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "stevens-point",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-stevens~point~wi"
+            "type": "mobility-database",
+            "mdb-id": "tld-4757"
         },
         {
             "name": "kenosha",
@@ -23,13 +23,26 @@
         },
         {
             "name": "madison",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp8m-metrotransit~cityofmadison"
+            "type": "mobility-database",
+            "mdb-id": "mdb-394"
         },
         {
             "name": "madison",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-madison~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2097",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "madison",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2096",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "madison",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2095",
+            "spec": "gtfs-rt"
         },
         {
             "name": "eauclairetransit",
@@ -39,8 +52,9 @@
         },
         {
             "name": "oshkosh",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpc4-oshkosh~wi~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-397",
+            "url-override": "https://data.trilliumtransit.com/gtfs/oshkosh-wi-us/oshkosh-wi-us.zip"
         },
         {
             "name": "green-bay",
@@ -49,47 +63,93 @@
         },
         {
             "name": "green-bay",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-green~bay~wi~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6890-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "green-bay",
+            "type": "mobility-database",
+            "mdb-id": "tld-6890-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "green-bay",
+            "type": "mobility-database",
+            "mdb-id": "tld-6890-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "janesville-jts",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp8d-jts~wi~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-393",
+            "url-override": "https://data.trilliumtransit.com/gtfs/jts-wi-us/jts-wi-us.zip"
         },
         {
             "name": "wausau",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-wausau~wi~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-830",
+            "url-override": "https://data.trilliumtransit.com/gtfs/wausau-wi-us/wausau-wi-us.zip"
         },
         {
             "name": "milwaukee",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp9-milwaukeecountytransitsystem",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2127",
             "skip": true,
             "skip-reason": "Connection timeout"
         },
         {
             "name": "milwaukee",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp9-milwaukeecountytransitsystem~rt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2130",
+            "spec": "gtfs-rt",
+            "skip": true,
+            "skip-reason": "Connection timeout"
+        },
+        {
+            "name": "milwaukee",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2128",
+            "spec": "gtfs-rt",
+            "skip": true,
+            "skip-reason": "Connection timeout"
+        },
+        {
+            "name": "milwaukee",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2129",
+            "spec": "gtfs-rt",
             "skip": true,
             "skip-reason": "Connection timeout"
         },
         {
             "name": "racine",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp9e-belleurbansystem"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2246"
         },
         {
             "name": "racine",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp9e-belleurbansystem~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-5582-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "racine",
+            "type": "mobility-database",
+            "mdb-id": "tld-5582-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "racine",
+            "type": "mobility-database",
+            "mdb-id": "tld-5582-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "sheboygan",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dpc8-sheboygan~wi~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-399",
+            "url-override": "https://data.trilliumtransit.com/gtfs/sheboygan-wi-us/sheboygan-wi-us.zip"
         },
         {
             "name": "waukesha",

@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "Taranaki-Regional-Council",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-trc~nz"
+            "type": "mobility-database",
+            "mdb-id": "tld-7899"
         },
         {
             "name": "Taranaki-Regional-Council",

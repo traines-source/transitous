@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "Metro-Christchurch",
-            "type": "http",
-            "url": "https://apis.metroinfo.co.nz/rti/gtfs/v1/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1313",
             "fix": true,
             "http-options": {
                 "headers": {

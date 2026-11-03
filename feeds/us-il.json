@@ -20,8 +20,8 @@
     "sources": [
         {
             "name": "CTA",
-            "type": "http",
-            "url": "https://www.transitchicago.com/downloads/sch_data/google_transit.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-389",
             "license": {
                 "url": "https://www.transitchicago.com/downloads/sch_data/developers_license_agreement.htm"
             },
@@ -49,31 +49,44 @@
         },
         {
             "name": "SMTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp04-smtd"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3187"
         },
         {
             "name": "SMTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp04-smtd~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1781",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SMTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1780",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SMTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1779",
+            "spec": "gtfs-rt"
         },
         {
             "name": "ChampaignUrbana-MTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp1h-champaignurbanamasstransitdistrict",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50060",
             "http-options": {
                 "ignore-tls-errors": true
             }
         },
         {
             "name": "Peoria-CityLink",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp0r-citylink"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2208"
         },
         {
             "name": "Metra",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dp3-metra"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2854"
         },
         {
             "name": "Metra",

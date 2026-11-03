@@ -12,48 +12,76 @@
     "sources": [
         {
             "name": "MBTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drt-mbta"
+            "type": "mobility-database",
+            "mdb-id": "mdb-437"
         },
         {
             "name": "MBTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mbta~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1602",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MBTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1604",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MBTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1603",
+            "spec": "gtfs-rt"
         },
         {
             "name": "LoganExpress",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drt3-909983"
+            "type": "mobility-database",
+            "mdb-id": "mdb-441"
         },
         {
             "name": "MWRTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drt0-metrowestregionaltransitauthority"
+            "type": "mobility-database",
+            "mdb-id": "mdb-439"
         },
         {
             "name": "BrocktonMA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drmr-brockton~ma~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-422",
+            "url-override": "https://data.trilliumtransit.com/gtfs/brockton-ma-us/brockton-ma-us.zip"
         },
         {
             "name": "LexingtonMA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lexpress~lexington~ma"
+            "type": "mobility-database",
+            "mdb-id": "tld-4728"
         },
         {
             "name": "Massport",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drt3-909983"
+            "type": "mobility-database",
+            "mdb-id": "mdb-441"
         },
         {
             "name": "PVTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drk-pvta"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2416",
+            "url-override": "http://www.pvta.com/g_trans/google_transit.zip"
         },
         {
             "name": "PVTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-drk-pvta~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4679-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "PVTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-4679-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "PVTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-4679-sa",
+            "spec": "gtfs-rt"
         }
     ]
 }

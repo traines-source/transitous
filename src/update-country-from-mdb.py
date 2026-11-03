@@ -7,13 +7,27 @@ import json
 import sys
 
 from mobilitydatabase import Database
+from pathlib import Path
 from typing import Optional
 
+# Usage: update-country-from-mdb.py <region file> <country code> [<MDB subdivision name>]
 region_file = sys.argv[1]
 country_code = sys.argv[2]
+subdivision = sys.argv[3] if len(sys.argv) > 3 else None
 
 mdb = Database.load()
-relevant_entries = filter(lambda entry: entry["location.country_code"] == country_code, mdb.by_id.values())
+relevant_entries = filter(lambda entry: entry["location.country_code"] == country_code
+                          and (subdivision is None or entry["location.subdivision_name"] == subdivision),
+                          mdb.by_id.values())
+
+# Feeds that are already used in other region files (e.g. eu.json, or a neighbouring subdivision)
+used_elsewhere = set()
+for other_file in Path(region_file).parent.glob("*.json"):
+    if other_file.resolve() == Path(region_file).resolve():
+        continue
+    for source in json.load(open(other_file, "r"))["sources"]:
+        if "mdb-id" in source:
+            used_elsewhere.add(source["mdb-id"])
 # Handle static feeds first, so realtime feeds can pick up the name of their static feed
 relevant_entries = sorted(relevant_entries, key=lambda entry: entry["data_type"] == "gtfs_rt")
 
@@ -29,6 +43,8 @@ with open(region_file, "r") as f:
     for feed in relevant_entries:
         # Inactive feeds (usually expired) may still be usable with extend-calendar
         if feed["status"] not in ("active", "inactive"):
+            continue
+        if feed["id"] in used_elsewhere and feed["id"] not in id_map:
             continue
 
         def make_name(name: str, provider: str, feed_id: str):

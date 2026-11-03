@@ -8,18 +8,27 @@
     "sources": [
         {
             "name": "MTA-marc",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq-mtamaryland~marc"
+            "type": "mobility-database",
+            "mdb-id": "mdb-468",
+            "url-override": "https://feeds.mta.maryland.gov/gtfs/marc"
         },
         {
             "name": "MTA-marc",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-mtamaryland~marc~train~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4451-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-marc",
+            "type": "mobility-database",
+            "mdb-id": "tld-4451-tu",
+            "spec": "gtfs-rt"
         },
         {
             "name": "MTA-raillink",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq-mtamaryland~raillink"
+            "type": "mobility-database",
+            "mdb-id": "mdb-469",
+            "url-override": "https://feeds.mta.maryland.gov/gtfs/light-rail"
         },
         {
             "name": "MTA-raillink",
@@ -30,8 +39,9 @@
         },
         {
             "name": "MTA-commuterbus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq-mtamaryland~commuterbus"
+            "type": "mobility-database",
+            "mdb-id": "mdb-467",
+            "url-override": "https://feeds.mta.maryland.gov/gtfs/commuter-bus"
         },
         {
             "name": "MTA-commuterbus",
@@ -42,8 +52,9 @@
         },
         {
             "name": "MTA-subwaylink",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq-mtamaryland~subwaylink"
+            "type": "mobility-database",
+            "mdb-id": "mdb-470",
+            "url-override": "https://feeds.mta.maryland.gov/gtfs/metro"
         },
         {
             "name": "MTA-subwaylink",
@@ -54,9 +65,10 @@
         },
         {
             "name": "MTA-bus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq-mtamaryland~bus",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-466",
+            "fix": true,
+            "url-override": "https://feeds.mta.maryland.gov/gtfs/local-bus"
         },
         {
             "name": "MTA-bus",
@@ -66,8 +78,9 @@
         },
         {
             "name": "RTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqcq-regionaltransportationagencyofcentralmaryland"
+            "type": "mobility-database",
+            "mdb-id": "mdb-489",
+            "url-override": "https://data.trilliumtransit.com/gtfs/centralmarylandrta-md-us/centralmarylandrta-md-us.zip"
         },
         {
             "name": "RTA",
@@ -78,13 +91,13 @@
         },
         {
             "name": "EPTA",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-epta~wv"
+            "type": "mobility-database",
+            "mdb-id": "tld-4459"
         },
         {
             "name": "TransIt",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dr0b-transitservicesoffrederickcounty",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2432",
             "fix": true,
             "skip": true,
             "skip-reason": "Connection timed out"
@@ -98,8 +111,8 @@
         },
         {
             "name": "RideOn",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dqcn-montgomerycountymdrideon"
+            "type": "mobility-database",
+            "mdb-id": "mdb-488"
         },
         {
             "name": "CTS",

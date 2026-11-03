@@ -16,12 +16,13 @@
     "sources": [
         {
             "name": "Hong-Kong-Transit",
-            "type": "http",
-            "url": "https://feed.justusewheels.com/hk.gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2933",
             "license": {
                 "spdx-identifier": "ODbL-1.0",
                 "url": "https://github.com/wheelstransit/hongkong-community-gtfs/tree/main?tab=readme-ov-file#license"
-            }
+            },
+            "url-override": "https://feed.justusewheels.com/hk.gtfs.zip"
         }
     ]
 }

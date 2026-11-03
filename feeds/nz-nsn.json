@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "eBus",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-nsn~nz"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2329"
         }
     ]
 }

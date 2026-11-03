@@ -8,56 +8,125 @@
     "sources": [
         {
             "name": "GoTriangle",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnr-tta~regionalbus~nc~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-3183"
         },
         {
             "name": "GoTriangle",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnr-tta~regionalbus~nc~us~rt",
+            "type": "mobility-database",
+            "mdb-id": "tld-6783-vp",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "GoTriangle",
+            "type": "mobility-database",
+            "mdb-id": "tld-6783-tu",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "GoTriangle",
+            "type": "mobility-database",
+            "mdb-id": "tld-6783-sa",
+            "spec": "gtfs-rt",
             "use-feed-proxy": true
         },
         {
             "name": "GoDurham",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnru-durham~area~transit~authority~nc~us"
+            "type": "mobility-database",
+            "mdb-id": "tld-98"
         },
         {
             "name": "GoDurham",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnru-durham~area~transit~authority~nc~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-4062-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "GoDurham",
+            "type": "mobility-database",
+            "mdb-id": "tld-4062-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "GoDurham",
+            "type": "mobility-database",
+            "mdb-id": "tld-4062-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "GoRaleigh",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq25-capital~area~transit~nc~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2074"
         },
         {
             "name": "GoRaleigh",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq25-capital~area~transit~nc~us~rt",
+            "type": "mobility-database",
+            "mdb-id": "tld-6672-vp",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "GoRaleigh",
+            "type": "mobility-database",
+            "mdb-id": "tld-6672-tu",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "GoRaleigh",
+            "type": "mobility-database",
+            "mdb-id": "tld-6672-sa",
+            "spec": "gtfs-rt",
             "use-feed-proxy": true
         },
         {
             "name": "GoCary",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnrg-cary~transit~nc~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2277"
         },
         {
             "name": "GoCary",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnrg-cary~transit~nc~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6821-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "GoCary",
+            "type": "mobility-database",
+            "mdb-id": "tld-6821-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "GoCary",
+            "type": "mobility-database",
+            "mdb-id": "tld-6821-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "ChapelHillTransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnru-chapel~hill~transit~nc~us",
+            "type": "mobility-database",
+            "mdb-id": "tld-89",
             "fix": true
         },
         {
             "name": "ChapelHillTransit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnru-chapel~hill~transit~nc~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6626-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ChapelHillTransit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6626-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ChapelHillTransit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6626-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "CATS",
@@ -69,8 +138,27 @@
         },
         {
             "name": "CATS",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dnq-charlotteareatransitsystem~rt",
+            "type": "mobility-database",
+            "mdb-id": "tld-4532-vp",
+            "spec": "gtfs-rt",
+            "license": {
+                "spdx-identifier": "CC0-1.0"
+            }
+        },
+        {
+            "name": "CATS",
+            "type": "mobility-database",
+            "mdb-id": "tld-4532-tu",
+            "spec": "gtfs-rt",
+            "license": {
+                "spdx-identifier": "CC0-1.0"
+            }
+        },
+        {
+            "name": "CATS",
+            "type": "mobility-database",
+            "mdb-id": "tld-4532-sa",
+            "spec": "gtfs-rt",
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
@@ -85,14 +173,27 @@
         },
         {
             "name": "NCSU-Wolfline",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq259-ncsu~wolfline~nc~us",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2245",
             "fix": true
         },
         {
             "name": "NCSU-Wolfline",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dq259-ncsu~wolfline~nc~us~rt"
+            "type": "mobility-database",
+            "mdb-id": "tld-6896-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NCSU-Wolfline",
+            "type": "mobility-database",
+            "mdb-id": "tld-6896-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NCSU-Wolfline",
+            "type": "mobility-database",
+            "mdb-id": "tld-6896-sa",
+            "spec": "gtfs-rt"
         },
         {
             "name": "TRT",

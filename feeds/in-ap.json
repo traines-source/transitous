@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "andhra-pradesh-state-road-transport-corporation",
-            "type": "http",
-            "url": "https://github.com/Neo2308/apsrtc-gtfs/raw/refs/heads/main/gtfs/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3050",
             "fix": true
         }
     ]

@@ -12,8 +12,8 @@
     "sources": [
         {
             "name": "trenitalia",
-            "type": "http",
-            "url": "https://proxy.busone.app/trenitalia/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3569",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -52,8 +52,8 @@
         },
         {
             "name": "Bolzano-STA",
-            "type": "http",
-            "url": "https://proxy.busone.app/sta/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3573",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -145,13 +145,13 @@
         },
         {
             "name": "Campania-EAV",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-eave~wimob~it"
+            "type": "mobility-database",
+            "mdb-id": "tld-4833"
         },
         {
             "name": "Emilia-Romagna-TEP-Parma",
-            "type": "http",
-            "url": "https://proxy.busone.app/tep/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3551",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -203,19 +203,32 @@
         },
         {
             "name": "Lazio-Rome",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-sr-atac~romatpl~trenitalia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1294",
             "fix": true
         },
         {
             "name": "Lazio-Rome",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-sr-atac~romatpl~trenitalia~rt"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1776",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lazio-Rome",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1778",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lazio-Rome",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1777",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Lazio-Cotral",
-            "type": "http",
-            "url": "https://proxy.busone.app/cotral/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3386",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -257,8 +270,8 @@
         },
         {
             "name": "Liguria-Genova",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-spyk-amtgenova",
+            "type": "mobility-database",
+            "mdb-id": "tld-958",
             "fix": true
         },
         {
@@ -269,8 +282,8 @@
         },
         {
             "name": "Lombardia-ATM",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u0nd-comunedimilano",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2666",
             "fix": true
         },
         {
@@ -308,8 +321,8 @@
         },
         {
             "name": "Lombardia-Trenord",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-u0n-trenord",
+            "type": "mobility-database",
+            "mdb-id": "mdb-855",
             "http-options": {
                 "fetch-interval-days": 2
             }
@@ -367,8 +380,8 @@
         },
         {
             "name": "Piemonte-Gruppo-Torinese-Trasporti",
-            "type": "http",
-            "url": "https://proxy.busone.app/gtt/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3587",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -405,8 +418,8 @@
         },
         {
             "name": "Puglia-Bari",
-            "type": "http",
-            "url": "https://proxy.busone.app/amtab/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3579",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -443,28 +456,28 @@
         },
         {
             "name": "Puglia-Ferrotramviaria",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-sr7f-ferrotramviariaspa~ferroviedelnordbarese"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1058"
         },
         {
             "name": "Puglia-Brindisi",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-s-societàtrasportipubblicibrindisi~brindisi"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2022"
         },
         {
             "name": "Puglia-Brindisi-Extraurbano",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-s-societàtrasportipubblicibrindisi~extraurbano"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2021"
         },
         {
             "name": "Puglia-Brindisi-Francavilla",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-s-societàtrasportipubblicibrindisi~francavilla"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2023"
         },
         {
             "name": "Puglia-Brindisi-Ostuni",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-s-societàtrasportipubblicibrindisi~ostuni"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2020"
         },
         {
             "name": "Puglia-Lecce",
@@ -474,34 +487,35 @@
         },
         {
             "name": "Sardegna-Contributate",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-spn-asara~atzeni~murgiaautolinee~baireautolinee~autolineedelgo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1049",
             "fix": true
         },
         {
             "name": "Sardegna-ARST",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-s-arstspa~trasportiregionalidellasardegna"
+            "type": "mobility-database",
+            "mdb-id": "mdb-895",
+            "url-override": "http://www.arstspa.info/arst-cagliari-it.zip"
         },
         {
             "name": "Sardegna-ASPO-Olbia",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-spqb-aspoolbia"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2008"
         },
         {
             "name": "Sardegna-ATP-Nuoro",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-s-atpnuoro"
+            "type": "mobility-database",
+            "mdb-id": "mdb-991"
         },
         {
             "name": "Sardegna-ATP-Sassari",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-spnp-atpsassari"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2009"
         },
         {
             "name": "Sardegna-CTM",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-snyr-ctmspa~cagliari"
+            "type": "mobility-database",
+            "mdb-id": "tld-576"
         },
         {
             "name": "Sardegna-Ferries-Collegamenti-marittimi-Corsica",
@@ -568,8 +582,8 @@
         },
         {
             "name": "Sicilia-Palermo-AMAT",
-            "type": "http",
-            "url": "https://opendata.comune.palermo.it/js/server/uploads/dataset/gtfs/amat_gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2373",
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
@@ -599,13 +613,13 @@
         },
         {
             "name": "Toscana-GEST",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-s-gest"
+            "type": "mobility-database",
+            "mdb-id": "tld-6956"
         },
         {
             "name": "Toscana-TFT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-sr-tft"
+            "type": "mobility-database",
+            "mdb-id": "tld-7005"
         },
         {
             "name": "Toscana-Toremar",
@@ -614,8 +628,8 @@
         },
         {
             "name": "Toscana-AT",
-            "type": "http",
-            "url": "https://proxy.busone.app/toscana/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3563",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -652,8 +666,8 @@
         },
         {
             "name": "Trentino-Trasporti",
-            "type": "http",
-            "url": "https://proxy.busone.app/trentino/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3582",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -690,8 +704,8 @@
         },
         {
             "name": "Veneto-Busitalia",
-            "type": "http",
-            "url": "https://proxy.busone.app/biv/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3584",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -728,8 +742,8 @@
         },
         {
             "name": "Veneto-Venezia-Bus",
-            "type": "http",
-            "url": "https://proxy.busone.app/actv-aut/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3590",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",
@@ -766,8 +780,8 @@
         },
         {
             "name": "Veneto-Venezia-Ferries",
-            "type": "http",
-            "url": "https://proxy.busone.app/actv-nav/gtfs.zip",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3548",
             "spec": "gtfs",
             "license": {
                 "url": "https://proxy.busone.app/#data-terms",

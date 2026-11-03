@@ -12,24 +12,47 @@
     "sources": [
         {
             "name": "RTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-9xj-rtd"
+            "type": "mobility-database",
+            "mdb-id": "mdb-178"
         },
         {
             "name": "RTD",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-rtddenver~rt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1678",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "RTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1676",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "RTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1677",
+            "spec": "gtfs-rt",
             "use-feed-proxy": true
         },
         {
             "name": "RTD-bustang",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-denver~rtd~bustang"
+            "type": "mobility-database",
+            "mdb-id": "mdb-2280"
         },
         {
             "name": "RTD-bustang",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-denver~rtd~bustang~rt",
+            "type": "mobility-database",
+            "mdb-id": "tld-4923-vp",
+            "spec": "gtfs-rt",
+            "use-feed-proxy": true
+        },
+        {
+            "name": "RTD-bustang",
+            "type": "mobility-database",
+            "mdb-id": "tld-4923-tu",
+            "spec": "gtfs-rt",
             "use-feed-proxy": true
         },
         {

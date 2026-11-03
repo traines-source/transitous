@@ -8,8 +8,8 @@
     "sources": [
         {
             "name": "EMEL",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-emel~limassol~cy",
+            "type": "mobility-database",
+            "mdb-id": "tld-5772",
             "fix": true
         },
         {
@@ -20,8 +20,8 @@
         },
         {
             "name": "Intercity",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-intercity~buses~cy"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1917"
         },
         {
             "name": "Intercity",
@@ -31,8 +31,8 @@
         },
         {
             "name": "LPT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-lpt~cy",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1919",
             "fix": true
         },
         {
@@ -43,8 +43,8 @@
         },
         {
             "name": "NPT",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-npt~cy",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1918",
             "fix": true
         },
         {
@@ -55,8 +55,8 @@
         },
         {
             "name": "OSEA-Famagusta",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-osea~famagusta~cy"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1916"
         },
         {
             "name": "OSEA-Famagusta",
@@ -66,8 +66,8 @@
         },
         {
             "name": "Osypa-Pafos",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-osypa~pafos~cy"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1915"
         },
         {
             "name": "Osypa-Pafos",
@@ -77,9 +77,10 @@
         },
         {
             "name": "Pame-Express",
-            "type": "http",
-            "url": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C11_google_transit.zip&rel=True",
-            "fix": true
+            "type": "mobility-database",
+            "mdb-id": "mdb-2901",
+            "fix": true,
+            "url-override": "https://motionbuscard.org.cy/opendata/downloadfile?file=GTFS%5C11_google_transit.zip&rel=True"
         },
         {
             "name": "Pame-Express",

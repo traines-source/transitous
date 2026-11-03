@@ -8,8 +8,9 @@
     "sources": [
         {
             "name": "advance-transit",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dru8-advancetransit"
+            "type": "mobility-database",
+            "mdb-id": "mdb-631",
+            "url-override": "https://data.trilliumtransit.com/gtfs/advancetransit-vt-us/advancetransit-vt-us.zip"
         },
         {
             "name": "advance-transit",
@@ -20,13 +21,13 @@
         },
         {
             "name": "coast",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-cooperative~alliance~for~seacoast~transportation"
+            "type": "mobility-database",
+            "mdb-id": "tld-4668"
         },
         {
             "name": "dartmouth",
-            "type": "transitland-atlas",
-            "transitland-atlas-id": "f-dartmouth~vt~us"
+            "type": "mobility-database",
+            "mdb-id": "mdb-1958"
         }
     ]
 }
