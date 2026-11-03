@@ -16,6 +16,106 @@
             "name": "NJ-Transit-Rail",
             "type": "mobility-database",
             "mdb-id": "mdb-509"
+        },
+        {
+            "name": "Academy-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-209",
+            "extend-calendar": true
+        },
+        {
+            "name": "Port-Authority-Trans-Hudson-(PATH)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-517",
+            "extend-calendar": true
+        },
+        {
+            "name": "Megabus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2321"
+        },
+        {
+            "name": "Boxcar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3105"
+        },
+        {
+            "name": "NY-Waterway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3192"
+        },
+        {
+            "name": "Academy-Lines",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20122"
+        },
+        {
+            "name": "Tuckerton-Seaport-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20190",
+            "extend-calendar": true
+        },
+        {
+            "name": "Cross-County-Connection",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20208"
+        },
+        {
+            "name": "Somerset-County",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20209"
+        },
+        {
+            "name": "Broadway-Bus-Corporation",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20220",
+            "extend-calendar": true
+        },
+        {
+            "name": "Cape-May-Lewes-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20223",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sussex-County-Skylands-Ride",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20950"
+        },
+        {
+            "name": "Fullington-Trailways",
+            "type": "mobility-database",
+            "mdb-id": "tld-4379"
+        },
+        {
+            "name": "Liberty-Landing-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "tld-5739",
+            "extend-calendar": true
+        },
+        {
+            "name": "NY-Waterway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3197",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NY-Waterway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3198",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NY-Waterway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3199",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NY-Waterway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3200",
+            "spec": "gtfs-rt"
         }
     ]
 }

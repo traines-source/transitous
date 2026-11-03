@@ -187,6 +187,18 @@
             "name": "bajs",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-bajs~zagreb~croatia~grad~gbfs"
+        },
+        {
+            "name": "DB-SBB-EC-ÖBB-NS-DSB-MAV-CD-PKP-RE-DPN-RZD-SWX-CFL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1139",
+            "extend-calendar": true
+        },
+        {
+            "name": "HŽ-Passenger-Transport",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3043",
+            "x-possible-duplicate-of": "hr.json: hz"
         }
     ]
 }

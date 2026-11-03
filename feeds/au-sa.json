@@ -22,6 +22,13 @@
             "type": "mobility-database",
             "spec": "gtfs-rt",
             "mdb-id": "mdb-1774"
+        },
+        {
+            "name": "Adelaide-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1772",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "au-sa.json: Adelaide-Metro"
         }
     ]
 }

@@ -70,6 +70,178 @@
             "type": "mobility-database",
             "mdb-id": "mdb-1488",
             "spec": "gtfs-rt"
+        },
+        {
+            "name": "Allen-County-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-210"
+        },
+        {
+            "name": "Butler-County-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-240",
+            "extend-calendar": true
+        },
+        {
+            "name": "Greater-Dayton-Regional-Transit-Authority-(Greater",
+            "type": "mobility-database",
+            "mdb-id": "mdb-403"
+        },
+        {
+            "name": "Central-Ohio-Transit-Authority-(COTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-404"
+        },
+        {
+            "name": "National-Park-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-405",
+            "extend-calendar": true
+        },
+        {
+            "name": "Laketran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-410"
+        },
+        {
+            "name": "Athens-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1973",
+            "extend-calendar": true
+        },
+        {
+            "name": "Portage-Area-Regional-Transportation-Authority-(PA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2256"
+        },
+        {
+            "name": "Steel-Valley-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3113",
+            "extend-calendar": true
+        },
+        {
+            "name": "Springfield-City-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50020",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-oh.json: Stark-Area-Regional-Transit-Authority"
+        },
+        {
+            "name": "Richland-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50090",
+            "extend-calendar": true
+        },
+        {
+            "name": "Steel-Valley-Regional-Transit-Authority-ntd-50142",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50142",
+            "extend-calendar": true
+        },
+        {
+            "name": "Licking-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50163"
+        },
+        {
+            "name": "Sandusky-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-1213_1"
+        },
+        {
+            "name": "Toledo-Area-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-1716_1"
+        },
+        {
+            "name": "Western-Reserve-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-1717"
+        },
+        {
+            "name": "Miller-Transportation-tld-4466",
+            "type": "mobility-database",
+            "mdb-id": "tld-4466"
+        },
+        {
+            "name": "Lorain-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7039"
+        },
+        {
+            "name": "Lawrence-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7829",
+            "extend-calendar": true
+        },
+        {
+            "name": "Central-Ohio-Transit-Authority-(COTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1430",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Central-Ohio-Transit-Authority-(COTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1431",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Central-Ohio-Transit-Authority-(COTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1432",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Southwest-Ohio-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1489",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-oh.json: Southwest-Ohio-Regional-Transit-Authority"
+        },
+        {
+            "name": "Southwest-Ohio-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1490",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-oh.json: Southwest-Ohio-Regional-Transit-Authority"
+        },
+        {
+            "name": "RTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3410",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3411",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3413",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Western-Reserve-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4692-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Western-Reserve-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4692-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Western-Reserve-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4692-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -19,6 +19,58 @@
                 "attribution_text": "Provided by Rejsekort & Rejseplan A/S, converted from event queue subscription using https://gitlab.spline.de/spline/transitous/danmark-rt/"
             },
             "url": "http://gtfs.spline.de/siri/danmark/estimated-timetable.xml"
+        },
+        {
+            "name": "KLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3243"
+        },
+        {
+            "name": "Skånetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3246"
+        },
+        {
+            "name": "Kombardo-Expressen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3264",
+            "extend-calendar": true
+        },
+        {
+            "name": "KLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3309",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "KLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3310",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "KLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3311",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Skånetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3318",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Skånetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3319",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Skånetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3320",
+            "spec": "gtfs-rt"
         }
     ]
 }

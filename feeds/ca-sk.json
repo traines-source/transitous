@@ -1,9 +1,34 @@
 {
-  "maintainers": [
-    {
-      "name": "Brock",
-      "github": "brockt"
-    }
-  ],
-  "sources": []
+    "maintainers": [
+        {
+            "name": "Brock",
+            "github": "brockt"
+        }
+    ],
+    "sources": [
+        {
+            "name": "Moose-Jaw-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2602",
+            "extend-calendar": true
+        },
+        {
+            "name": "Saskatoon-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1445",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Saskatoon-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1446",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Saskatoon-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1447",
+            "spec": "gtfs-rt"
+        }
+    ]
 }

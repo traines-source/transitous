@@ -19,6 +19,30 @@
             "fix": true,
             "fetch-interval-days": 1,
             "keep-additional-fields": false
+        },
+        {
+            "name": "YL-員林客運(公總)-(YL-Bus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-998",
+            "extend-calendar": true
+        },
+        {
+            "name": "Yuanlin-Passenger-Transport-(General-Manager)-CH-中",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1073",
+            "extend-calendar": true
+        },
+        {
+            "name": "Fengyuan-Passenger-Transport-TC-台中客運-(Taichung-Pas",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1083",
+            "extend-calendar": true
+        },
+        {
+            "name": "Fengyuan-Passenger-Transport-TC-台中客運-(Taichung-Pas",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1686",
+            "spec": "gtfs-rt"
         }
     ]
 }

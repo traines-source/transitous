@@ -13,7 +13,13 @@
             "license": {
                 "url": "https://www.dubaipulse.gov.ae/docs/DDE%20_%20DRAFT_Open_Data%20Licence_LONG_Form_English%203.pdf"
             },
-            "fix": true
+            "fix": true,
+            "extend-calendar": true
+        },
+        {
+            "name": "Department-of-Municipalities-and-Transport",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1329"
         }
     ]
 }

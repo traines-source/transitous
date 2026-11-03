@@ -340,7 +340,8 @@
         {
             "name": "東近江市ちょこっとバス",
             "type": "mobility-database",
-            "mdb-id": "jbda-higashiomicity-higasiohmisicommunitybus"
+            "mdb-id": "jbda-higashiomicity-higasiohmisicommunitybus",
+            "extend-calendar": true
         },
         {
             "name": "東浦町運行バス　う・ら・ら",
@@ -663,7 +664,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-kamikatsutown-kamikatsutownbus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "上山市営バス",
@@ -769,14 +771,16 @@
             "type": "mobility-database",
             "mdb-id": "jbda-kimitsucity-IC-SP_Local_buses_via_Kimitsu_City",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "【このフィードは終了しました】【IC対応路線】君津市経由路線バス・君津市コミュニティバス",
             "type": "mobility-database",
             "mdb-id": "jbda-kimitsucity-IC_Local_buses_via_Kimitsu_City_and_Kimitsu_City_Community_Bus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "君津市コミュニティバス",
@@ -1118,7 +1122,8 @@
         {
             "name": "石田・愛本",
             "type": "mobility-database",
-            "mdb-id": "jbda-kurobecity-ishida-aimoto"
+            "mdb-id": "jbda-kurobecity-ishida-aimoto",
+            "extend-calendar": true
         },
         {
             "name": "石田・愛本",
@@ -1137,7 +1142,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-kurobecity-shinkansenikujisen",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "新幹線生地線",
@@ -1458,21 +1464,24 @@
             "type": "mobility-database",
             "mdb-id": "jbda-minobutown-furusekikaiiwamasen",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "古関循環線",
             "type": "mobility-database",
             "mdb-id": "jbda-minobutown-furusekizyunkansen",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "飯富本栖湖線",
             "type": "mobility-database",
             "mdb-id": "jbda-minobutown-iitomimotosukosen",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "美濃加茂市コミュニティバス「あい愛バス」",
@@ -1665,17 +1674,20 @@
         {
             "name": "樋山路鎌城線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-HiyamajiKamagi"
+            "mdb-id": "jbda-nakatsucity-HiyamajiKamagi",
+            "extend-calendar": true
         },
         {
             "name": "川原口線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-Kawaraguchi"
+            "mdb-id": "jbda-nakatsucity-Kawaraguchi",
+            "extend-calendar": true
         },
         {
             "name": "城井線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-Kii"
+            "mdb-id": "jbda-nakatsucity-Kii",
+            "extend-calendar": true
         },
         {
             "name": "三保線",
@@ -1695,22 +1707,26 @@
         {
             "name": "大島伊福線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-OshimaIfuku"
+            "mdb-id": "jbda-nakatsucity-OshimaIfuku",
+            "extend-calendar": true
         },
         {
             "name": "大島台金吉線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-OshimadaiKanayoshi"
+            "mdb-id": "jbda-nakatsucity-OshimadaiKanayoshi",
+            "extend-calendar": true
         },
         {
             "name": "深耶馬東線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-ShinyabaHigashi"
+            "mdb-id": "jbda-nakatsucity-ShinyabaHigashi",
+            "extend-calendar": true
         },
         {
             "name": "深耶馬西線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-ShinyabaNishi"
+            "mdb-id": "jbda-nakatsucity-ShinyabaNishi",
+            "extend-calendar": true
         },
         {
             "name": "津民線",
@@ -1720,7 +1736,8 @@
         {
             "name": "上ノ川内柾木線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-UenokawauchiMasaki"
+            "mdb-id": "jbda-nakatsucity-UenokawauchiMasaki",
+            "extend-calendar": true
         },
         {
             "name": "裏耶馬溪線",
@@ -1735,12 +1752,14 @@
         {
             "name": "山移北線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-YamautsuriKita"
+            "mdb-id": "jbda-nakatsucity-YamautsuriKita",
+            "extend-calendar": true
         },
         {
             "name": "山移南線",
             "type": "mobility-database",
-            "mdb-id": "jbda-nakatsucity-YamautsuriMinami"
+            "mdb-id": "jbda-nakatsucity-YamautsuriMinami",
+            "extend-calendar": true
         },
         {
             "name": "中津川市コミュニティバス",
@@ -1847,7 +1866,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-nirasakicity-shiminbus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "ぐるっと生瀬",
@@ -1877,7 +1897,8 @@
         {
             "name": "ループバスおりひめバス",
             "type": "mobility-database",
-            "mdb-id": "jbda-nishiwakicity-loopbus-orihimebus"
+            "mdb-id": "jbda-nishiwakicity-loopbus-orihimebus",
+            "extend-calendar": true
         },
         {
             "name": "くるりんばす（日進市巡回バス）",
@@ -1956,7 +1977,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-okayacity-silkybus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "くわちゃんバス",
@@ -1986,7 +2008,8 @@
         {
             "name": "王滝村",
             "type": "mobility-database",
-            "mdb-id": "jbda-otakivillage-otaki-village"
+            "mdb-id": "jbda-otakivillage-otaki-village",
+            "extend-calendar": true
         },
         {
             "name": "大田原市営バス",
@@ -2070,7 +2093,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-rittocity-rittoukurichanbus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "龍ケ崎市コミュニティバス",
@@ -2117,7 +2141,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-sanjocity-guruttosan",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "産交バス",
@@ -2223,7 +2248,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-shimantocity-GTFS-Shimantocity_Demandbus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "四万十町コミュニティバス",
@@ -2261,7 +2287,8 @@
             "mdb-id": "jbda-shinonsentown-yumetsubame",
             "fix": true,
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "塩尻市地域振興バス「すてっぷくん」",
@@ -2291,14 +2318,16 @@
         {
             "name": "葵区中心市街地：医療・福祉施設路線",
             "type": "mobility-database",
-            "mdb-id": "jbda-shizuokacity-iryo-fukushi"
+            "mdb-id": "jbda-shizuokacity-iryo-fukushi",
+            "extend-calendar": true
         },
         {
             "name": "清水区小島地区：両河内線宍原系統",
             "type": "mobility-database",
             "mdb-id": "jbda-shizuokacity-ojima",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "清水区両河内地区：両河内線但沼系統、大平系統、板井沢系統（ココバス）",
@@ -2451,7 +2480,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-tambasasayamacity-communitybusheartrun",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "田野町コミュニティーバス「たのくるバス」",
@@ -2500,7 +2530,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-tochigi-nakagawatown-nakagawamaticommunitybus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "東北町町民バス",
@@ -2565,7 +2596,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-tokushima-minamitown-minabubyoinrenrakubus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "徳島市営バス",
@@ -2680,7 +2712,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-toyamacity-jojocommunitybus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "上条コミバス",
@@ -2737,7 +2770,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-toyamacity-mizuhashifureaicommunitybus",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "水橋ふれあいコミュニティバス",
@@ -2891,7 +2925,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-tsuyamacity-bus-tsuyamacity-okayama-jp",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "上田市街地循環バス・オレンジバス",
@@ -2929,7 +2964,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-uozucity-omotenashi",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "おもてなし魚津直行便",
@@ -2953,7 +2989,8 @@
             "mdb-id": "jbda-waketown-wakechoueibasu",
             "use-gtfsclean": false,
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "和光市内循環バス（わこば）",
@@ -3007,7 +3044,8 @@
             "type": "mobility-database",
             "mdb-id": "jbda-yamanashi-nanbutown-nanbucyoueibasu",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "山辺町営バス",
@@ -3284,7 +3322,8 @@
         {
             "name": "琴平路線",
             "type": "mobility-database",
-            "mdb-id": "jbda-kotosan-kotohira-local"
+            "mdb-id": "jbda-kotosan-kotohira-local",
+            "extend-calendar": true
         },
         {
             "name": "丸亀コミュニティバス",
@@ -3630,7 +3669,851 @@
         {
             "name": "Kumejima-Ocean-Jet-Co.-Ltd.",
             "type": "mobility-database",
-            "mdb-id": "mdb-3185"
+            "mdb-id": "mdb-3185",
+            "extend-calendar": true
+        },
+        {
+            "name": "昭島市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-akishimacity-Abus"
+        },
+        {
+            "name": "株式会社甘木観光バス",
+            "type": "mobility-database",
+            "mdb-id": "jbda-amagikankobus-AmagiKankoBus"
+        },
+        {
+            "name": "足利市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-ashikagacity-Ashikaga-route-bus"
+        },
+        {
+            "name": "「世界の蔵王」プロジェクト実行委員会",
+            "type": "mobility-database",
+            "mdb-id": "jbda-feel-the-zao-feelthezao",
+            "extend-calendar": true
+        },
+        {
+            "name": "蒲郡市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-gamagoricity-communitybus"
+        },
+        {
+            "name": "下呂市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-gerocity-gerobus"
+        },
+        {
+            "name": "太田市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-gunma-otacity-ootacitybus"
+        },
+        {
+            "name": "HAKUBAVALLEY事務局",
+            "type": "mobility-database",
+            "mdb-id": "jbda-hakubavalley-bus-hakubavalley-nagano-jp",
+            "extend-calendar": true
+        },
+        {
+            "name": "飯島町",
+            "type": "mobility-database",
+            "mdb-id": "jbda-iijimatown-iichanbus",
+            "extend-calendar": true
+        },
+        {
+            "name": "印西市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-inzaicity-rosenbus"
+        },
+        {
+            "name": "石狩湾新港地域公共交通サービス推進協議会",
+            "type": "mobility-database",
+            "mdb-id": "jbda-ishikariwanshinko-on-demandtransit_itsumo"
+        },
+        {
+            "name": "春日市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-kasugacity-yayoi_kasuga"
+        },
+        {
+            "name": "春日井市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-kasugaicity-kasugaicitybus"
+        },
+        {
+            "name": "NPO法人清里観光振興会",
+            "type": "mobility-database",
+            "mdb-id": "jbda-kiyosato-kiyosato-picnicbus",
+            "extend-calendar": true
+        },
+        {
+            "name": "国立市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-kunitachicity-kunikko"
+        },
+        {
+            "name": "玖珠町",
+            "type": "mobility-database",
+            "mdb-id": "jbda-kusutown-kusucommunity-bus"
+        },
+        {
+            "name": "松戸市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-matsudocity-matsudo-takatsuka"
+        },
+        {
+            "name": "南信州地域交通問題協議会（南信州広域連合）",
+            "type": "mobility-database",
+            "mdb-id": "jbda-minamishinshu-Minamishinshu-iidacity-3"
+        },
+        {
+            "name": "水巻町",
+            "type": "mobility-database",
+            "mdb-id": "jbda-mizumakitown-MizumakiTownBus"
+        },
+        {
+            "name": "村上市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-murakamicity-murakamisicommunitybus"
+        },
+        {
+            "name": "長野市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-naganocity-noriai"
+        },
+        {
+            "name": "大町市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-omachicity-omachiraicholiner",
+            "extend-calendar": true
+        },
+        {
+            "name": "さいたま市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-ajisaigou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-iwatsukikucommunitybus",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-iwatsukikucommunitybus"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-kawasemigou",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-kawasemigou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-kitakucommunitybus",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-kitakucommunitybus"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-minamikucommunitybus",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-minamikucommunitybus"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-minumagou",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-minumagou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-minumakucommunitybus",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-minumakucommunitybus"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-miyaharanakayoshigou",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-miyaharanakayoshigou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-musashigou",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-musashigou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-nisikucommunitybus",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-nisikucommunitybus"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-orizurugou",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-orizurugou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-rainbowgou",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-rainbowgou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-rakurakugou",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-rakurakugou"
+        },
+        {
+            "name": "さいたま市-jbda-saitamacity-sakurakucommunitybus",
+            "type": "mobility-database",
+            "mdb-id": "jbda-saitamacity-sakurakucommunitybus"
+        },
+        {
+            "name": "瀬戸内市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-setouchicity-setouchicitykankobus"
+        },
+        {
+            "name": "志摩市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-shimacity-anori"
+        },
+        {
+            "name": "鈴鹿市",
+            "type": "mobility-database",
+            "mdb-id": "jbda-suzukacity-communitybus"
+        },
+        {
+            "name": "立科町",
+            "type": "mobility-database",
+            "mdb-id": "jbda-tateshinatown-tateshinasmile",
+            "extend-calendar": true
+        },
+        {
+            "name": "東濃鉄道",
+            "type": "mobility-database",
+            "mdb-id": "jbda-tohtetsu-tohtetsu_kani"
+        },
+        {
+            "name": "東濃鉄道-jbda-tohtetsu-tohtetsu_tajimi",
+            "type": "mobility-database",
+            "mdb-id": "jbda-tohtetsu-tohtetsu_tajimi"
+        },
+        {
+            "name": "東信観光バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "jbda-toshinkanko-bus-rosenbus"
+        },
+        {
+            "name": "十和田観光電鉄株式会社",
+            "type": "mobility-database",
+            "mdb-id": "jbda-towadakankodentetsu-toutetsu"
+        },
+        {
+            "name": "十和田観光電鉄株式会社-jbda-towadakankodentetsu-toutetsu_airport_line",
+            "type": "mobility-database",
+            "mdb-id": "jbda-towadakankodentetsu-toutetsu_airport_line"
+        },
+        {
+            "name": "赤磐市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-AkaiwaCity-AllLines"
+        },
+        {
+            "name": "青森市企業局交通部",
+            "type": "mobility-database",
+            "mdb-id": "odpt-AomoriCity-AllLines"
+        },
+        {
+            "name": "大新東株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-Daishinto-Radiantcity_Yokohama",
+            "x-possible-duplicate-of": "jp.json: レイディアントシティ横濱"
+        },
+        {
+            "name": "株式会社群馬バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmaBus-AllLines"
+        },
+        {
+            "name": "群馬中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmachuoBus-AllLines"
+        },
+        {
+            "name": "東村山市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-HigashiMurayamaCity-Alllines"
+        },
+        {
+            "name": "東大和市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-HigashiyamatoCity-AllLines_CC0"
+        },
+        {
+            "name": "東大和市-odpt-HigashiyamatoCity-AllLines_CCBY4",
+            "type": "mobility-database",
+            "mdb-id": "odpt-HigashiyamatoCity-AllLines_CCBY4"
+        },
+        {
+            "name": "日立自動車交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-HitachiAutomobileTransportation-AllLines"
+        },
+        {
+            "name": "日立自動車交通株式会社-odpt-HitachiAutomobileTransportation-Chiyoda_ALLLINES",
+            "type": "mobility-database",
+            "mdb-id": "odpt-HitachiAutomobileTransportation-Chiyoda_ALLLINES"
+        },
+        {
+            "name": "日立自動車交通株式会社-odpt-HitachiAutomobileTransportation-KitaAllLines",
+            "type": "mobility-database",
+            "mdb-id": "odpt-HitachiAutomobileTransportation-KitaAllLines"
+        },
+        {
+            "name": "稲城市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-InagiCity-ibas_A_course",
+            "extend-calendar": true
+        },
+        {
+            "name": "上信ハイヤー株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinHire-AllLines"
+        },
+        {
+            "name": "株式会社上信観光バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinKankoBus-AllLines"
+        },
+        {
+            "name": "鹿児島市船舶局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KagoshimaCityMaritimeBureau-AllLines"
+        },
+        {
+            "name": "関越交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-Kan_etsuTransportation-AllLines"
+        },
+        {
+            "name": "京福バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeifukuBus-keifuku_rosen"
+        },
+        {
+            "name": "京成バス千葉ウエスト株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeiseiTransitBus-AllLines",
+            "x-possible-duplicate-of": "jp.json: 京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）"
+        },
+        {
+            "name": "清瀬市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KiyoseCity-KiyoBus"
+        },
+        {
+            "name": "国分寺市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KokubunjiCity-kokubunji_city_bunbus"
+        },
+        {
+            "name": "国立市道路交通課",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KunitachiCity-kunitachi_city_aoyagikko",
+            "x-possible-duplicate-of": "jp.json: 国立市コミュニティワゴン「あおやぎっこ」"
+        },
+        {
+            "name": "国立市道路交通課-odpt-KunitachiCity-kunitachi_city_kunikko",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KunitachiCity-kunitachi_city_kunikko"
+        },
+        {
+            "name": "町田市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-MachidaCity-AllLines"
+        },
+        {
+            "name": "みどり市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-MidoriCity-AllLines"
+        },
+        {
+            "name": "三宅村",
+            "type": "mobility-database",
+            "mdb-id": "odpt-MiyakeVill-AllLine"
+        },
+        {
+            "name": "瑞穂町",
+            "type": "mobility-database",
+            "mdb-id": "odpt-MizuhoTown-AllLines",
+            "x-possible-duplicate-of": "jp.json: 瑞穂町コミュニティバス"
+        },
+        {
+            "name": "永井運輸株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagaiTransportation-AllLines",
+            "x-possible-duplicate-of": "jp.json: 永井バス"
+        },
+        {
+            "name": "永井運輸株式会社-odpt-NagaiTransportation-Tamarin",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagaiTransportation-Tamarin",
+            "extend-calendar": true
+        },
+        {
+            "name": "名古屋市住宅都市局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagoyaHousingCityPlanningBureau-NagoyaSRT_AllLines"
+        },
+        {
+            "name": "日本中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NipponChuoBus-Maebashi_Area"
+        },
+        {
+            "name": "日本中央バス株式会社-odpt-NipponChuoBus-Okutano_Area",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NipponChuoBus-Okutano_Area",
+            "extend-calendar": true
+        },
+        {
+            "name": "西東京市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NishitokyoCity-AllLines"
+        },
+        {
+            "name": "大利根交通自動車株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-OtoneKotsu-AllLines",
+            "x-possible-duplicate-of": "jp.json: 大利根交通バス"
+        },
+        {
+            "name": "仙台市交通局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-SendaiMunicipal-bus_realtime_information"
+        },
+        {
+            "name": "小豆島オリーブバス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-ShodoshimaOliveBus-AllLines",
+            "extend-calendar": true
+        },
+        {
+            "name": "立川市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TachikawaCity-kururin_bus_alllines",
+            "x-possible-duplicate-of": "jp.json: くるりんバス"
+        },
+        {
+            "name": "高崎市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TakasakiCity-yosiibus"
+        },
+        {
+            "name": "東京都観光汽船株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TokyoCruiseShip-AllLines"
+        },
+        {
+            "name": "杉並区",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TokyoSuginamiCity-GreenSlowMobility"
+        },
+        {
+            "name": "台東区",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TokyoTaitoCity-megurinCCBY40"
+        },
+        {
+            "name": "土佐市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosaCity-AllLines",
+            "x-possible-duplicate-of": "jp.json: 土佐市コミュニティバス「ドラゴンバス」"
+        },
+        {
+            "name": "とさでん交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Airportbus",
+            "x-possible-duplicate-of": "jp.json: kochi-ekimae-kanko-Ekimae-Airportbus"
+        },
+        {
+            "name": "とさでん交通株式会社-odpt-TosadenTraffic-Regularbus",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Regularbus",
+            "x-possible-duplicate-of": "jp.json: tosaden-kotsu-Tosadentraffic-Regularbus"
+        },
+        {
+            "name": "とさでん交通株式会社-odpt-TosadenTraffic-Streetcar",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Streetcar",
+            "x-possible-duplicate-of": "jp.json: 路面電車"
+        },
+        {
+            "name": "青森市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-UrbanDevelopment_AomoriCity-AllLines"
+        },
+        {
+            "name": "中勢営業所",
+            "type": "mobility-database",
+            "mdb-id": "jbda-mie-kotsu-sancochusei-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "中勢営業所",
+            "type": "mobility-database",
+            "mdb-id": "jbda-mie-kotsu-sancochusei-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "中勢営業所",
+            "type": "mobility-database",
+            "mdb-id": "jbda-mie-kotsu-sancochusei-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "南紀営業所",
+            "type": "mobility-database",
+            "mdb-id": "jbda-mie-kotsu-sancoinanki-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "南紀営業所",
+            "type": "mobility-database",
+            "mdb-id": "jbda-mie-kotsu-sancoinanki-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "南紀営業所",
+            "type": "mobility-database",
+            "mdb-id": "jbda-mie-kotsu-sancoinanki-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "長野市営バス・乗合タクシー",
+            "type": "mobility-database",
+            "mdb-id": "jbda-naganocity-shiei_noriaibus-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "長野市営バス・乗合タクシー",
+            "type": "mobility-database",
+            "mdb-id": "jbda-naganocity-shiei_noriaibus-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "長野市営バス・乗合タクシー",
+            "type": "mobility-database",
+            "mdb-id": "jbda-naganocity-shiei_noriaibus-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "青森市企業局交通部",
+            "type": "mobility-database",
+            "mdb-id": "odpt-AomoriCity-AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "青森市企業局交通部",
+            "type": "mobility-database",
+            "mdb-id": "odpt-AomoriCity-AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "青森市企業局交通部",
+            "type": "mobility-database",
+            "mdb-id": "odpt-AomoriCity-AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "株式会社群馬バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmaBus-AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "株式会社群馬バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmaBus-AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "株式会社群馬バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmaBus-AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "群馬中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmachuoBus-AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "群馬中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmachuoBus-AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "群馬中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-GunmachuoBus-AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "上信ハイヤー株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinHire-AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "上信ハイヤー株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinHire-AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "上信ハイヤー株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinHire-AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "株式会社上信観光バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinKankoBus-AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "株式会社上信観光バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinKankoBus-AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "株式会社上信観光バス",
+            "type": "mobility-database",
+            "mdb-id": "odpt-JoshinKankoBus-AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "関越交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-Kan_etsuTransportation-AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "関越交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-Kan_etsuTransportation-AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "関越交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-Kan_etsuTransportation-AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "京福バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeifukuBus-keifuku_rosen-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "京福バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeifukuBus-keifuku_rosen-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "京福バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeifukuBus-keifuku_rosen-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "京成バス千葉ウエスト株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeiseiTransitBus-AllLines-sa",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "jp.json: 京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）"
+        },
+        {
+            "name": "京成バス千葉ウエスト株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeiseiTransitBus-AllLines-tu",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "jp.json: 京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）"
+        },
+        {
+            "name": "京成バス千葉ウエスト株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KeiseiTransitBus-AllLines-vp",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "jp.json: 京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）"
+        },
+        {
+            "name": "清瀬市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KiyoseCity-KiyoBus-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "清瀬市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-KiyoseCity-KiyoBus-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "永井運輸株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagaiTransportation-AllLines-sa",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "jp.json: 永井バス"
+        },
+        {
+            "name": "永井運輸株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagaiTransportation-AllLines-tu",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "jp.json: 永井バス"
+        },
+        {
+            "name": "永井運輸株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagaiTransportation-AllLines-vp",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "jp.json: 永井バス"
+        },
+        {
+            "name": "名古屋市住宅都市局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagoyaHousingCityPlanningBureau-NagoyaSRT_AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "名古屋市住宅都市局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagoyaHousingCityPlanningBureau-NagoyaSRT_AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "名古屋市住宅都市局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NagoyaHousingCityPlanningBureau-NagoyaSRT_AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "日本中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NipponChuoBus-Maebashi_Area-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "日本中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NipponChuoBus-Maebashi_Area-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "日本中央バス株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-NipponChuoBus-Maebashi_Area-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "仙台市交通局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-SendaiMunicipal-bus_realtime_information-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "仙台市交通局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-SendaiMunicipal-bus_realtime_information-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "仙台市交通局",
+            "type": "mobility-database",
+            "mdb-id": "odpt-SendaiMunicipal-bus_realtime_information-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "高崎市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TakasakiCity-yosiibus-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "高崎市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TakasakiCity-yosiibus-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "高崎市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TakasakiCity-yosiibus-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "杉並区",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TokyoSuginamiCity-GreenSlowMobility-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "杉並区",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TokyoSuginamiCity-GreenSlowMobility-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "土佐市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosaCity-AllLines-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "土佐市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosaCity-AllLines-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "土佐市",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosaCity-AllLines-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "とさでん交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Airportbus-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "とさでん交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Airportbus-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "とさでん交通株式会社",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Airportbus-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "とさでん交通株式会社-odpt-TosadenTraffic-Regularbus",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Regularbus-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "とさでん交通株式会社-odpt-TosadenTraffic-Regularbus",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Regularbus-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "とさでん交通株式会社-odpt-TosadenTraffic-Regularbus",
+            "type": "mobility-database",
+            "mdb-id": "odpt-TosadenTraffic-Regularbus-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -19,6 +19,18 @@
             "name": "KRL-Commuter-Line",
             "type": "http",
             "url": "https://github.com/open-krl/pipeline/releases/latest/download/krl_gtfs_v1.zip"
+        },
+        {
+            "name": "Monkey-Forest-Ubud-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1018",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bogor-Angkots",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1229",
+            "extend-calendar": true
         }
     ]
 }

@@ -53,6 +53,634 @@
             "name": "Megabus",
             "type": "mobility-database",
             "mdb-id": "tld-5741"
+        },
+        {
+            "name": "Valley-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-142"
+        },
+        {
+            "name": "Pocatello-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-171"
+        },
+        {
+            "name": "Campus-Area-Rapid-Transit-(CART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-182"
+        },
+        {
+            "name": "Sioux-Area-Metro-(SAM)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-192",
+            "extend-calendar": true
+        },
+        {
+            "name": "Anchorage-People-Mover",
+            "type": "mobility-database",
+            "mdb-id": "mdb-225"
+        },
+        {
+            "name": "Inter-Island-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-243"
+        },
+        {
+            "name": "Ketchikan-Gateway-Borough",
+            "type": "mobility-database",
+            "mdb-id": "mdb-244"
+        },
+        {
+            "name": "Capital-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-294"
+        },
+        {
+            "name": "Montgomery-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-338"
+        },
+        {
+            "name": "Charleston-Area-Regional-Transportation-Authority-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-352"
+        },
+        {
+            "name": "Metro-North-Railroad",
+            "type": "mobility-database",
+            "mdb-id": "mdb-524"
+        },
+        {
+            "name": "Greater-Bridgeport-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-530"
+        },
+        {
+            "name": "Shore-Line-East",
+            "type": "mobility-database",
+            "mdb-id": "mdb-550",
+            "extend-calendar": true
+        },
+        {
+            "name": "Middletown-Area-Transit-(MAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-551"
+        },
+        {
+            "name": "Connecticut-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-553"
+        },
+        {
+            "name": "Clemson-Area-Transit-(CAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-798",
+            "extend-calendar": true
+        },
+        {
+            "name": "Embark",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2062"
+        },
+        {
+            "name": "Huntsville-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2081"
+        },
+        {
+            "name": "Cities-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2199"
+        },
+        {
+            "name": "The-Comet",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2209"
+        },
+        {
+            "name": "Areawide-Community-Transportation-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2211",
+            "extend-calendar": true
+        },
+        {
+            "name": "Southeast-Area-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2240"
+        },
+        {
+            "name": "Norwalk-Transit-System-(NTS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2242"
+        },
+        {
+            "name": "Omaha-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2261"
+        },
+        {
+            "name": "StarTran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2269"
+        },
+        {
+            "name": "Mountain-Rides-Transportation-Authority-(MRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2282"
+        },
+        {
+            "name": "Kimball-County-Transit-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2316",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Gadsen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2419"
+        },
+        {
+            "name": "City-of-Jackson-(JTRAN)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2652"
+        },
+        {
+            "name": "Connecticut-Transit-mdb-2840",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2840"
+        },
+        {
+            "name": "Keep-Tahoe-Blue",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2876"
+        },
+        {
+            "name": "Gulf-Islands-National-Seashore",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3210"
+        },
+        {
+            "name": "Birmingham-Jefferson-County-Transit-Authority-(MAX",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3434"
+        },
+        {
+            "name": "Metropolitan-Area-Commuter-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3523"
+        },
+        {
+            "name": "Coast-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3525"
+        },
+        {
+            "name": "Alaska-Railroad-Corporation",
+            "type": "mobility-database",
+            "mdb-id": "ntd-41",
+            "extend-calendar": true
+        },
+        {
+            "name": "Selkirk-Pend-Oreille-Transit-Authority-(SMART)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-341",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Bethel",
+            "type": "mobility-database",
+            "mdb-id": "ntd-387",
+            "extend-calendar": true
+        },
+        {
+            "name": "Silver-Express-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "ntd-404"
+        },
+        {
+            "name": "Milford-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10107"
+        },
+        {
+            "name": "Mashantucket-Pequot-Tribal-Nation",
+            "type": "mobility-database",
+            "mdb-id": "ntd-11152"
+        },
+        {
+            "name": "Pee-Dee-Regional-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40056"
+        },
+        {
+            "name": "City-of-Hattiesburg",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40060"
+        },
+        {
+            "name": "Spartanburg-Area-Regional-Transit-Agency-(SPARTA)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40101",
+            "extend-calendar": true
+        },
+        {
+            "name": "Municipality-of-Vega-Baja",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40117"
+        },
+        {
+            "name": "Municipality-of-Bayamon",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40137"
+        },
+        {
+            "name": "Aiken-Senior-Life-Services",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40156",
+            "extend-calendar": true
+        },
+        {
+            "name": "Virgin-Island-Transit-(VITran)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40188"
+        },
+        {
+            "name": "TriCounty-Link",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40206"
+        },
+        {
+            "name": "City-of-Edmond",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60118",
+            "extend-calendar": true
+        },
+        {
+            "name": "Oklahoma-State-University--Stillwater-Community-Tr",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60160"
+        },
+        {
+            "name": "First-Capital-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60214",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Fargo",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80003"
+        },
+        {
+            "name": "Metropolitan-Tulsa-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-235"
+        },
+        {
+            "name": "Autoridad-de-Transporte-Integrado",
+            "type": "mobility-database",
+            "mdb-id": "tld-319",
+            "extend-calendar": true
+        },
+        {
+            "name": "Greenlink",
+            "type": "mobility-database",
+            "mdb-id": "tld-490"
+        },
+        {
+            "name": "Housatonic-Area-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4385"
+        },
+        {
+            "name": "North-Fork-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4469"
+        },
+        {
+            "name": "University-of-Connecticut-(UCONN--WRTD)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4473"
+        },
+        {
+            "name": "Citylink-North-(Kootenai-County)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4791"
+        },
+        {
+            "name": "Citylink-South-(Kootenai-County)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4792"
+        },
+        {
+            "name": "River-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5750"
+        },
+        {
+            "name": "Tri-City-Roadrunner",
+            "type": "mobility-database",
+            "mdb-id": "tld-5759",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bis-Man-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6095"
+        },
+        {
+            "name": "Open-Plains-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6708"
+        },
+        {
+            "name": "City-of-Mobile",
+            "type": "mobility-database",
+            "mdb-id": "tld-6773"
+        },
+        {
+            "name": "National-Park-Service-tld-6904",
+            "type": "mobility-database",
+            "mdb-id": "tld-6904",
+            "extend-calendar": true
+        },
+        {
+            "name": "Fort-Sumter-and-Fort-Moultrie-National-Historical-",
+            "type": "mobility-database",
+            "mdb-id": "tld-6906"
+        },
+        {
+            "name": "Seldovia-Bay-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "tld-7034",
+            "extend-calendar": true
+        },
+        {
+            "name": "Tuscaloosa-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-7046"
+        },
+        {
+            "name": "Citylink-Edmond",
+            "type": "mobility-database",
+            "mdb-id": "tld-7841"
+        },
+        {
+            "name": "OSU-Stillwater-Community-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7941"
+        },
+        {
+            "name": "Metro-North-Railroad",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1626",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Anchorage-People-Mover",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1656",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Capital-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1672",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Capital-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1673",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Charleston-Area-Regional-Transportation-Authority-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1735",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Charleston-Area-Regional-Transportation-Authority-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1736",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Charleston-Area-Regional-Transportation-Authority-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1737",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Middletown-Area-Transit-(MAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2271",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Connecticut-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2422",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Connecticut-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2423",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Connecticut-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2424",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2452",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2453",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2454",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pioneer-Valley-Transit-Authority-(PVTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2669",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pioneer-Valley-Transit-Authority-(PVTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2670",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pioneer-Valley-Transit-Authority-(PVTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2671",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Greenlink",
+            "type": "mobility-database",
+            "mdb-id": "tld-2266-tu_1",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Greenlink",
+            "type": "mobility-database",
+            "mdb-id": "tld-2266-vp_1",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Embark",
+            "type": "mobility-database",
+            "mdb-id": "tld-4297-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Embark",
+            "type": "mobility-database",
+            "mdb-id": "tld-4297-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metropolitan-Tulsa-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4374-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metropolitan-Tulsa-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4374-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metropolitan-Tulsa-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4374-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4375-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4375-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Valley-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4375-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Norwalk-Transit-System-(NTS)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4790-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Norwalk-Transit-System-(NTS)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4790-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Norwalk-Transit-System-(NTS)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4790-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "StarTran",
+            "type": "mobility-database",
+            "mdb-id": "tld-5554-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "StarTran",
+            "type": "mobility-database",
+            "mdb-id": "tld-5554-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "StarTran",
+            "type": "mobility-database",
+            "mdb-id": "tld-5554-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Housatonic-Area-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5903-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Housatonic-Area-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5903-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Housatonic-Area-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5903-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bis-Man-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6096-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bis-Man-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6096-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bis-Man-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6096-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Mobile",
+            "type": "mobility-database",
+            "mdb-id": "tld-6774-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Mobile",
+            "type": "mobility-database",
+            "mdb-id": "tld-6774-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Mobile",
+            "type": "mobility-database",
+            "mdb-id": "tld-6774-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

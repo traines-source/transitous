@@ -159,7 +159,8 @@
         {
             "name": "sun-metro",
             "type": "mobility-database",
-            "mdb-id": "mdb-148"
+            "mdb-id": "mdb-148",
+            "extend-calendar": true
         },
         {
             "name": "star-transit",
@@ -171,6 +172,182 @@
             "name": "laredo",
             "type": "mobility-database",
             "mdb-id": "tld-7038"
+        },
+        {
+            "name": "Denton-County-Transportation-Authority-(DCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-151",
+            "extend-calendar": true
+        },
+        {
+            "name": "Amarillo-City-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-213",
+            "extend-calendar": true
+        },
+        {
+            "name": "Corpus-Christi-Regional-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-315",
+            "extend-calendar": true
+        },
+        {
+            "name": "Connect-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-625",
+            "extend-calendar": true
+        },
+        {
+            "name": "EZ-Rider",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2634"
+        },
+        {
+            "name": "Galveston-Island-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2861"
+        },
+        {
+            "name": "Trinity-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2890"
+        },
+        {
+            "name": "Dallas-Host-Committee",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3218",
+            "extend-calendar": true
+        },
+        {
+            "name": "El-Paso-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3419"
+        },
+        {
+            "name": "City-of-Abilene",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60040",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Longview",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60081",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Tyler",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60089"
+        },
+        {
+            "name": "Hill-Country-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60091",
+            "extend-calendar": true
+        },
+        {
+            "name": "Texarkana-Urban-Transit-District-(T-Line-Bus)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60093"
+        },
+        {
+            "name": "Golden-Crescent-Regional-Planning-Commission",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60095",
+            "extend-calendar": true
+        },
+        {
+            "name": "Midland-Odessa-Urban-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60097"
+        },
+        {
+            "name": "Metro-McAllen",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60099"
+        },
+        {
+            "name": "Fort-Bend-County-Texas",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60103"
+        },
+        {
+            "name": "City-of-Cleburne",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60113",
+            "extend-calendar": true
+        },
+        {
+            "name": "McKinney-Avenue-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60133"
+        },
+        {
+            "name": "South-Texas-College",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60274",
+            "extend-calendar": true
+        },
+        {
+            "name": "San-Marcos-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-66343",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bobcat-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4834_1",
+            "extend-calendar": true
+        },
+        {
+            "name": "Port-Arthur-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5748",
+            "extend-calendar": true
+        },
+        {
+            "name": "Brownsville-Metro",
+            "type": "mobility-database",
+            "mdb-id": "tld-7927"
+        },
+        {
+            "name": "capital-metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1428",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-tx.json: capital-metro"
+        },
+        {
+            "name": "Denton-County-Transportation-Authority-(DCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1456",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Denton-County-Transportation-Authority-(DCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1457",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "El-Paso-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3203",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "El-Paso-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3204",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "El-Paso-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3420",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -44,6 +44,33 @@
             "name": "WVU-PRT",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-west~virginia~university"
+        },
+        {
+            "name": "Tri-State-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-30002",
+            "extend-calendar": true
+        },
+        {
+            "name": "Country-Roads-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-30122"
+        },
+        {
+            "name": "Kanawha-Valley-Regional-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-5769"
+        },
+        {
+            "name": "West-Virginia-University-Morgantown-Personal-Rapid",
+            "type": "mobility-database",
+            "mdb-id": "tld-7068_1"
+        },
+        {
+            "name": "Potomac-Valley-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-7850",
+            "extend-calendar": true
         }
     ]
 }

@@ -71,6 +71,58 @@
                 "spdx-identifier": "CC-BY-4.0"
             },
             "fix": true
+        },
+        {
+            "name": "Land-Transport-Authority-(Singapore)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3051"
+        },
+        {
+            "name": "BAS.MY-Kangar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3157",
+            "x-possible-duplicate-of": "my.json: BAS.MY-Seremban-A"
+        },
+        {
+            "name": "BAS.MY-Alor-Setar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3158",
+            "x-possible-duplicate-of": "my.json: BAS.MY-Seremban-A"
+        },
+        {
+            "name": "BAS.MY-Kota-Bharu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3159",
+            "x-possible-duplicate-of": "my.json: BAS.MY-Seremban-A"
+        },
+        {
+            "name": "BAS.MY-Kuala-Terengganu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3160",
+            "x-possible-duplicate-of": "my.json: BAS.MY-Seremban-A"
+        },
+        {
+            "name": "BAS.MY-Ipoh",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3161",
+            "x-possible-duplicate-of": "my.json: BAS.MY-Seremban-A"
+        },
+        {
+            "name": "BAS.MY-Melaka",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3164",
+            "x-possible-duplicate-of": "my.json: BAS.MY-Seremban-A"
+        },
+        {
+            "name": "BAS.MY-Johor-Bahru",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3165",
+            "x-possible-duplicate-of": "my.json: BAS.MY-Seremban-A"
+        },
+        {
+            "name": "Singapore-typical-weekday",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3409"
         }
     ]
 }

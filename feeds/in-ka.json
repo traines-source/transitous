@@ -19,6 +19,11 @@
                 "spdx-identifier": "MIT-0"
             },
             "extend-calendar": true
+        },
+        {
+            "name": "Hubli-Dharwad-Bus-Rapid-Transit-System-Company-Ltd",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3141"
         }
     ]
 }

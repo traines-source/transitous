@@ -119,7 +119,199 @@
             "name": "nysse",
             "type": "mobility-database",
             "mdb-id": "mdb-866",
-            "url-override": "https://data.itsfactory.fi/journeys/files/gtfs/latest/gtfs_tampere.zip"
+            "url-override": "https://data.itsfactory.fi/journeys/files/gtfs/latest/gtfs_tampere.zip",
+            "extend-calendar": true
+        },
+        {
+            "name": "Turku",
+            "type": "mobility-database",
+            "mdb-id": "mdb-864"
+        },
+        {
+            "name": "Waltti---Jyväskylä",
+            "type": "mobility-database",
+            "mdb-id": "mdb-867"
+        },
+        {
+            "name": "Kuopio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-868"
+        },
+        {
+            "name": "Lappeenranta",
+            "type": "mobility-database",
+            "mdb-id": "mdb-929"
+        },
+        {
+            "name": "Public-Transport-Germany",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1090"
+        },
+        {
+            "name": "Waltti---Hämeenlinna",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1098"
+        },
+        {
+            "name": "Porvoon-Museorautatie-Pieksämäen-Höyryveturiyhdist",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1102"
+        },
+        {
+            "name": "Finferries-Alandstrafiken-Rosita-Oy-JS-Ferryway-Lt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1114"
+        },
+        {
+            "name": "POS-ELY-Joensuu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1125",
+            "extend-calendar": true
+        },
+        {
+            "name": "Waltti---Kotka",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1127"
+        },
+        {
+            "name": "Waltti---Kouvola",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1128"
+        },
+        {
+            "name": "Haarasilta-Toivo-Samuli-Järvisen-Liikenne-Oy-Koivi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1129"
+        },
+        {
+            "name": "Mikkeli",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1130"
+        },
+        {
+            "name": "Waltti---Vaasa",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1131"
+        },
+        {
+            "name": "Waltti---Joensuu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1227"
+        },
+        {
+            "name": "Komia-Liikenne",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1255",
+            "extend-calendar": true
+        },
+        {
+            "name": "POSELY",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1317",
+            "extend-calendar": true
+        },
+        {
+            "name": "Waltti---Pori",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2839"
+        },
+        {
+            "name": "Mäntylän-Alueen-Liikenne",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2905",
+            "extend-calendar": true
+        },
+        {
+            "name": "Vekka-Liikenne-Oy-Kainuun-Tilausliikenne-P.-Jääske",
+            "type": "mobility-database",
+            "mdb-id": "tld-829"
+        },
+        {
+            "name": "Kuopion-Tila-Auto-Oy*-Oy-Pohjolan-liikenne-Ab*-Kym",
+            "type": "mobility-database",
+            "mdb-id": "tld-832"
+        },
+        {
+            "name": "Koskilinjat-Oy",
+            "type": "mobility-database",
+            "mdb-id": "tld-5528"
+        },
+        {
+            "name": "J.-Vainion-Liikenne-Oy-LS-Liikennelinjat-Oy-Salon-",
+            "type": "mobility-database",
+            "mdb-id": "tld-5529"
+        },
+        {
+            "name": "nysse",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1586",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "nysse",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1587",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "nysse",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1588",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Haarasilta-Toivo-Samuli-Järvisen-Liikenne-Oy-Koivi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1589",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Haarasilta-Toivo-Samuli-Järvisen-Liikenne-Oy-Koivi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1590",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Haarasilta-Toivo-Samuli-Järvisen-Liikenne-Oy-Koivi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1591",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Waltti---Joensuu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1592",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Waltti---Joensuu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1593",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Waltti---Joensuu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1594",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Waltti---Jyväskylä",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1595",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Waltti---Jyväskylä",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1596",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Waltti---Jyväskylä",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1597",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -206,6 +206,23 @@
             "name": "Translink-WHT",
             "type": "mobility-database",
             "mdb-id": "mdb-676"
+        },
+        {
+            "name": "Youngs-Bus-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-655",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sunbus-Townsville",
+            "type": "mobility-database",
+            "mdb-id": "mdb-677"
+        },
+        {
+            "name": "Sunbus-Rockhampton",
+            "type": "mobility-database",
+            "mdb-id": "mdb-907",
+            "extend-calendar": true
         }
     ]
 }

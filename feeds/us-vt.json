@@ -112,6 +112,76 @@
             "transitland-atlas-id": "f-dru-vttranslines~vt~us~rt~alerts",
             "skip": true,
             "skip-reason": "api-key is missing"
+        },
+        {
+            "name": "Marble-Valley-Regional-Transit-District-(MVRTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-430",
+            "x-possible-duplicate-of": "us-vt.json: tri-valley-transit"
+        },
+        {
+            "name": "Stagecoach-Transportation-Services-(STS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-449",
+            "extend-calendar": true
+        },
+        {
+            "name": "Addison-County-Transit-(ACTR)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-543",
+            "extend-calendar": true
+        },
+        {
+            "name": "Rockingham-MOOver",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2194"
+        },
+        {
+            "name": "Amtrak-Vermonter",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2297"
+        },
+        {
+            "name": "Rural-Community-Transportation-(RCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2882",
+            "x-possible-duplicate-of": "us-vt.json: ruralcommunity"
+        },
+        {
+            "name": "Marble-Valley-Regional-Transit-District-(MVRTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1502",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Marble-Valley-Regional-Transit-District-(MVRTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1503",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "The-Current",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1510",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "The-Current",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1511",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "gmt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1514",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "gmt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1515",
+            "spec": "gtfs-rt"
         }
     ]
 }

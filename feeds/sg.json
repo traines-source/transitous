@@ -10,6 +10,11 @@
             "name": "LTA",
             "type": "mobility-database",
             "mdb-id": "mdb-1076"
+        },
+        {
+            "name": "Mandai-Wildlife-Reserve",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2938"
         }
     ]
 }

@@ -30,6 +30,34 @@
             "license": {
                 "url": "https://www.dtpm.cl/index.php/homepage/sistema-de-transportes/datos-y-servicios"
             }
+        },
+        {
+            "name": "LISERCO-LINCOSUR-LISANCO",
+            "type": "mobility-database",
+            "mdb-id": "mdb-561",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sociedad-de-Transportes-Linea-N°5-S.A.-Sociedad-de",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1864"
+        },
+        {
+            "name": "Asociación-Gremial-Buses-Manzanal-Trans-O'higgins-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1865",
+            "extend-calendar": true
+        },
+        {
+            "name": "Abate-Molina-Ltda-Sotratal-s.a-Taxutal-s.a-Interbu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1866",
+            "extend-calendar": true
+        },
+        {
+            "name": "Red-Metropolitana-de-Movilida-EFE-Trenes-de-Chile-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3357"
         }
     ]
 }

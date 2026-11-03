@@ -24,6 +24,33 @@
             "license": {
                 "spdx-identifier": "Apache-2.0"
             }
+        },
+        {
+            "name": "MetroTas-Hobart",
+            "type": "mobility-database",
+            "mdb-id": "mdb-665",
+            "extend-calendar": true
+        },
+        {
+            "name": "MetroTas-Burnie",
+            "type": "mobility-database",
+            "mdb-id": "mdb-681"
+        },
+        {
+            "name": "MetroTas-Launceston",
+            "type": "mobility-database",
+            "mdb-id": "mdb-682"
+        },
+        {
+            "name": "MerseyLink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1251",
+            "extend-calendar": true
+        },
+        {
+            "name": "SkyBus-Hobart",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3147"
         }
     ]
 }

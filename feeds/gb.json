@@ -56,6 +56,223 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://rt.flix.baguette.pirnet.si/rt.pb"
+        },
+        {
+            "name": "French-Brothers-Ltd",
+            "type": "mobility-database",
+            "mdb-id": "mdb-986",
+            "extend-calendar": true
+        },
+        {
+            "name": "Transport-for-Greater-Manchester-Arriva-in-the-Nor",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1103"
+        },
+        {
+            "name": "Chiltern-Railways",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1311"
+        },
+        {
+            "name": "Brighton-&-Hove-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1928"
+        },
+        {
+            "name": "Borders-Buses",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1929"
+        },
+        {
+            "name": "Blackpool-Transport",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1930"
+        },
+        {
+            "name": "Cardiff-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1931"
+        },
+        {
+            "name": "Carousel-Buses",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1932"
+        },
+        {
+            "name": "East-Yorkshire",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1933"
+        },
+        {
+            "name": "Go-Cornwall-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1934"
+        },
+        {
+            "name": "Go-North-East",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1935"
+        },
+        {
+            "name": "Go-North-West",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1936"
+        },
+        {
+            "name": "Green-Line-702",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1937"
+        },
+        {
+            "name": "Hedingham-and-Chambers",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1938"
+        },
+        {
+            "name": "Intalink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1939"
+        },
+        {
+            "name": "konectbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1940"
+        },
+        {
+            "name": "McGill's-Buses",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1941"
+        },
+        {
+            "name": "Metrobus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1942"
+        },
+        {
+            "name": "Morebus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1943"
+        },
+        {
+            "name": "Newbury-&-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1944"
+        },
+        {
+            "name": "Newport-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1945"
+        },
+        {
+            "name": "Nottingham-City-Transport",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1946"
+        },
+        {
+            "name": "Oxford-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1947"
+        },
+        {
+            "name": "Plymouth-Citybus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1948"
+        },
+        {
+            "name": "Reading-Buses",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1949"
+        },
+        {
+            "name": "Salisbury-Reds",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1950"
+        },
+        {
+            "name": "Southern-Vectis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1951"
+        },
+        {
+            "name": "Swindon's-Bus-Company",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1952"
+        },
+        {
+            "name": "Transdev-Blazefield",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1953"
+        },
+        {
+            "name": "Unibus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1954"
+        },
+        {
+            "name": "Unilink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1955"
+        },
+        {
+            "name": "Warrington's-Own-Buses",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1956"
+        },
+        {
+            "name": "West-Coast-Motors",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1957"
+        },
+        {
+            "name": "BODS-UK-aggregate-feed",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2014"
+        },
+        {
+            "name": "Essex-County-Council",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2688"
+        },
+        {
+            "name": "Xplore-Dundee",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2906"
+        },
+        {
+            "name": "Bluestar-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2907"
+        },
+        {
+            "name": "Go-Devon-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2908",
+            "extend-calendar": true
+        },
+        {
+            "name": "Coach-Services",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2909"
+        },
+        {
+            "name": "Midland-Bluebird",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2911"
+        },
+        {
+            "name": "Sanders-Coaches",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2912"
+        },
+        {
+            "name": "Thames-Valley-Buses",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2913"
+        },
+        {
+            "name": "Fastrack",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2914"
         }
     ]
 }

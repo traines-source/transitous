@@ -224,6 +224,33 @@
             },
             "function": "transport_victoria_latest_resource",
             "fix": true
+        },
+        {
+            "name": "Port-Phillip-Ferries",
+            "type": "mobility-database",
+            "mdb-id": "mdb-649",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mornington-Railway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1281",
+            "extend-calendar": true
+        },
+        {
+            "name": "SkyBus-Melbourne",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3146"
+        },
+        {
+            "name": "Public-Transport-Victoria-(PTV)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3340"
+        },
+        {
+            "name": "Public-Transport-Victoria",
+            "type": "mobility-database",
+            "mdb-id": "tld-752"
         }
     ]
 }

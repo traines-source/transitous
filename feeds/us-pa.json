@@ -735,6 +735,126 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://www.modeshift.app/api/v1/988f8cb5-0768-4799-a1f9-5828ddd0614f/transport/gtfsrt/alerts.pb"
+        },
+        {
+            "name": "Port-Authority-of-Allegheny-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-409"
+        },
+        {
+            "name": "Erie-Metropolitan-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-412",
+            "extend-calendar": true
+        },
+        {
+            "name": "Rabbit-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-499",
+            "extend-calendar": true
+        },
+        {
+            "name": "PHLASH",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2877"
+        },
+        {
+            "name": "Upper-Merion-Rambler",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3036"
+        },
+        {
+            "name": "Transportation-Management-Association-of-Chester-C",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3130"
+        },
+        {
+            "name": "Monroe-County-Transportation-Authority-(MCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3460"
+        },
+        {
+            "name": "Trans-Bridge-Lines",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20169"
+        },
+        {
+            "name": "Transit-Authority-of-Warren-County",
+            "type": "mobility-database",
+            "mdb-id": "ntd-30124"
+        },
+        {
+            "name": "Centre-County-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-4771"
+        },
+        {
+            "name": "Port-Authority-of-Allegheny-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1711",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Port-Authority-of-Allegheny-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1712",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Port-Authority-of-Allegheny-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1713",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Port-Authority-of-Allegheny-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1714",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Port-Authority-of-Allegheny-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1715",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Port-Authority-of-Allegheny-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1716",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Monroe-County-Transportation-Authority-(MCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3435",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Monroe-County-Transportation-Authority-(MCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3436",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Monroe-County-Transportation-Authority-(MCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3437",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "luzerne",
+            "type": "mobility-database",
+            "mdb-id": "tld-4556-sa",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-pa.json: luzerne"
+        },
+        {
+            "name": "luzerne",
+            "type": "mobility-database",
+            "mdb-id": "tld-4556-vp",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-pa.json: luzerne"
         }
     ]
 }

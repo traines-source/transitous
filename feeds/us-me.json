@@ -62,6 +62,87 @@
             "transitland-atlas-id": "f-dry0-cityofsouthportland",
             "skip": true,
             "skip-reason": "Removed from transitland"
+        },
+        {
+            "name": "Lakes-Region-Explorer",
+            "type": "mobility-database",
+            "mdb-id": "mdb-452"
+        },
+        {
+            "name": "South-Portland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2641",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lewiston-Auburn-Transit-Committee-(Citylink)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10015",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-me.json: lewiston"
+        },
+        {
+            "name": "Acadia-National-Park",
+            "type": "mobility-database",
+            "mdb-id": "tld-6900",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bangor-Community-Connector",
+            "type": "mobility-database",
+            "mdb-id": "tld-7824"
+        },
+        {
+            "name": "Town-of-Cranberry-Isles-Commuter-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "tld-7866"
+        },
+        {
+            "name": "West's-Bus-Service",
+            "type": "mobility-database",
+            "mdb-id": "tld-7870"
+        },
+        {
+            "name": "Western-Maine-Transportation-Services",
+            "type": "mobility-database",
+            "mdb-id": "tld-7871",
+            "extend-calendar": true
+        },
+        {
+            "name": "greater-portland-metro-bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2643",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "greater-portland-metro-bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2644",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "greater-portland-metro-bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2645",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Portland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2646",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Portland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2647",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Portland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3415",
+            "spec": "gtfs-rt"
         }
     ]
 }

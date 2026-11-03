@@ -31,6 +31,62 @@
             "mdb-id": "mdb-2663",
             "spec": "gtfs-rt",
             "url-override": "https://tarc.rideralerts.com/InfoPoint/gtfs-realtime.ashx?type=alert"
+        },
+        {
+            "name": "Blue-Grass-Community-Action-Partnership",
+            "type": "mobility-database",
+            "mdb-id": "mdb-362"
+        },
+        {
+            "name": "City-of-Bowling-Green",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40184"
+        },
+        {
+            "name": "City-of-Maysville",
+            "type": "mobility-database",
+            "mdb-id": "ntd-41032"
+        },
+        {
+            "name": "City-of-Glasgow",
+            "type": "mobility-database",
+            "mdb-id": "ntd-41083"
+        },
+        {
+            "name": "Transit-Authority-of-Northern-Kentucky-(TANK)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1693",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Transit-Authority-of-Northern-Kentucky-(TANK)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1694",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Transit-Authority-of-Northern-Kentucky-(TANK)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1695",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lexington-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-7044-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lexington-Transit-Authority-tld-7044-tu",
+            "type": "mobility-database",
+            "mdb-id": "tld-7044-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lexington-Transit-Authority-tld-7044-vp",
+            "type": "mobility-database",
+            "mdb-id": "tld-7044-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -36,6 +36,133 @@
             "name": "ferries-cablecars-flights",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-gc-donegalcoastalcruises~arranmorecar~passengerferryservice~ar"
+        },
+        {
+            "name": "Dublin-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2635",
+            "x-possible-duplicate-of": "ie.json: transport-for-ireland"
+        },
+        {
+            "name": "Bus-Éireann",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2636",
+            "x-possible-duplicate-of": "ie.json: transport-for-ireland"
+        },
+        {
+            "name": "Irish-Rail",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2637",
+            "x-possible-duplicate-of": "ie.json: transport-for-ireland"
+        },
+        {
+            "name": "LUAS",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2638",
+            "x-possible-duplicate-of": "ie.json: transport-for-ireland"
+        },
+        {
+            "name": "GoAhead-Ireland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2639",
+            "x-possible-duplicate-of": "ie.json: transport-for-ireland"
+        },
+        {
+            "name": "Aircoach",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2640",
+            "x-possible-duplicate-of": "ie.json: transport-for-ireland"
+        },
+        {
+            "name": "West-Cork-Connect",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2875"
+        },
+        {
+            "name": "BK-&-Sons-JJBernard-Kavanagh",
+            "type": "mobility-database",
+            "mdb-id": "tld-592"
+        },
+        {
+            "name": "McGrath-Coaches",
+            "type": "mobility-database",
+            "mdb-id": "tld-601"
+        },
+        {
+            "name": "Swords-Express",
+            "type": "mobility-database",
+            "mdb-id": "tld-611"
+        },
+        {
+            "name": "Slieve-Bloom-Coach-Tours",
+            "type": "mobility-database",
+            "mdb-id": "tld-613"
+        },
+        {
+            "name": "Wexford-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-616"
+        },
+        {
+            "name": "Matthews-Coach-Hire",
+            "type": "mobility-database",
+            "mdb-id": "tld-617"
+        },
+        {
+            "name": "J.J-Kavanagh-&-Sons",
+            "type": "mobility-database",
+            "mdb-id": "tld-620"
+        },
+        {
+            "name": "John-Kearns",
+            "type": "mobility-database",
+            "mdb-id": "tld-623"
+        },
+        {
+            "name": "Dublin-Coach",
+            "type": "mobility-database",
+            "mdb-id": "tld-626",
+            "extend-calendar": true
+        },
+        {
+            "name": "Citylink",
+            "type": "mobility-database",
+            "mdb-id": "tld-637"
+        },
+        {
+            "name": "TFI-Local-Link-Mayo-TFI-Local-Link-Kerry-TFI-Local",
+            "type": "mobility-database",
+            "mdb-id": "tld-641"
+        },
+        {
+            "name": "Ashbourne-Connect",
+            "type": "mobility-database",
+            "mdb-id": "tld-4534",
+            "extend-calendar": true
+        },
+        {
+            "name": "Corduff-Travel",
+            "type": "mobility-database",
+            "mdb-id": "tld-4535",
+            "extend-calendar": true
+        },
+        {
+            "name": "Catherine-Madigan-Kelly-Travel-Donal-Harrington-Co",
+            "type": "mobility-database",
+            "mdb-id": "tld-5576",
+            "x-possible-duplicate-of": "ie.json: ferries-cablecars-flights"
+        },
+        {
+            "name": "Westlink-Coaches",
+            "type": "mobility-database",
+            "mdb-id": "tld-5577",
+            "extend-calendar": true
+        },
+        {
+            "name": "LUAS-Bus-Átha-Cliath---Dublin-Bus-Go-Ahead-Ireland",
+            "type": "mobility-database",
+            "mdb-id": "tld-5901",
+            "x-possible-duplicate-of": "ie.json: transport-for-ireland"
         }
     ]
 }

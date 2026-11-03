@@ -43,6 +43,40 @@
             "transitland-atlas-id": "f-kcata~rt",
             "skip": true,
             "skip-reason": "api-key is missing"
+        },
+        {
+            "name": "JeffCo-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-189",
+            "extend-calendar": true
+        },
+        {
+            "name": "Metro-St.-Louis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2035",
+            "extend-calendar": true
+        },
+        {
+            "name": "Get-Around-Columbia-(GoCOMO)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-70016"
+        },
+        {
+            "name": "City-of-Jefferson",
+            "type": "mobility-database",
+            "mdb-id": "ntd-70043"
+        },
+        {
+            "name": "City-of-Independence",
+            "type": "mobility-database",
+            "mdb-id": "ntd-70046",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Excelsior-Springs",
+            "type": "mobility-database",
+            "mdb-id": "ntd-70162",
+            "extend-calendar": true
         }
     ]
 }

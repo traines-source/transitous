@@ -151,6 +151,115 @@
             "name": "Metro-Transportes-do-Sul",
             "type": "mobility-database",
             "mdb-id": "mdb-2408"
+        },
+        {
+            "name": "Câmara-Municipal-de-Águeda",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1028",
+            "extend-calendar": true
+        },
+        {
+            "name": "Transtejo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1038"
+        },
+        {
+            "name": "Daytrip-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2056",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sociedade-de-Transportes-Colectivos-do-Porto-(STCP",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2148",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "pt.json: Porto-STCP"
+        },
+        {
+            "name": "Mobiave",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2836",
+            "extend-calendar": true
+        },
+        {
+            "name": "TUBA---Transportes-Urbanos-de-Barcelos",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2837",
+            "extend-calendar": true
+        },
+        {
+            "name": "Guimabus---Transportes-de-Guimarães",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2838",
+            "extend-calendar": true
+        },
+        {
+            "name": "Transportes-Metropolitanos-de-Lisboa-(TML)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3412"
+        },
+        {
+            "name": "SMTUC",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3535"
+        },
+        {
+            "name": "RMTEJO-II---Transportes-Rodoviários-de-Passageiros",
+            "type": "mobility-database",
+            "mdb-id": "tld-7825"
+        },
+        {
+            "name": "RDL-RODOVIÁRIA-DO-LIS-II",
+            "type": "mobility-database",
+            "mdb-id": "tld-7876"
+        },
+        {
+            "name": "RDL-RODOVIÁRIA-DO-LIS",
+            "type": "mobility-database",
+            "mdb-id": "tld-7877"
+        },
+        {
+            "name": "Carris-Metropolitana",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2028",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Carris-Metropolitana",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2029",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Carris",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2058",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Carris",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2930",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Transportes-Metropolitanos-de-Lisboa-(TML)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3389",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Transportes-Metropolitanos-de-Lisboa-(TML)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3390",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Transportes-Metropolitanos-de-Lisboa-(TML)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3391",
+            "spec": "gtfs-rt"
         }
     ]
 }

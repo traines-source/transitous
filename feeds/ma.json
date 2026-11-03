@@ -13,6 +13,30 @@
             "license": {
                 "spdx-identifier": "ODbL-1.0"
             }
+        },
+        {
+            "name": "Vitalis-Transport",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1816",
+            "extend-calendar": true
+        },
+        {
+            "name": "ONCF-(Office-National-des-Chemins-de-Fer)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3049",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "ma.json: oncf"
+        },
+        {
+            "name": "Casatramway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3462"
+        },
+        {
+            "name": "Casabus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3463",
+            "extend-calendar": true
         }
     ]
 }

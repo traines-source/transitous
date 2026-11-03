@@ -24,7 +24,8 @@
             "name": "miami-dade",
             "type": "mobility-database",
             "url-override": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-miamidadetransit~rt&feed_type=trip",
-            "mdb-id": "mdb-1738"
+            "mdb-id": "mdb-1738",
+            "spec": "gtfs-rt"
         },
         {
             "name": "miami-dade",
@@ -59,7 +60,8 @@
         {
             "name": "tri-rail",
             "type": "mobility-database",
-            "mdb-id": "tld-5584-tu"
+            "mdb-id": "tld-5584-tu",
+            "spec": "gtfs-rt"
         },
         {
             "name": "sunrail",
@@ -74,17 +76,416 @@
         {
             "name": "lynx",
             "type": "mobility-database",
-            "mdb-id": "mdb-1767"
+            "mdb-id": "mdb-1767",
+            "spec": "gtfs-rt"
         },
         {
             "name": "lynx",
             "type": "mobility-database",
-            "mdb-id": "mdb-1768"
+            "mdb-id": "mdb-1768",
+            "spec": "gtfs-rt"
         },
         {
             "name": "Gainesville-RTS",
             "type": "http",
             "url": "https://go-rts.com/wp-content/uploads/2026/08/RTSGTFS_Fall2026-1.zip"
+        },
+        {
+            "name": "Key-West-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-322",
+            "extend-calendar": true
+        },
+        {
+            "name": "LeeTran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-324"
+        },
+        {
+            "name": "Hillsborough-Area-Regional-Transit-(HART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-325"
+        },
+        {
+            "name": "Pinellas-Suncoast-Transit-Authority-(PSTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-326",
+            "extend-calendar": true
+        },
+        {
+            "name": "USF-Bull-Runner",
+            "type": "mobility-database",
+            "mdb-id": "mdb-329"
+        },
+        {
+            "name": "Palm-Tran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-332"
+        },
+        {
+            "name": "Escambia-County-Area-Transit-(ECAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-335",
+            "extend-calendar": true
+        },
+        {
+            "name": "Emerald-Coast-Rider-(ECR)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-336",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bay-Town-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-337",
+            "extend-calendar": true
+        },
+        {
+            "name": "Pasco-County-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-340"
+        },
+        {
+            "name": "Hernando-County-Transit-(TheBus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-341",
+            "extend-calendar": true
+        },
+        {
+            "name": "SunTran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-343",
+            "extend-calendar": true
+        },
+        {
+            "name": "StarMetro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-344",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sarasota-County-Area-Transit-(SCAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-348"
+        },
+        {
+            "name": "Votran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-349",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sunshine-Bus-Company",
+            "type": "mobility-database",
+            "mdb-id": "mdb-350",
+            "extend-calendar": true
+        },
+        {
+            "name": "I-RIDE-Trolley-(I-RIDE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1143"
+        },
+        {
+            "name": "Sanford-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1157",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lake-County-Connection",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2255"
+        },
+        {
+            "name": "Citrus-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2257",
+            "extend-calendar": true
+        },
+        {
+            "name": "Manatee-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2258"
+        },
+        {
+            "name": "Collier-Area-Transit-(CAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2259"
+        },
+        {
+            "name": "City-of-Miami-Gardens",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2323",
+            "x-possible-duplicate-of": "us-fl.json: miami-beach"
+        },
+        {
+            "name": "Gainesville-Regional-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2412",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-fl.json: Gainesville-RTS"
+        },
+        {
+            "name": "Dry-Tortugas-National-Park",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3207"
+        },
+        {
+            "name": "Gulf-Islands-National-Seashore",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3209"
+        },
+        {
+            "name": "Broward-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3534"
+        },
+        {
+            "name": "Space-Coast-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40063"
+        },
+        {
+            "name": "Indian-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40104"
+        },
+        {
+            "name": "Ride-Solution",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40920",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sumter-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40999",
+            "extend-calendar": true
+        },
+        {
+            "name": "Big-Bend-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-41153",
+            "extend-calendar": true
+        },
+        {
+            "name": "Baker-Council-on-Aging",
+            "type": "mobility-database",
+            "mdb-id": "ntd-41170",
+            "extend-calendar": true
+        },
+        {
+            "name": "LauderGO!-Water-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "ntd-44929"
+        },
+        {
+            "name": "DeSoto-Arcadia-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-44938",
+            "extend-calendar": true
+        },
+        {
+            "name": "Breeze-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-351_1",
+            "extend-calendar": true
+        },
+        {
+            "name": "South-Florida-Regional-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-492"
+        },
+        {
+            "name": "Jacksonville-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-764"
+        },
+        {
+            "name": "LakeXpress",
+            "type": "mobility-database",
+            "mdb-id": "tld-942",
+            "extend-calendar": true
+        },
+        {
+            "name": "Martin-County-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4506"
+        },
+        {
+            "name": "Brightline",
+            "type": "mobility-database",
+            "mdb-id": "tld-4769",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lakeland-Area-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "tld-5899"
+        },
+        {
+            "name": "Fort-Matanzas-National-Monument",
+            "type": "mobility-database",
+            "mdb-id": "tld-6905"
+        },
+        {
+            "name": "Hendry-County-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-7914"
+        },
+        {
+            "name": "Hillsborough-Area-Regional-Transit-(HART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1527",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Hillsborough-Area-Regional-Transit-(HART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1528",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bay-Town-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1598",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bay-Town-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1599",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "miami-dade",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1739",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-fl.json: miami-dade"
+        },
+        {
+            "name": "Votran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1740",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Votran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1741",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "lynx",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1766",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-fl.json: lynx"
+        },
+        {
+            "name": "Broward-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3475",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Broward-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3476",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Broward-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3524",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Palm-Tran",
+            "type": "mobility-database",
+            "mdb-id": "tld-4678-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Palm-Tran",
+            "type": "mobility-database",
+            "mdb-id": "tld-4678-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Palm-Tran",
+            "type": "mobility-database",
+            "mdb-id": "tld-4678-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Manatee-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4784-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Manatee-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4784-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Manatee-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4784-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sarasota-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4788-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sarasota-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4788-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sarasota-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4788-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "tri-rail",
+            "type": "mobility-database",
+            "mdb-id": "tld-5584-sa",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-fl.json: tri-rail"
+        },
+        {
+            "name": "tri-rail",
+            "type": "mobility-database",
+            "mdb-id": "tld-5584-vp",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-fl.json: tri-rail"
+        },
+        {
+            "name": "Lakeland-Area-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "tld-5898-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lakeland-Area-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "tld-5898-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lakeland-Area-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "tld-5898-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

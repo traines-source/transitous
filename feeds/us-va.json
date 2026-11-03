@@ -53,7 +53,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-1189",
             "skip": true,
-            "skip-reason": "Not accessible from our import server or the transitland proxy"
+            "skip-reason": "Not accessible from our import server or the transitland proxy",
+            "extend-calendar": true
         },
         {
             "name": "blackstone",
@@ -164,7 +165,8 @@
         {
             "name": "loudoun-county",
             "type": "mobility-database",
-            "mdb-id": "mdb-1053"
+            "mdb-id": "mdb-1053",
+            "extend-calendar": true
         },
         {
             "name": "districtthree",
@@ -273,6 +275,185 @@
             "type": "mobility-database",
             "mdb-id": "mdb-608",
             "url-override": "https://data.trilliumtransit.com/gtfs/wintran-va-us/wintran-va-us.zip"
+        },
+        {
+            "name": "Bay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-224",
+            "x-possible-duplicate-of": "us-va.json: bay-transit"
+        },
+        {
+            "name": "Harrisonburg-Department-of-Public-Transportation-(",
+            "type": "mobility-database",
+            "mdb-id": "mdb-382",
+            "extend-calendar": true
+        },
+        {
+            "name": "Williamsburg-Area-Transit-Authority-(WATA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-474",
+            "extend-calendar": true
+        },
+        {
+            "name": "Pony-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-828"
+        },
+        {
+            "name": "Brite",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1287",
+            "extend-calendar": true
+        },
+        {
+            "name": "Loudoun-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2411"
+        },
+        {
+            "name": "Radford-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2415",
+            "x-possible-duplicate-of": "us-va.json: radford"
+        },
+        {
+            "name": "Arlington-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2434"
+        },
+        {
+            "name": "CORTRAN",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2435"
+        },
+        {
+            "name": "Mountain-Empire-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2436"
+        },
+        {
+            "name": "Valley-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2437"
+        },
+        {
+            "name": "Williamsburg-Area-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2438",
+            "x-possible-duplicate-of": "us-va.json: williamsburg"
+        },
+        {
+            "name": "Danville-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2440",
+            "x-possible-duplicate-of": "us-va.json: danville"
+        },
+        {
+            "name": "Petersburg-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2441",
+            "x-possible-duplicate-of": "us-va.json: petersburg"
+        },
+        {
+            "name": "Pulaski-Area-Transit-(PAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2442",
+            "x-possible-duplicate-of": "us-va.json: pulaski"
+        },
+        {
+            "name": "RADAR",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2443",
+            "x-possible-duplicate-of": "us-va.json: radartransit"
+        },
+        {
+            "name": "STAR-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2444",
+            "x-possible-duplicate-of": "us-va.json: star-transit"
+        },
+        {
+            "name": "Virginia-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2445",
+            "x-possible-duplicate-of": "us-va.json: vatransit"
+        },
+        {
+            "name": "Mountain-Lynx-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2447",
+            "x-possible-duplicate-of": "us-va.json: districtthree"
+        },
+        {
+            "name": "Four-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2448",
+            "x-possible-duplicate-of": "us-va.json: four-county"
+        },
+        {
+            "name": "Alexandria-DOT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2936"
+        },
+        {
+            "name": "Fredericksburg-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3433"
+        },
+        {
+            "name": "Charlottesville-Area-Transit-(CAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3493"
+        },
+        {
+            "name": "Jaunt",
+            "type": "mobility-database",
+            "mdb-id": "tld-4144",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-va.json: jaunt"
+        },
+        {
+            "name": "Virginia-Railway-Express-(VRE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1734",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-va.json: virginia-railway-express"
+        },
+        {
+            "name": "Williamsburg-Area-Transit-Authority-(WATA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1747",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Williamsburg-Area-Transit-Authority-(WATA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1748",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "alexandria-dash",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2843",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "alexandria-dash",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2844",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "alexandria-dash",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2845",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "alexandria-dash",
+            "type": "mobility-database",
+            "mdb-id": "tld-4758-sa_tu_vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

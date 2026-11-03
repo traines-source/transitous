@@ -178,6 +178,87 @@
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
+        },
+        {
+            "name": "Blagoevgrad-Municipality-Modeshift",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3540"
+        },
+        {
+            "name": "Trolleybus-and-Bus-Transport-Stara-Zagora",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3604",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kazanlak-Municipality-Balkaninvest",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3605"
+        },
+        {
+            "name": "Gradski-Transport-Varna",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3606"
+        },
+        {
+            "name": "Plovdiv-Municipality-Transport-Organisation-and-Co",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3607"
+        },
+        {
+            "name": "Aleks-OK-ODPG-Veliko-Tarnovo-ET-Nadezhda-Hristova",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3608"
+        },
+        {
+            "name": "Gradski-Transport-Dobrich-Patnicheski-Prevozi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3609"
+        },
+        {
+            "name": "Patnicheski-Prevozi-Sliven",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3610",
+            "extend-calendar": true
+        },
+        {
+            "name": "Yambol-Municipality",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3611",
+            "extend-calendar": true
+        },
+        {
+            "name": "Niko-992",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3612"
+        },
+        {
+            "name": "Burgasbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3613"
+        },
+        {
+            "name": "BDZh-Patnicheski-Prevozi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3614"
+        },
+        {
+            "name": "Blagoevgrad-Municipality-Modeshift",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3541",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Blagoevgrad-Municipality-Modeshift",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3542",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Blagoevgrad-Municipality-Modeshift",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3543",
+            "spec": "gtfs-rt"
         }
     ]
 }

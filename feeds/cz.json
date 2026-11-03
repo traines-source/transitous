@@ -72,7 +72,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-1902",
             "skip": true,
-            "skip-reason": "Feed not available"
+            "skip-reason": "Feed not available",
+            "extend-calendar": true
         },
         {
             "name": "DPMO",
@@ -112,6 +113,84 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://owncloud.cesnet.cz/index.php/s/pGLPGTx6ltA546E/download"
+        },
+        {
+            "name": "Integrated-Transit-System-of-the-South-Moravian-Re",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2155"
+        },
+        {
+            "name": "Czech-national-bus-feed-JDF",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2904"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1797",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1798",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1799",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1800",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1801",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1803",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1804",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Entur",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1805",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "PID",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2391",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "cz.json: PID"
+        },
+        {
+            "name": "PID",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2392",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "cz.json: PID"
+        },
+        {
+            "name": "Polskie-Koleje-Państwowe-Intercity-(PKP-Intercity)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2924",
+            "spec": "gtfs-rt"
         }
     ]
 }

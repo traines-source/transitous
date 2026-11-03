@@ -28,6 +28,171 @@
             "name": "valleymetro",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-valleymetro~rt"
+        },
+        {
+            "name": "Yuma-County-Intergovernmental-Public-Transportatio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-17"
+        },
+        {
+            "name": "Bullhead-Area-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-109"
+        },
+        {
+            "name": "Groome-Transportation---Arizona-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-156",
+            "extend-calendar": true
+        },
+        {
+            "name": "Cottonwood-Area-Transit-(CAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-158"
+        },
+        {
+            "name": "Verde-Lynx",
+            "type": "mobility-database",
+            "mdb-id": "mdb-159",
+            "extend-calendar": true
+        },
+        {
+            "name": "Benson-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-229",
+            "extend-calendar": true
+        },
+        {
+            "name": "RoadRunner",
+            "type": "mobility-database",
+            "mdb-id": "mdb-644",
+            "extend-calendar": true
+        },
+        {
+            "name": "Grand-Canyon-National-Park",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1905"
+        },
+        {
+            "name": "Cat-Tran-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2206",
+            "extend-calendar": true
+        },
+        {
+            "name": "SunTran",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2354",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kingman-Area-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2855",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Coolidge",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2856",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bisbee-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2857"
+        },
+        {
+            "name": "Sedona-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2858"
+        },
+        {
+            "name": "Copper-Mountain-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2860",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Show-Low",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2863",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Douglas",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2864",
+            "extend-calendar": true
+        },
+        {
+            "name": "Regional-Transportation-Authority-of-Pima-County",
+            "type": "mobility-database",
+            "mdb-id": "ntd-91122"
+        },
+        {
+            "name": "Yavapai-Regional-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-99419",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gila-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-99436",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Sierra-Vista",
+            "type": "mobility-database",
+            "mdb-id": "tld-679"
+        },
+        {
+            "name": "Havasu-Landing-Resort-&-Casino-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "tld-6719",
+            "extend-calendar": true
+        },
+        {
+            "name": "Maricopa-Express-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6743"
+        },
+        {
+            "name": "valleymetro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1720",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "valleymetro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1721",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "valleymetro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1722",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "mountainline",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1980",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "mountainline",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1981",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "mountainline",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1982",
+            "spec": "gtfs-rt"
         }
     ]
 }

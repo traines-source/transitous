@@ -14,6 +14,11 @@
                 "url": "https://catalogodatos.gub.uy/dataset/1d50ccf7-121d-48a7-951e-28a02858d24e"
             },
             "fix": true
+        },
+        {
+            "name": "Colonia-del-Sacramento---Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3464"
         }
     ]
 }

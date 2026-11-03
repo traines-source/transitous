@@ -457,7 +457,8 @@
         {
             "name": "Puglia-Ferrotramviaria",
             "type": "mobility-database",
-            "mdb-id": "mdb-1058"
+            "mdb-id": "mdb-1058",
+            "extend-calendar": true
         },
         {
             "name": "Puglia-Brindisi",
@@ -510,7 +511,8 @@
         {
             "name": "Sardegna-ATP-Sassari",
             "type": "mobility-database",
-            "mdb-id": "mdb-2009"
+            "mdb-id": "mdb-2009",
+            "extend-calendar": true
         },
         {
             "name": "Sardegna-CTM",
@@ -796,7 +798,8 @@
                     "X-BusOne-Use": "AGE-ENCRYPTED:YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBmWGNWLzRZVlpGbVljazE1eUpEOU1tRkhlOHQzK0FlOWdMYi9FQmNwa2dJCi96L0ZLNDJkZjdXbjBBOTVJeU9ZakR3dS9FQ2xzb3lIb1VlT2g1SWE2cEUKLS0tIHowUzdrVmZUakpnZHJYZDJoSDR3R1BKTVdNQndwc0Jkc2ZPeE9kVkhTVE0KCeSvYSgFB/cYhX6MvlKgnrgUKCUi7pENC/8+uP/R6N4YUWuu69qEYbg=",
                     "X-BusOne-Key": "AGE-ENCRYPTED:YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSByWkpOUGdHaE1PaG4xdXExclhxd2VwNGxGSDNEY0JobWw1amh4aHhKMXhRCktxWTZhN08wNC9uRFhkSjk2enF0a0hjdEsydkprUXZWSUx4VlRlYVhkbHMKLS0tIHduOHVxSStBR0xlR3JkWHl3NWduWEI0eVZzQVVVOWl1a3Ezb2FyU3lBZUkK/qBbVs7d2hv548Ug3qEVhi4u+rB/I6Yhiwj6JPApJppIR8ko1PriEnt34Aswp7zw7px2Jc2AZFrqUmrchwelBSkISoZfjJ5ZSkU6"
                 }
-            }
+            },
+            "extend-calendar": true
         },
         {
             "name": "Veneto-Venezia-Ferries",
@@ -883,6 +886,710 @@
             "license": {
                 "spdx-identifier": "CC-BY-4.0"
             }
+        },
+        {
+            "name": "ATP-Esercizio-Srl",
+            "type": "mobility-database",
+            "mdb-id": "mdb-643",
+            "extend-calendar": true
+        },
+        {
+            "name": "Società-Trasporti-Provinciale-S.p.A.",
+            "type": "mobility-database",
+            "mdb-id": "mdb-847",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Scoppio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-848",
+            "extend-calendar": true
+        },
+        {
+            "name": "Comune-di-Gioia-del-Colle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-849",
+            "extend-calendar": true
+        },
+        {
+            "name": "Azienda-Trasporti-Automobilistici-Pubblici-delle-P",
+            "type": "mobility-database",
+            "mdb-id": "mdb-854"
+        },
+        {
+            "name": "Alilaguna",
+            "type": "mobility-database",
+            "mdb-id": "mdb-891"
+        },
+        {
+            "name": "Azienda-Napoletana-Mobilità",
+            "type": "mobility-database",
+            "mdb-id": "mdb-893"
+        },
+        {
+            "name": "Azienda-Trasporti-di-Messina-(ATM)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-896",
+            "extend-calendar": true
+        },
+        {
+            "name": "Miccolis-S.p.A.",
+            "type": "mobility-database",
+            "mdb-id": "mdb-912"
+        },
+        {
+            "name": "Trentino-Trasporti-SpA-(TT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-978"
+        },
+        {
+            "name": "Trentino-Trasporti-Esercizio-(TTE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1031",
+            "extend-calendar": true
+        },
+        {
+            "name": "Delcomar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1047",
+            "x-possible-duplicate-of": "it.json: Sardegna-Ferries-Collegamenti-marittimi-Corsica"
+        },
+        {
+            "name": "TRENITALIA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1052"
+        },
+        {
+            "name": "Automobilistico",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1062"
+        },
+        {
+            "name": "Società-Gestione-Multipla-(SGM)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1066",
+            "extend-calendar": true
+        },
+        {
+            "name": "Toremar-Toscana-Regionale-Marittima",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1068",
+            "x-possible-duplicate-of": "it.json: Toscana-GEST"
+        },
+        {
+            "name": "Regione-Piemonte",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1154",
+            "extend-calendar": true
+        },
+        {
+            "name": "Trenitalia-Piemonte",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1170",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bus-Company-S.r.l.-Gunetto-Autolinee-S.r.l.-Bus-Co",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1194",
+            "extend-calendar": true
+        },
+        {
+            "name": "Azienda-Varesina-Trasporti-(AVT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1264",
+            "extend-calendar": true
+        },
+        {
+            "name": "Trenitalia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1319"
+        },
+        {
+            "name": "Daytrip-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2055",
+            "extend-calendar": true
+        },
+        {
+            "name": "AMT-Genova",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2610",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gruppo-Torinese-Trasporti-(GTT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2687",
+            "x-possible-duplicate-of": "it.json: Piemonte-Gruppo-Torinese-Trasporti"
+        },
+        {
+            "name": "Trentino-Trasporti-Esercizio-(TTE)-mdb-2841",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2841",
+            "extend-calendar": true
+        },
+        {
+            "name": "ASARA-GIUSEPPE-EREDI-AUTOSERVIZI-S.R.L.",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2993",
+            "x-possible-duplicate-of": "it.json: Sardegna-Contributate"
+        },
+        {
+            "name": "Trasporto-Passeggeri-Emilia-Romagna",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3040",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TPER-Bologna"
+        },
+        {
+            "name": "Trasporto-Passeggeri-Emilia-Romagna-mdb-3041",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3041",
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TPER-Bologna"
+        },
+        {
+            "name": "Trasporto-Passeggeri-Emilia-Romagna-mdb-3042",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3042",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TPER-Bologna"
+        },
+        {
+            "name": "Metropolitana-di-Catania---Ferrovia-Circumetnea",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3124",
+            "extend-calendar": true
+        },
+        {
+            "name": "Comune-di-Marsala",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3201"
+        },
+        {
+            "name": "SETA-S.p.A.---Modena",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3554"
+        },
+        {
+            "name": "SETA-S.p.A.---Reggio-Emilia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3557",
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TEP-Parma"
+        },
+        {
+            "name": "SETA-S.p.A.---Piacenza",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3560"
+        },
+        {
+            "name": "TPL-FVG",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3566"
+        },
+        {
+            "name": "Italo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3571"
+        },
+        {
+            "name": "START-Romagna-S.p.A.",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3576",
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TEP-Parma"
+        },
+        {
+            "name": "Trasporto-Ferroviario-Toscano",
+            "type": "mobility-database",
+            "mdb-id": "tld-322"
+        },
+        {
+            "name": "STAV-Vigevano-S.p.A.",
+            "type": "mobility-database",
+            "mdb-id": "tld-2236",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "it.json: Lombardia-STAV"
+        },
+        {
+            "name": "COTRAL",
+            "type": "mobility-database",
+            "mdb-id": "tld-6946",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Toscane---AT-Scolastico",
+            "type": "mobility-database",
+            "mdb-id": "tld-6949",
+            "extend-calendar": true
+        },
+        {
+            "name": "Colbus-R.t.i.---Non-Scolastico",
+            "type": "mobility-database",
+            "mdb-id": "tld-6950",
+            "extend-calendar": true
+        },
+        {
+            "name": "Colbus-R.t.i.---Scolastico",
+            "type": "mobility-database",
+            "mdb-id": "tld-6951",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Arezzo",
+            "type": "mobility-database",
+            "mdb-id": "tld-6952"
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Firenze",
+            "type": "mobility-database",
+            "mdb-id": "tld-6953"
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Siena",
+            "type": "mobility-database",
+            "mdb-id": "tld-6955"
+        },
+        {
+            "name": "Autolinee-Toscane---Linee-Regionali",
+            "type": "mobility-database",
+            "mdb-id": "tld-6957"
+        },
+        {
+            "name": "Autolinee-Toscane---Servizi-Sostitutivi-Ferro",
+            "type": "mobility-database",
+            "mdb-id": "tld-6958"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Area-Metropolitana-Fior",
+            "type": "mobility-database",
+            "mdb-id": "tld-6959"
+        },
+        {
+            "name": "Autolinee-Toscane---Debole-Extraurbano-CEV",
+            "type": "mobility-database",
+            "mdb-id": "tld-6960"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Massa",
+            "type": "mobility-database",
+            "mdb-id": "tld-6962",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Pisa",
+            "type": "mobility-database",
+            "mdb-id": "tld-6963"
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Massa-Carrara",
+            "type": "mobility-database",
+            "mdb-id": "tld-6966"
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Pisa",
+            "type": "mobility-database",
+            "mdb-id": "tld-6967"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Livorno",
+            "type": "mobility-database",
+            "mdb-id": "tld-6969"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Pisa",
+            "type": "mobility-database",
+            "mdb-id": "tld-6970"
+        },
+        {
+            "name": "AMITOUR-di-Amici-Giuseppe",
+            "type": "mobility-database",
+            "mdb-id": "tld-6971",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Toscane---Servizi-Area-Poggibonsi",
+            "type": "mobility-database",
+            "mdb-id": "tld-6972"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Cecina",
+            "type": "mobility-database",
+            "mdb-id": "tld-6973"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Colle-Valdelsa",
+            "type": "mobility-database",
+            "mdb-id": "tld-6974"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Piombino",
+            "type": "mobility-database",
+            "mdb-id": "tld-6975"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Rosignano-Marittimo",
+            "type": "mobility-database",
+            "mdb-id": "tld-6976"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-San-Gimignano",
+            "type": "mobility-database",
+            "mdb-id": "tld-6977"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Portoferraio",
+            "type": "mobility-database",
+            "mdb-id": "tld-6978"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Grosseto",
+            "type": "mobility-database",
+            "mdb-id": "tld-6979"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Follonica",
+            "type": "mobility-database",
+            "mdb-id": "tld-6980"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Urbano-Volterra",
+            "type": "mobility-database",
+            "mdb-id": "tld-6981"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Certaldo",
+            "type": "mobility-database",
+            "mdb-id": "tld-6982"
+        },
+        {
+            "name": "Autolinee-Toscane---Debole-Extraurbano-Pistoia",
+            "type": "mobility-database",
+            "mdb-id": "tld-6983"
+        },
+        {
+            "name": "Autolinee-Toscane---Debole-Extraurbano-Prato",
+            "type": "mobility-database",
+            "mdb-id": "tld-6984"
+        },
+        {
+            "name": "Autolinee-Toscane---Debole-Urbano-Pisa",
+            "type": "mobility-database",
+            "mdb-id": "tld-6985"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Lucca",
+            "type": "mobility-database",
+            "mdb-id": "tld-6986"
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Lucca",
+            "type": "mobility-database",
+            "mdb-id": "tld-6987"
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Pistoia",
+            "type": "mobility-database",
+            "mdb-id": "tld-6988"
+        },
+        {
+            "name": "Autolinee-Toscane---ExtraUrbano-Prato",
+            "type": "mobility-database",
+            "mdb-id": "tld-6989"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Empoli",
+            "type": "mobility-database",
+            "mdb-id": "tld-6990"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Lucca",
+            "type": "mobility-database",
+            "mdb-id": "tld-6991"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Massa",
+            "type": "mobility-database",
+            "mdb-id": "tld-6992"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Pistoia",
+            "type": "mobility-database",
+            "mdb-id": "tld-6993"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Viareggio",
+            "type": "mobility-database",
+            "mdb-id": "tld-6994"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Carrara",
+            "type": "mobility-database",
+            "mdb-id": "tld-6995"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Massa-e-Carrara",
+            "type": "mobility-database",
+            "mdb-id": "tld-6996"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Urbano-Pontedera",
+            "type": "mobility-database",
+            "mdb-id": "tld-6997"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Urbano-San-Miniato",
+            "type": "mobility-database",
+            "mdb-id": "tld-6998"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Montecatini-Terme",
+            "type": "mobility-database",
+            "mdb-id": "tld-6999"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Pescia",
+            "type": "mobility-database",
+            "mdb-id": "tld-7000"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Sansepolcro",
+            "type": "mobility-database",
+            "mdb-id": "tld-7002"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Subbiano",
+            "type": "mobility-database",
+            "mdb-id": "tld-7003",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Uninone-Comuni",
+            "type": "mobility-database",
+            "mdb-id": "tld-7004"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Intercomunale-Valdarno-",
+            "type": "mobility-database",
+            "mdb-id": "tld-7006"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Civitella-in-V",
+            "type": "mobility-database",
+            "mdb-id": "tld-7007"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Cortona",
+            "type": "mobility-database",
+            "mdb-id": "tld-7008",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Siena",
+            "type": "mobility-database",
+            "mdb-id": "tld-7009"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Arezzo",
+            "type": "mobility-database",
+            "mdb-id": "tld-7010"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Chiusi",
+            "type": "mobility-database",
+            "mdb-id": "tld-7011"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Chianciano-Terme",
+            "type": "mobility-database",
+            "mdb-id": "tld-7012"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Montepulciano",
+            "type": "mobility-database",
+            "mdb-id": "tld-7013"
+        },
+        {
+            "name": "Autolinee-Toscane---Urbano-Siena",
+            "type": "mobility-database",
+            "mdb-id": "tld-7014"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Monte-San-Savi",
+            "type": "mobility-database",
+            "mdb-id": "tld-7015"
+        },
+        {
+            "name": "Autolinee-Toscane---Emg-Extraurbano-Capolona",
+            "type": "mobility-database",
+            "mdb-id": "tld-7016",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autolinee-Toscane---AT-Non-Scolastico",
+            "type": "mobility-database",
+            "mdb-id": "tld-7017",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gruppo-Torinese-Trasporti-(GTT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2695",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gruppo-Torinese-Trasporti-(GTT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2696",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gruppo-Torinese-Trasporti-(GTT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2705",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lazio-Cotral",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3387",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "it.json: Lazio-Cotral"
+        },
+        {
+            "name": "Azienda-del-Consorzio-Trasporti-Veneziano-(ACTV)-N",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3421",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Azienda-del-Consorzio-Trasporti-Veneziano-(ACTV)-N",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3422",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Automobilistico",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3423",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Automobilistico",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3424",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Veneto-Venezia-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3547",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Veneto-Venezia-Ferries",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3550",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Emilia-Romagna-TEP-Parma",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3553",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TEP-Parma"
+        },
+        {
+            "name": "SETA-S.p.A.---Modena",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3555",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SETA-S.p.A.---Modena",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3556",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SETA-S.p.A.---Reggio-Emilia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3559",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TEP-Parma"
+        },
+        {
+            "name": "SETA-S.p.A.---Piacenza",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3561",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SETA-S.p.A.---Piacenza",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3562",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Toscana-AT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3565",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TPL-FVG",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3567",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TPL-FVG",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3568",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "trenitalia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3570",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Italo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3572",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "START-Romagna-S.p.A.",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3578",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "it.json: Emilia-Romagna-TEP-Parma"
+        },
+        {
+            "name": "Puglia-Bari",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3581",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Veneto-Busitalia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3586",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "it.json: Veneto-Busitalia"
+        },
+        {
+            "name": "Piemonte-Gruppo-Torinese-Trasporti",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3589",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "GTT-servizio-extraurbano-GTT-Servizio-Ur-tld-4388-tu",
+            "type": "mobility-database",
+            "mdb-id": "tld-4388-tu",
+            "spec": "gtfs-rt"
         }
     ]
 }

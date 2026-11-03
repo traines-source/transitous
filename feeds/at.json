@@ -250,6 +250,62 @@
             "managed-by-script": true,
             "x-mvo-id": "74-2026",
             "use-gtfsclean": false
+        },
+        {
+            "name": "Wiener-Lokalbahnen-(WLB)-Wiener-Linien",
+            "type": "mobility-database",
+            "mdb-id": "mdb-648"
+        },
+        {
+            "name": "Long-distance-rail-transport-in-Germany",
+            "type": "mobility-database",
+            "mdb-id": "mdb-768"
+        },
+        {
+            "name": "OVapi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1077"
+        },
+        {
+            "name": "Bean-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2036"
+        },
+        {
+            "name": "OBB-Personenverkehr-AG-Kundenservice",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2138",
+            "extend-calendar": true
+        },
+        {
+            "name": "OVapi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1644",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "OVapi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1645",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "OVapi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1646",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Long-distance-rail-transport-in-Germany",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3101",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "STA---Südtiroler-Transportstrukturen-AG",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3575",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -91,6 +91,25 @@
             "type": "url",
             "spec": "gbfs",
             "url": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_gv/gbfs.json"
+        },
+        {
+            "name": "TRAINOSE",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1161",
+            "extend-calendar": true
+        },
+        {
+            "name": "Athens-Urban-Transport-Organization-(OASA)---Rail-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3221",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "gr.json: Athens-Bus"
+        },
+        {
+            "name": "Οργανισμός-Αστικών-Συγκοινωνιών-ΟΑΣΑ---Αthens-Urba",
+            "type": "mobility-database",
+            "mdb-id": "tld-711",
+            "extend-calendar": true
         }
     ]
 }

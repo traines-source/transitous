@@ -21,6 +21,13 @@
             "url": "https://podgorica.me/otvoreni-podaci/",
             "function": "podgorica_me",
             "extend-calendar": true
+        },
+        {
+            "name": "Sekretarijat-za-saobraćaj",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3517",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "me.json: podgorica"
         }
     ]
 }

@@ -14,6 +14,24 @@
                 "url": "https://data.buenosaires.gob.ar/dataset/trenes-gtfs"
             },
             "extend-calendar": true
+        },
+        {
+            "name": "Subterráneos-de-Buenos-Aires-(SUBTE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-6",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mar-Chiquita-SRL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1146",
+            "extend-calendar": true
+        },
+        {
+            "name": "Colectivos-Buenos-Aires",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1220",
+            "extend-calendar": true
         }
     ]
 }

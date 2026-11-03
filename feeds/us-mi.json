@@ -90,7 +90,8 @@
             "name": "Michigan-Flyer",
             "type": "mobility-database",
             "mdb-id": "mdb-413",
-            "url-override": "https://data.trilliumtransit.com/gtfs/michiganflyer-mi-us/michiganflyer-mi-us.zip"
+            "url-override": "https://data.trilliumtransit.com/gtfs/michiganflyer-mi-us/michiganflyer-mi-us.zip",
+            "extend-calendar": true
         },
         {
             "name": "MATS",
@@ -132,6 +133,159 @@
             "name": "University-of-Michigan-Transit-Services",
             "type": "mobility-database",
             "mdb-id": "mdb-2072"
+        },
+        {
+            "name": "Qline-Detroit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-802",
+            "extend-calendar": true
+        },
+        {
+            "name": "Froggy-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2216"
+        },
+        {
+            "name": "Hope-College-Evening-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3039"
+        },
+        {
+            "name": "Bay-Metropolitan-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50029"
+        },
+        {
+            "name": "Isabella-County-Transportation-Commission-(I-Ride)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50244",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kalkaska-Public-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50282"
+        },
+        {
+            "name": "City-of-Houghton",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50386"
+        },
+        {
+            "name": "Kalamazoo-Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-674"
+        },
+        {
+            "name": "Macatawa-Area-Express",
+            "type": "mobility-database",
+            "mdb-id": "tld-5873"
+        },
+        {
+            "name": "Lake-Erie-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6883"
+        },
+        {
+            "name": "Blue-Water-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7035"
+        },
+        {
+            "name": "Marquette-County-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-7045",
+            "extend-calendar": true
+        },
+        {
+            "name": "CATA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1424",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CATA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1425",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CATA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1426",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "smart",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1442",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "smart",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1443",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "smart",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1444",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Qline-Detroit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1571",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Qline-Detroit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1572",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Qline-Detroit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1573",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kalamazoo-Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4677-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kalamazoo-Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4677-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kalamazoo-Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4677-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MATS",
+            "type": "mobility-database",
+            "mdb-id": "tld-4832-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MATS",
+            "type": "mobility-database",
+            "mdb-id": "tld-4832-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MATS",
+            "type": "mobility-database",
+            "mdb-id": "tld-4832-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

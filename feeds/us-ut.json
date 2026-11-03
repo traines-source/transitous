@@ -37,6 +37,39 @@
             "name": "cache-valley",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-cachevalleytransitdistrict~rt"
+        },
+        {
+            "name": "SunTran-Utah",
+            "type": "mobility-database",
+            "mdb-id": "mdb-111"
+        },
+        {
+            "name": "Ute-Tribe-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-88200"
+        },
+        {
+            "name": "Park-City-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-1325",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bryce-Canyon-National-Park-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "tld-6675",
+            "extend-calendar": true
+        },
+        {
+            "name": "Zion-National-Park",
+            "type": "mobility-database",
+            "mdb-id": "tld-6682"
+        },
+        {
+            "name": "Bryce-Canyon-National-Park-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "tld-6903-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

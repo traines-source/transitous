@@ -260,7 +260,8 @@
         {
             "name": "Łomża",
             "type": "mobility-database",
-            "mdb-id": "mdb-1012"
+            "mdb-id": "mdb-1012",
+            "extend-calendar": true
         },
         {
             "name": "Wejherowo",
@@ -298,7 +299,8 @@
         {
             "name": "Giżycko",
             "type": "mobility-database",
-            "mdb-id": "mdb-1010"
+            "mdb-id": "mdb-1010",
+            "extend-calendar": true
         },
         {
             "name": "Lublin",
@@ -2484,6 +2486,234 @@
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
+        },
+        {
+            "name": "SevibusDLA-Długołęka",
+            "type": "mobility-database",
+            "mdb-id": "mdb-979",
+            "extend-calendar": true
+        },
+        {
+            "name": "MPK-Wrocław-mdb-980",
+            "type": "mobility-database",
+            "mdb-id": "mdb-980",
+            "extend-calendar": true
+        },
+        {
+            "name": "Zarząd-Transportu-Miejskiego-Lublin-(ZTM-Lublin)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1013"
+        },
+        {
+            "name": "Wielicka-Komunikacja-Wewnątrzgminna",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1072",
+            "extend-calendar": true
+        },
+        {
+            "name": "Komunikacja-Miejska-Łomianki",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1123",
+            "extend-calendar": true
+        },
+        {
+            "name": "Komunikacja-Miejska-Płock",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1150",
+            "extend-calendar": true
+        },
+        {
+            "name": "Komunikacja-Miejska-Bielawa-Dzierżoniów",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1151",
+            "extend-calendar": true
+        },
+        {
+            "name": "ZDZiT-Olsztyn",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1175",
+            "extend-calendar": true
+        },
+        {
+            "name": "ZTZ-Rybnik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1176",
+            "extend-calendar": true
+        },
+        {
+            "name": "Komunikacja-Miejska---Bolesławiec",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1271",
+            "extend-calendar": true
+        },
+        {
+            "name": "PKP-Szybka-Kolej-Miejska-(SKM)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1290",
+            "extend-calendar": true
+        },
+        {
+            "name": "Białostocka-Komunikacja-Miejska",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1907"
+        },
+        {
+            "name": "Koleje-Małopolskie",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1908"
+        },
+        {
+            "name": "Komunikacja-Autobusowa-Świnoujście-(KA-Świnoujście",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2085",
+            "extend-calendar": true
+        },
+        {
+            "name": "Polregio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2087"
+        },
+        {
+            "name": "MZDiK-Radom",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2090"
+        },
+        {
+            "name": "Warszawski-Transport-Publiczny-(ZTM-Warszawa)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2092"
+        },
+        {
+            "name": "Zarząd-Dróg-i-Zieleni-Gdynia-(ZKM-Gdynia)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2094"
+        },
+        {
+            "name": "Zarząd-Transportu-Miejskiego-Rzeszów-(ZTM-Rzeszów)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2387"
+        },
+        {
+            "name": "ZTM-Katowice",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2399"
+        },
+        {
+            "name": "PKS-Kalisz-mdb-2461",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2461",
+            "extend-calendar": true
+        },
+        {
+            "name": "Zarząd-Komunikacji-Miejskiej-w-Elblągu-(ZKM-Elbląg",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2597"
+        },
+        {
+            "name": "Kombus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2689",
+            "extend-calendar": true
+        },
+        {
+            "name": "Koleje-Śląskie",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3122"
+        },
+        {
+            "name": "Polish-Trains-mdb-3191",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3191"
+        },
+        {
+            "name": "MZK-Gorzów-Wielkopolskie",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3545",
+            "extend-calendar": true
+        },
+        {
+            "name": "Zarząd-Transportu-Publicznego-w-Krakowie",
+            "type": "mobility-database",
+            "mdb-id": "tld-4287-tu"
+        },
+        {
+            "name": "Zarząd-Transportu-Publicznego-w-Krakowie-tld-4287-vp",
+            "type": "mobility-database",
+            "mdb-id": "tld-4287-vp"
+        },
+        {
+            "name": "Koleje-Małopolskie-tld-6055",
+            "type": "mobility-database",
+            "mdb-id": "tld-6055"
+        },
+        {
+            "name": "Zarząd-Transportu-Miejskiego-w-Kielcach",
+            "type": "mobility-database",
+            "mdb-id": "tld-6064"
+        },
+        {
+            "name": "Miejski-Zakład-Komunikacji-w-Gorzowie-Wielkopolski",
+            "type": "mobility-database",
+            "mdb-id": "tld-6078",
+            "extend-calendar": true
+        },
+        {
+            "name": "Zarząd-Transportu-Metropolitalnego-(ZTM-Transport-",
+            "type": "mobility-database",
+            "mdb-id": "tld-7878"
+        },
+        {
+            "name": "Zarząd-Transportu-Metropolitalnego-(ZTM-Transport-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1821",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ZTP-Kraków-T",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2338",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "pl.json: ZTP-Kraków-T"
+        },
+        {
+            "name": "ZTP-Kraków-T",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2340",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "pl.json: ZTP-Kraków-T"
+        },
+        {
+            "name": "ZTP-Kraków-M",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2599",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "pl.json: ZTP-Kraków-T"
+        },
+        {
+            "name": "ZTP-Kraków-M",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2600",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "pl.json: ZTP-Kraków-T"
+        },
+        {
+            "name": "ZTP-Kraków-A",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2601",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "pl.json: ZTP-Kraków-T"
+        },
+        {
+            "name": "Warszawski-Transport-Publiczny-(ZTM-Warszawa)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6067-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Warszawski-Transport-Publiczny-(ZTM-Warszawa)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6068-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

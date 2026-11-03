@@ -129,6 +129,67 @@
             "name": "blue-bike",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-blue~bike~antwerp~gbfs"
+        },
+        {
+            "name": "De-Waterbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-685",
+            "extend-calendar": true
+        },
+        {
+            "name": "Société-nationale-des-chemins-de-fer-belges-(NMBS-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-686"
+        },
+        {
+            "name": "Société-des-Transports-Intercommunaux-de-Bruxelles",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1088",
+            "extend-calendar": true
+        },
+        {
+            "name": "DPN-AVL-CFL-CFLBus-RGTR-TICE-TRAM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1091",
+            "extend-calendar": true
+        },
+        {
+            "name": "Société-Régionale-Wallonne-du-Transport",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1212"
+        },
+        {
+            "name": "Société-nationale-des-chemins-de-fer-bel-mdb-1859",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1859"
+        },
+        {
+            "name": "DeWaterbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1860",
+            "extend-calendar": true
+        },
+        {
+            "name": "TEC",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1868"
+        },
+        {
+            "name": "De-Lijn",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3544"
+        },
+        {
+            "name": "DPN-AVL-CFL-CFLBus-RGTR-TICE-TRAM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1640",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Métropole-Européenne-de-Lille-",
+            "type": "mobility-database",
+            "mdb-id": "tdg-81981",
+            "spec": "gtfs-rt"
         }
     ]
 }

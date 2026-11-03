@@ -22,7 +22,57 @@
             "name": "Indian-Railways",
             "type": "mobility-database",
             "mdb-id": "mdb-2867",
-            "fix": "true"
+            "fix": "true",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kochi-buses-and-boats",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1835",
+            "extend-calendar": true
+        },
+        {
+            "name": "MSRTC-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2336",
+            "extend-calendar": true
+        },
+        {
+            "name": "Ahmedabad-Janmarg-Ltd-Ahmedabad-Municipal-Transit-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3131"
+        },
+        {
+            "name": "PMPML",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3137"
+        },
+        {
+            "name": "Mumbai-Bus-(BEST-KDMT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3138"
+        },
+        {
+            "name": "Delhi-Transport-Corporation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3139",
+            "extend-calendar": true
+        },
+        {
+            "name": "Rajkot-Rampath-Limited",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3142"
+        },
+        {
+            "name": "Vapi-City-Bus-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3426"
+        },
+        {
+            "name": "Kochi-Metro",
+            "type": "mobility-database",
+            "mdb-id": "tld-1031",
+            "extend-calendar": true
         }
     ]
 }

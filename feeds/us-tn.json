@@ -144,13 +144,37 @@
             "type": "mobility-database",
             "mdb-id": "mdb-2420",
             "skip": true,
-            "skip-reason": "Outdated GTFS"
+            "skip-reason": "Outdated GTFS",
+            "extend-calendar": true
         },
         {
             "name": "university-of-tennessee",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-utk~tn~us",
             "fix": true
+        },
+        {
+            "name": "Jackson-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2313"
+        },
+        {
+            "name": "Lakeway-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40190",
+            "extend-calendar": true
+        },
+        {
+            "name": "Southeast-Tennessee-Human-Resource-Agency-Rural-Di",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40989",
+            "extend-calendar": true
+        },
+        {
+            "name": "Memphis-Area-Transit-Authority-Trolly",
+            "type": "mobility-database",
+            "mdb-id": "tld-1655",
+            "extend-calendar": true
         }
     ]
 }

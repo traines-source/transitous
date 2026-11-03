@@ -28,6 +28,11 @@
             "name": "Flamingo-Tauranga",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-flamingo~tauranga~gbfs"
+        },
+        {
+            "name": "BayBus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1071"
         }
     ]
 }

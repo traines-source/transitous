@@ -44,6 +44,18 @@
             "name": "Hele-On",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-hele~on~hi~rt"
+        },
+        {
+            "name": "TheBus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1518",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TheBus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1519",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -10,6 +10,24 @@
             "name": "addisababatransportall",
             "type": "mobility-database",
             "mdb-id": "tld-6782"
+        },
+        {
+            "name": "Anbessa-City-Bus-Service-Enterprise",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1808",
+            "extend-calendar": true
+        },
+        {
+            "name": "Addis-Ababa-Transport-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1809",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sheger-City-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1959",
+            "extend-calendar": true
         }
     ]
 }

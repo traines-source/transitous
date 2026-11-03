@@ -34,6 +34,54 @@
             "name": "capital-bikeshare",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-capital~bike~share~washington~dc~gbfs"
+        },
+        {
+            "name": "DC-Streetcar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2223",
+            "extend-calendar": true
+        },
+        {
+            "name": "Maryland-Transit-Administration",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1619",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "DC-Streetcar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1725",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "DC-Streetcar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1726",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "DC-Streetcar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1727",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Virginia-Railway-Express-(VRE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1733",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Maryland-Transit-Administration",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3084",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Maryland-Transit-Administration",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3085",
+            "spec": "gtfs-rt"
         }
     ]
 }

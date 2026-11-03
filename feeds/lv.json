@@ -28,6 +28,66 @@
                 "spdx-identifier": "CC0-1.0"
             },
             "use-feed-proxy": true
+        },
+        {
+            "name": "Valsts-SIA-Autotransporta-Direkcija-(ATD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-992"
+        },
+        {
+            "name": "Liepājas-sabiedriskais-transports",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2016"
+        },
+        {
+            "name": "Rēzeknes-satiksme",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2017"
+        },
+        {
+            "name": "Daugavpils-satiksme",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3494"
+        },
+        {
+            "name": "Jelgavas-autobusu-parks",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3495"
+        },
+        {
+            "name": "VTU-Valmiera",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3496"
+        },
+        {
+            "name": "Hansabuss",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3497"
+        },
+        {
+            "name": "Ventspils-reiss",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3498"
+        },
+        {
+            "name": "Jēkabpils-autobusu-parks",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3499"
+        },
+        {
+            "name": "Latvijas-Sabiedriskais-autobuss",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3500"
+        },
+        {
+            "name": "BBus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3501"
+        },
+        {
+            "name": "Rīgas-Satiksme",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3502"
         }
     ]
 }

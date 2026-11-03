@@ -26,6 +26,111 @@
             "mdb-id": "mdb-197",
             "fix": true,
             "url-override": "https://data.trilliumtransit.com/gtfs/cambus-ia-us/cambus-ia-us.zip"
+        },
+        {
+            "name": "Sioux-City-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-191"
+        },
+        {
+            "name": "Des-Moines-Area-Regional-Transit-Authority-(DART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-193"
+        },
+        {
+            "name": "Marshalltown-Municipal-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-194"
+        },
+        {
+            "name": "10-15-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-195"
+        },
+        {
+            "name": "Cedar-Rapids-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-198"
+        },
+        {
+            "name": "Burlington-Urban-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-199"
+        },
+        {
+            "name": "MuscaBus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-200"
+        },
+        {
+            "name": "Clinton-Municipal-Transit-Administration-(Clinton-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-202"
+        },
+        {
+            "name": "Dodger-Area-Rapid-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-203"
+        },
+        {
+            "name": "Mason-City-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-204"
+        },
+        {
+            "name": "CorridorRides",
+            "type": "mobility-database",
+            "mdb-id": "mdb-316"
+        },
+        {
+            "name": "CyRide",
+            "type": "mobility-database",
+            "mdb-id": "mdb-923"
+        },
+        {
+            "name": "Bettendorf-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1826"
+        },
+        {
+            "name": "The-Jule",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2083"
+        },
+        {
+            "name": "Citibus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2304",
+            "extend-calendar": true
+        },
+        {
+            "name": "Metropolitan-Transit-Authority-of-Black-Hawk-Count",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2414"
+        },
+        {
+            "name": "Coralville-Transit-ntd-70018",
+            "type": "mobility-database",
+            "mdb-id": "ntd-70018",
+            "extend-calendar": true
+        },
+        {
+            "name": "Des-Moines-Area-Regional-Transit-Authority-(DART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1769",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Des-Moines-Area-Regional-Transit-Authority-(DART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1770",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Des-Moines-Area-Regional-Transit-Authority-(DART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1771",
+            "spec": "gtfs-rt"
         }
     ]
 }

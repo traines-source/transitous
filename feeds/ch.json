@@ -98,6 +98,57 @@
                 "authorization": "AGE-ENCRYPTED:YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSA3NGZTL2luZWxrb1ZqRWI1YjdjcHBiRGl6clR2emloSVdnZ2lGN2s4cDBFCnRjblc2L09UZ0NHaVpMMjhWZXJCdXBSWHFnTVJUVXMzazdVWXp0S202VWcKLS0tIHV6VDh4dkdjdi8wdEJHcDRMOU1kMGpiMjRNOE5sajNpYUtyQVBtMzRwdlUKeFojJqLHIQO1NuwZZUoy8RaVg6z7zOPvRe2dur5Tv+3btt7cNCUkKLYYM9ljf+PEPCx/Z71ngj8E2Q+SIDQQfUg="
             },
             "use-feed-proxy": true
+        },
+        {
+            "name": "Shuttler",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1970",
+            "extend-calendar": true
+        },
+        {
+            "name": "Systemaufgaben-Kundeninformation-SKI+",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2053",
+            "x-possible-duplicate-of": "ch.json: opentransportdataswiss-flex"
+        },
+        {
+            "name": "Systemaufgaben-Kundeninformation-SKI+-mdb-2898",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2898"
+        },
+        {
+            "name": "Systemaufgaben-Kundeninformation-SKI+-mdb-3619",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3619"
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-80437"
+        },
+        {
+            "name": "Systemaufgaben-Kundeninformation-SKI+-tld-725",
+            "type": "mobility-database",
+            "mdb-id": "tld-725",
+            "extend-calendar": true
+        },
+        {
+            "name": "Communauté-d'Agglomération-Annemasse---les-Voirons",
+            "type": "mobility-database",
+            "mdb-id": "tdg-73680",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Communauté-d'Agglomération-Annemasse---les-Voirons",
+            "type": "mobility-database",
+            "mdb-id": "tdg-73853",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-80783",
+            "spec": "gtfs-rt"
         }
     ]
 }

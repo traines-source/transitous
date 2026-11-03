@@ -104,7 +104,8 @@
             "name": "kyiv",
             "type": "mobility-database",
             "use-feed-proxy": true,
-            "mdb-id": "mdb-3231"
+            "mdb-id": "mdb-3231",
+            "spec": "gtfs-rt"
         },
         {
             "name": "ivano-frankivsk",
@@ -230,6 +231,12 @@
                 "url": "https://own-net.com/license.html",
                 "attribution-text": "Data: malin.kiev.ua — Serhii Merenkov / Technologies LLC"
             }
+        },
+        {
+            "name": "inbus.ua",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3044",
+            "extend-calendar": true
         }
     ]
 }

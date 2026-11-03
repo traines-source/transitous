@@ -23,6 +23,101 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://www.modeshift.app/api/v1/82597f38-de86-4760-a4d6-81b3b8aafcca/transport/gtfsrt/alerts.pb"
+        },
+        {
+            "name": "Shreveport-and-Bossier-City",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1060"
+        },
+        {
+            "name": "Capital-Area-Transit-System-(CATS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2065"
+        },
+        {
+            "name": "Lake-Charles-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60023"
+        },
+        {
+            "name": "New-Orleans-Regional-Transit-Authority-(NORTA)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60032"
+        },
+        {
+            "name": "St.-Bernard-Parish",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60058"
+        },
+        {
+            "name": "Good-Earth-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60080"
+        },
+        {
+            "name": "Tangipahoa-Voluntary-Council-on-Aging",
+            "type": "mobility-database",
+            "mdb-id": "ntd-60196"
+        },
+        {
+            "name": "Jefferson-Parish-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-3390",
+            "extend-calendar": true
+        },
+        {
+            "name": "Shreveport-and-Bossier-City",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1473",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Shreveport-and-Bossier-City",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1474",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Shreveport-and-Bossier-City",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1475",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Capital-Area-Transit-System-(CATS)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6784-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Capital-Area-Transit-System-(CATS)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6784-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Capital-Area-Transit-System-(CATS)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6784-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Jefferson-Parish-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6891-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Jefferson-Parish-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6891-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Jefferson-Parish-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6891-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

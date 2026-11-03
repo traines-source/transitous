@@ -220,6 +220,24 @@
             "license": {
                 "spdx-identifier": "CC0-1.0"
             }
+        },
+        {
+            "name": "ABuss-OÜ-Aktsiaselts-Hansa-Bussiliinid-Aktsiaselts",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3235",
+            "x-possible-duplicate-of": "ee.json: saaremaa"
+        },
+        {
+            "name": "Pasažieru-Vilciens",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3385"
+        },
+        {
+            "name": "elron",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3417",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ee.json: elron"
         }
     ]
 }

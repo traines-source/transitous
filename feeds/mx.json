@@ -14,7 +14,8 @@
             "name": "mexico",
             "type": "mobility-database",
             "mdb-id": "mdb-1830",
-            "fix": true
+            "fix": true,
+            "extend-calendar": true
         },
         {
             "name": "mex-cdmx-ecobici",
@@ -39,6 +40,46 @@
                 "spdx-identifier": "ODC-By-1.0",
                 "url": "https://opendatacommons.org/licenses/by/1-0/"
             }
+        },
+        {
+            "name": "Secretaría-de-Movilidad-Oaxaca",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2033",
+            "extend-calendar": true
+        },
+        {
+            "name": "Direccion-General-de-Transporte-Publico-de-Puerto-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2034",
+            "extend-calendar": true
+        },
+        {
+            "name": "Daytrip-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2134",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mi-Transporte-Mi-Transporte-Eléctrico-Mi-Macro-Mi-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2366",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gobierno-del-estado-de-México-(Government-of-the-S",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2865"
+        },
+        {
+            "name": "Ayuntamiento-Constitucional-de-Jilotepec-Equipo-de",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2866"
+        },
+        {
+            "name": "Gobierno-del-Estado-de-Aguascalientes",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3111",
+            "extend-calendar": true
         }
     ]
 }

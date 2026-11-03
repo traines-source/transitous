@@ -72,6 +72,123 @@
             "type": "mobility-database",
             "mdb-id": "mdb-620",
             "url-override": "https://data.trilliumtransit.com/gtfs/valpotransit-chi-us/valpotransit-chi-us.zip"
+        },
+        {
+            "name": "Terre-Haute-Transit-Utility",
+            "type": "mobility-database",
+            "mdb-id": "mdb-387",
+            "extend-calendar": true
+        },
+        {
+            "name": "Muncie-Indiana-Transit-System-(MITS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-719",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-in.json: Muncie-Indiana-Transit-System"
+        },
+        {
+            "name": "IndyGo-mdb-1237",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1237",
+            "extend-calendar": true
+        },
+        {
+            "name": "Citilink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2266"
+        },
+        {
+            "name": "City-of-Evansville",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50043",
+            "extend-calendar": true
+        },
+        {
+            "name": "IndyGo-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50050",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Kokomo",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50145"
+        },
+        {
+            "name": "Central-Indiana-Regional-Transportation-Authority-",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50209"
+        },
+        {
+            "name": "Ride-SolutionWATS",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50276",
+            "extend-calendar": true
+        },
+        {
+            "name": "Cass-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50281",
+            "extend-calendar": true
+        },
+        {
+            "name": "Blue-River-Services",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50347",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Marion",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50485",
+            "extend-calendar": true
+        },
+        {
+            "name": "South-Bend-Public-Transportation-Corporation",
+            "type": "mobility-database",
+            "mdb-id": "tld-7019"
+        },
+        {
+            "name": "City-of-Kokomo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3430",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Kokomo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3431",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CityBus-of-Greater-Lafayette-Indiana",
+            "type": "mobility-database",
+            "mdb-id": "tld-5549-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CityBus-of-Greater-Lafayette-Indiana",
+            "type": "mobility-database",
+            "mdb-id": "tld-5549-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bloomington-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6882-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bloomington-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6882-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bloomington-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6882-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

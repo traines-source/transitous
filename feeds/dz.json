@@ -6,6 +6,17 @@
             "type": "mobility-database",
             "mdb-id": "mdb-1199",
             "extend-calendar": true
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-80463"
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-81167",
+            "spec": "gtfs-rt"
         }
     ]
 }

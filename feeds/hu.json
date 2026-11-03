@@ -2055,6 +2055,52 @@
             "spec": "gtfs-rt",
             "url": "https://jbb.ghsq.de/gtfs/hu/hkir_hkir_V-32054/alerts.pb",
             "use-feed-proxy": true
+        },
+        {
+            "name": "Weekendbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-862",
+            "extend-calendar": true
+        },
+        {
+            "name": "Szegedi-Közlekedési-Társaság",
+            "type": "mobility-database",
+            "mdb-id": "mdb-887",
+            "extend-calendar": true
+        },
+        {
+            "name": "V-BUSZ-KFT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1903",
+            "extend-calendar": true
+        },
+        {
+            "name": "Miskolc-Városi-Közlekedési",
+            "type": "mobility-database",
+            "mdb-id": "tld-883"
+        },
+        {
+            "name": "VOLÁNBUSZ---Balatonfűzfő-VOLÁNBUSZ---Balmazújváros",
+            "type": "mobility-database",
+            "mdb-id": "tld-5862"
+        },
+        {
+            "name": "bkk",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2672",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "bkk",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2673",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "bkk",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2674",
+            "spec": "gtfs-rt"
         }
     ]
 }

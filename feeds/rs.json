@@ -125,6 +125,18 @@
             "spec": "gtfs-rt",
             "url": "https://rt.buslogic.baguette.pirnet.si/nis/rt.pb",
             "use-feed-proxy": true
+        },
+        {
+            "name": "Kragujevac-mdb-1273",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1273",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lasta",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2918",
+            "extend-calendar": true
         }
     ]
 }

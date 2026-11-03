@@ -592,6 +592,284 @@
             "name": "LimeWuppertal",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-lime~wuppertal~gbfs"
+        },
+        {
+            "name": "bodo-Verkehrsverbund",
+            "type": "mobility-database",
+            "mdb-id": "mdb-769"
+        },
+        {
+            "name": "BBS-Schapfl",
+            "type": "mobility-database",
+            "mdb-id": "mdb-770"
+        },
+        {
+            "name": "naldo-Verkehrsverbund",
+            "type": "mobility-database",
+            "mdb-id": "mdb-771"
+        },
+        {
+            "name": "OVA-Aalen-OVA-Bopfingen-Beck+Schubert",
+            "type": "mobility-database",
+            "mdb-id": "mdb-772"
+        },
+        {
+            "name": "DB-ZugBus-Regionalverkehr-Alb-Bodensee",
+            "type": "mobility-database",
+            "mdb-id": "mdb-773"
+        },
+        {
+            "name": "Schweizer-Reisen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-774"
+        },
+        {
+            "name": "SWU-Verkehr-GmbH-(SWU)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-776"
+        },
+        {
+            "name": "Rhein-Neckar-Verkehr",
+            "type": "mobility-database",
+            "mdb-id": "mdb-777"
+        },
+        {
+            "name": "Verkehrsverbund-Rhein-Sieg-(VRS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-778"
+        },
+        {
+            "name": "Münchner-Verkehrs--und-Tarifverbund-GmbH-(MVV)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-779",
+            "extend-calendar": true
+        },
+        {
+            "name": "Erfurter-Verkehrsbetriebe-AG",
+            "type": "mobility-database",
+            "mdb-id": "mdb-780",
+            "extend-calendar": true
+        },
+        {
+            "name": "Leipziger-Verkehrsbetriebe-(LVB)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-781",
+            "extend-calendar": true
+        },
+        {
+            "name": "Stadtwerke-Heilbronn-(SWHN)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-783"
+        },
+        {
+            "name": "Rursee-Schifffahrt-KG",
+            "type": "mobility-database",
+            "mdb-id": "mdb-784"
+        },
+        {
+            "name": "Augsburger-Verkehrs--und-Tarifverbund-(AVV)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-857",
+            "extend-calendar": true
+        },
+        {
+            "name": "Ver­kehrs­ver­bund-Groß­raum-Nürn­berg-(VGN)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-858"
+        },
+        {
+            "name": "TBO-Offenburg",
+            "type": "mobility-database",
+            "mdb-id": "mdb-900"
+        },
+        {
+            "name": "VOLZ",
+            "type": "mobility-database",
+            "mdb-id": "mdb-906"
+        },
+        {
+            "name": "SBG",
+            "type": "mobility-database",
+            "mdb-id": "mdb-918"
+        },
+        {
+            "name": "TuTicket",
+            "type": "mobility-database",
+            "mdb-id": "mdb-920"
+        },
+        {
+            "name": "Ulmer-Eisenbahnfreunde-Sächsisch-Oberlausitzer-Eis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1081"
+        },
+        {
+            "name": "Hofmann-Omnibusverkehr-GmbH",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1082"
+        },
+        {
+            "name": "SWEG-Markgräflerland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1084"
+        },
+        {
+            "name": "Verkehrsverbund-Pforzheim-Enzkreis-(VPE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1085"
+        },
+        {
+            "name": "Regional-Rail-Transport-Germany",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1089"
+        },
+        {
+            "name": "Regional-Bus-Stuttgart-GmbH-RBS-FMO-Regiobus-Stutt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1093"
+        },
+        {
+            "name": "Rurtalbahn-GmbH-ABELLIO-Rail-VIAS-GmbH-Aachener-St",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1094"
+        },
+        {
+            "name": "Freiburger-Verkehrs-AG-(VAG)-R.A.S.T.-Reisen-(RAST",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1115"
+        },
+        {
+            "name": "Bürgerbus-Leupoldsgrün-(Landkreis-Hof)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1152",
+            "extend-calendar": true
+        },
+        {
+            "name": "Verkehrsverbund-Mittelthüringen-(VMT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1172"
+        },
+        {
+            "name": "Verkehrsverbund-Rhein-Neckar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1173"
+        },
+        {
+            "name": "Filsland-Verkehrsverbund",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1183",
+            "extend-calendar": true
+        },
+        {
+            "name": "OstalbMobil-–-Verkehrsverbund",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1202",
+            "extend-calendar": true
+        },
+        {
+            "name": "Rurtalbahn-GmbH-|-ABELLIO-Rail-|-VIAS-GmbH|-Aachen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1224"
+        },
+        {
+            "name": "HofBus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1252",
+            "extend-calendar": true
+        },
+        {
+            "name": "Münchner-Verkehrsgesellschaft-(MVG)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2333"
+        },
+        {
+            "name": "Mitteldeutscher-Verkehrsverbund-GmbH-(MDV)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2360"
+        },
+        {
+            "name": "NVBW---Nahverkehrsgesellschaft-Baden-Württemberg-m",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2393"
+        },
+        {
+            "name": "Verkehrsverbund-Rhein-Ruhr",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2651",
+            "extend-calendar": true
+        },
+        {
+            "name": "CROSS-Solution",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2902",
+            "extend-calendar": true
+        },
+        {
+            "name": "DELFI-Germany-wide-scheduled-timetable-data-(GTFS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3215",
+            "x-possible-duplicate-of": "de.json: DELFI"
+        },
+        {
+            "name": "Verkehrsverbund-Berlin-Brandenburg-(VBB)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3233",
+            "x-possible-duplicate-of": "de.json: VBB"
+        },
+        {
+            "name": "Verkehrsverbund-Berlin-Brandenburg-(VBB)-mdb-3234",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3234"
+        },
+        {
+            "name": "Hamburger-Verkehrsverbund-GmbH-(HVV)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3362"
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-80419"
+        },
+        {
+            "name": "Fluo-Grand-Est-tdg-80467",
+            "type": "mobility-database",
+            "mdb-id": "tdg-80467"
+        },
+        {
+            "name": "Verkehrsverbund-Rhein-Neckar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3531",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fluo-Grand-Est-tdg-80467",
+            "type": "mobility-database",
+            "mdb-id": "tdg-82719",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fluo-Grand-Est-tdg-80467",
+            "type": "mobility-database",
+            "mdb-id": "tdg-82720",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-83713",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-83714",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fluo-Grand-Est",
+            "type": "mobility-database",
+            "mdb-id": "tdg-83715",
+            "spec": "gtfs-rt"
         }
     ]
 }

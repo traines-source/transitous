@@ -37,6 +37,29 @@
             "spec": "gtfs-rt",
             "skip": true,
             "skip-reason": "api-key is missing"
+        },
+        {
+            "name": "Canberra-Metro-Operations",
+            "type": "mobility-database",
+            "mdb-id": "mdb-935"
+        },
+        {
+            "name": "Transport-Canberra-mdb-936",
+            "type": "mobility-database",
+            "mdb-id": "mdb-936",
+            "extend-calendar": true
+        },
+        {
+            "name": "Canberra-Metro-Operations",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1423",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Transport-for-New-South-Wales",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2704",
+            "spec": "gtfs-rt"
         }
     ]
 }

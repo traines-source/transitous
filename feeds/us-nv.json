@@ -10,7 +10,8 @@
             "name": "lasvegasloop",
             "type": "mobility-database",
             "mdb-id": "mdb-565",
-            "url-override": "https://data.trilliumtransit.com/gtfs/lasvegasloop-nv-us/lasvegasloop-nv-us.zip"
+            "url-override": "https://data.trilliumtransit.com/gtfs/lasvegasloop-nv-us/lasvegasloop-nv-us.zip",
+            "extend-calendar": true
         },
         {
             "name": "lasvegasloop",
@@ -75,6 +76,29 @@
             "transitland-atlas-id": "f-tahoe~ca~rt~alerts",
             "skip": true,
             "skip-reason": "api-key is missing"
+        },
+        {
+            "name": "Jump-Around-Carson",
+            "type": "mobility-database",
+            "mdb-id": "tld-688"
+        },
+        {
+            "name": "Regional-Transportation-Commission-of-Southern-Nev",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1666",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Regional-Transportation-Commission-of-Southern-Nev",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1667",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Regional-Transportation-Commission-of-Southern-Nev",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1668",
+            "spec": "gtfs-rt"
         }
     ]
 }

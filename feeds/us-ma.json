@@ -52,7 +52,8 @@
         {
             "name": "LexingtonMA",
             "type": "mobility-database",
-            "mdb-id": "tld-4728"
+            "mdb-id": "tld-4728",
+            "extend-calendar": true
         },
         {
             "name": "Massport",
@@ -81,6 +82,243 @@
             "name": "PVTA",
             "type": "mobility-database",
             "mdb-id": "tld-4679-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Greater-Attleboro-Taunton-Regional-Transit-Authori",
+            "type": "mobility-database",
+            "mdb-id": "mdb-418",
+            "extend-calendar": true
+        },
+        {
+            "name": "Vineyard-Fast-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-419",
+            "extend-calendar": true
+        },
+        {
+            "name": "Martha's-Vineyard-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-420"
+        },
+        {
+            "name": "Southeastern-Regional-Transit-Authority-(SRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-421"
+        },
+        {
+            "name": "Cuttyhunk-Ferry-Company",
+            "type": "mobility-database",
+            "mdb-id": "mdb-423"
+        },
+        {
+            "name": "Patriots-Party-Boats",
+            "type": "mobility-database",
+            "mdb-id": "mdb-424"
+        },
+        {
+            "name": "Freedom-Cruise-Line",
+            "type": "mobility-database",
+            "mdb-id": "mdb-425",
+            "extend-calendar": true
+        },
+        {
+            "name": "Nantucket-Regional-Transit-Authority-(WAVE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-426"
+        },
+        {
+            "name": "Hy-Line-Cruises",
+            "type": "mobility-database",
+            "mdb-id": "mdb-427"
+        },
+        {
+            "name": "Franklin-Regional-Transit-Authority-(FRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-429"
+        },
+        {
+            "name": "Worcester-Regional-Transit-Authority-(WRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-432",
+            "extend-calendar": true
+        },
+        {
+            "name": "Montachusett-Regional-Transit-Authority-(MART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-433"
+        },
+        {
+            "name": "Bay-State-Cruise-Company",
+            "type": "mobility-database",
+            "mdb-id": "mdb-435"
+        },
+        {
+            "name": "Coach-Company",
+            "type": "mobility-database",
+            "mdb-id": "mdb-436",
+            "extend-calendar": true
+        },
+        {
+            "name": "128-Business-Council",
+            "type": "mobility-database",
+            "mdb-id": "mdb-440",
+            "extend-calendar": true
+        },
+        {
+            "name": "Middlesex-3-TMA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-442"
+        },
+        {
+            "name": "Yankee-Line",
+            "type": "mobility-database",
+            "mdb-id": "mdb-443"
+        },
+        {
+            "name": "Lowell-Regional-Transit-Authority-(LRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-444"
+        },
+        {
+            "name": "Merrimack-Valley-Regional-Transit-Authority-(MVRTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-445"
+        },
+        {
+            "name": "Cape-Ann-Transportation-Authority-(CATA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-447"
+        },
+        {
+            "name": "Peter-Pan",
+            "type": "mobility-database",
+            "mdb-id": "mdb-496",
+            "extend-calendar": true
+        },
+        {
+            "name": "Berkshire-Regional-Transit-Authority-(BRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-537"
+        },
+        {
+            "name": "Block-Island-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-554"
+        },
+        {
+            "name": "DATTCO-Motorcoach",
+            "type": "mobility-database",
+            "mdb-id": "mdb-555",
+            "extend-calendar": true
+        },
+        {
+            "name": "Plymouth-&-Brockton-Street-Railway-Co",
+            "type": "mobility-database",
+            "mdb-id": "mdb-556"
+        },
+        {
+            "name": "Logan-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-601",
+            "extend-calendar": true
+        },
+        {
+            "name": "Cape-Cod-Regional-Transportation-Authority-(Cape-C",
+            "type": "mobility-database",
+            "mdb-id": "mdb-645"
+        },
+        {
+            "name": "Massachusetts-Ferry-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1309",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bloom-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2192",
+            "extend-calendar": true
+        },
+        {
+            "name": "Blue-Apple-Bus-Company",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2299"
+        },
+        {
+            "name": "Cape-Cod-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2446",
+            "extend-calendar": true
+        },
+        {
+            "name": "Boston-Harbor-Islands-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2679",
+            "extend-calendar": true
+        },
+        {
+            "name": "Boston-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3033"
+        },
+        {
+            "name": "Boston-Harbor-Island-National-Recreation-Area",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3416",
+            "extend-calendar": true
+        },
+        {
+            "name": "Brockton-Area-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10004"
+        },
+        {
+            "name": "Boston-Express-Bus",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10133",
+            "extend-calendar": true
+        },
+        {
+            "name": "Woods-Hole-Martha's-Vineyard-and-Nantucket-Steamsh",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10183",
+            "extend-calendar": true
+        },
+        {
+            "name": "Harvard-University",
+            "type": "mobility-database",
+            "mdb-id": "tld-4462",
+            "extend-calendar": true
+        },
+        {
+            "name": "National-Park-Service",
+            "type": "mobility-database",
+            "mdb-id": "tld-6674",
+            "extend-calendar": true
+        },
+        {
+            "name": "Green-Mountain-Community-Network-(GMCN)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1512",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Green-Mountain-Community-Network-(GMCN)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1513",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Merrimack-Valley-Regional-Transit-Authority-(MVRTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1516",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Merrimack-Valley-Regional-Transit-Authority-(MVRTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1517",
             "spec": "gtfs-rt"
         }
     ]

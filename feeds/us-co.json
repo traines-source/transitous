@@ -59,6 +59,499 @@
             "name": "MMT",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-9wvk-mountainmetropolitantransit"
+        },
+        {
+            "name": "Grand-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-161",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gunnison-Valley-Transportation-Authority-(RTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-163"
+        },
+        {
+            "name": "Snowmass-Village-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-164"
+        },
+        {
+            "name": "Groome-Transportation---Colorado-Springs-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-168",
+            "extend-calendar": true
+        },
+        {
+            "name": "Colorado-Mountain-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-172"
+        },
+        {
+            "name": "Vail-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-174"
+        },
+        {
+            "name": "Winter-Park-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-175"
+        },
+        {
+            "name": "Rocky-Mountain-National-Park-Shuttles",
+            "type": "mobility-database",
+            "mdb-id": "mdb-176",
+            "extend-calendar": true
+        },
+        {
+            "name": "Town-of-Estes-Park",
+            "type": "mobility-database",
+            "mdb-id": "mdb-177"
+        },
+        {
+            "name": "University-of-Colorado-Boulder",
+            "type": "mobility-database",
+            "mdb-id": "mdb-181"
+        },
+        {
+            "name": "All-Points-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-212"
+        },
+        {
+            "name": "Bent-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-230",
+            "extend-calendar": true
+        },
+        {
+            "name": "Blackhawk-and-Central-City-Tramway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-234"
+        },
+        {
+            "name": "Breckenridge-Free-Ride",
+            "type": "mobility-database",
+            "mdb-id": "mdb-237",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Fountain-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-309"
+        },
+        {
+            "name": "Clear-Creek-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-313"
+        },
+        {
+            "name": "Cripple-Creek-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-317"
+        },
+        {
+            "name": "Envida",
+            "type": "mobility-database",
+            "mdb-id": "mdb-455"
+        },
+        {
+            "name": "Durango-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-456"
+        },
+        {
+            "name": "Express-Arrow",
+            "type": "mobility-database",
+            "mdb-id": "mdb-460",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mountain-Express-(MtnExp)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-581"
+        },
+        {
+            "name": "Town-of-Mountain-Village",
+            "type": "mobility-database",
+            "mdb-id": "mdb-594",
+            "extend-calendar": true
+        },
+        {
+            "name": "Home-James",
+            "type": "mobility-database",
+            "mdb-id": "mdb-607"
+        },
+        {
+            "name": "Prairie-Express-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-801"
+        },
+        {
+            "name": "RoadrunnerTransit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-805"
+        },
+        {
+            "name": "San-Miguel-Authority-for-Regional-Transportation-(",
+            "type": "mobility-database",
+            "mdb-id": "mdb-811",
+            "extend-calendar": true
+        },
+        {
+            "name": "Summit-Stage",
+            "type": "mobility-database",
+            "mdb-id": "mdb-820"
+        },
+        {
+            "name": "Teller-Senior-Coalition-Transit-(TSC-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-827"
+        },
+        {
+            "name": "Garden-of-the-Gods",
+            "type": "mobility-database",
+            "mdb-id": "mdb-879",
+            "extend-calendar": true
+        },
+        {
+            "name": "Baca-Area-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1087"
+        },
+        {
+            "name": "Dolores-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1141"
+        },
+        {
+            "name": "Easy-Ride-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1195"
+        },
+        {
+            "name": "Pueblo-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1232"
+        },
+        {
+            "name": "All-Points-Transit-mdb-2039",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2039"
+        },
+        {
+            "name": "Blackhawk-and-Central-City-Tramway-mdb-2041",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2041"
+        },
+        {
+            "name": "Cripple-Creek-Transportation-mdb-2042",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2042"
+        },
+        {
+            "name": "Discover-Goodwill",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2043"
+        },
+        {
+            "name": "Envida-mdb-2044",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2044"
+        },
+        {
+            "name": "ECO-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2045"
+        },
+        {
+            "name": "El-Paso-Fountain-Valley-Senior-Citizens-Program-In",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2046"
+        },
+        {
+            "name": "Estes-Transit-mdb-2047",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2047"
+        },
+        {
+            "name": "Gunnison-Valley-RTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2048"
+        },
+        {
+            "name": "Prowers-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2049"
+        },
+        {
+            "name": "Town-of-Telluride",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2050"
+        },
+        {
+            "name": "Steamboat-Springs-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2051"
+        },
+        {
+            "name": "TSC-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2052",
+            "extend-calendar": true
+        },
+        {
+            "name": "Regional-Transportation-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2054"
+        },
+        {
+            "name": "ECO-Transit-mdb-2061",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2061",
+            "extend-calendar": true
+        },
+        {
+            "name": "Greeley-Evans-Transit-(GET)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2076"
+        },
+        {
+            "name": "Adams-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2156"
+        },
+        {
+            "name": "Bent-County-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2157"
+        },
+        {
+            "name": "City-of-Loveland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2161"
+        },
+        {
+            "name": "Continuum",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2165",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kiowa-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2169"
+        },
+        {
+            "name": "La-Junta-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2170"
+        },
+        {
+            "name": "Lakewood-Rides",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2171"
+        },
+        {
+            "name": "Mountain-Family-Center",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2173"
+        },
+        {
+            "name": "Omnibus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2175"
+        },
+        {
+            "name": "Routt-County-Council-on-Aging-(RCCOCA)-Transportat",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2178"
+        },
+        {
+            "name": "Roaring-Fork-Transportation-Authority-(RFTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2179"
+        },
+        {
+            "name": "South-Central-Council-of-Governments-(SCCOG)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2181"
+        },
+        {
+            "name": "Silver-Key-Senior-Services",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2182"
+        },
+        {
+            "name": "Southwest-Rides",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2184"
+        },
+        {
+            "name": "Senior-Resource-Development-Agency",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2185"
+        },
+        {
+            "name": "Upper-Arkansas-Area-Council-of-Governments",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2188"
+        },
+        {
+            "name": "Boulder-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2191",
+            "extend-calendar": true
+        },
+        {
+            "name": "San-Miguel-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2195"
+        },
+        {
+            "name": "Pueblo-Transit-mdb-2232",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2232"
+        },
+        {
+            "name": "Roaring-Fork-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2278"
+        },
+        {
+            "name": "Grand-Valley-Transit-mdb-2288",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2288"
+        },
+        {
+            "name": "Durango-Transit-mdb-2290",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2290"
+        },
+        {
+            "name": "Lake-County-Senior-Center-Transportation-Program",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2291"
+        },
+        {
+            "name": "Mountain-Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2292"
+        },
+        {
+            "name": "Transfort",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2293"
+        },
+        {
+            "name": "Mountain-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2294"
+        },
+        {
+            "name": "Outback-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2306"
+        },
+        {
+            "name": "Bustang-Outrider",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2330"
+        },
+        {
+            "name": "Mountain-Metropolitan-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2356",
+            "extend-calendar": true
+        },
+        {
+            "name": "Via-Mobility",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2395"
+        },
+        {
+            "name": "Colorado-School-Of-Mines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2413"
+        },
+        {
+            "name": "Avon-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2433"
+        },
+        {
+            "name": "Blue-Sky-Limo-LLC",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2616",
+            "extend-calendar": true
+        },
+        {
+            "name": "Rocky-Mountain-National-Park",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3211",
+            "extend-calendar": true
+        },
+        {
+            "name": "Transfort-–-City-of-Fort-Collins-(Transfort)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3521"
+        },
+        {
+            "name": "NECALG-(Northeastern-Colorado-Association-of-Local",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80221",
+            "extend-calendar": true
+        },
+        {
+            "name": "Archuleta-County",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80280",
+            "extend-calendar": true
+        },
+        {
+            "name": "Parachute-Area-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-5746"
+        },
+        {
+            "name": "Steamboat-Springs-Transit-Yellow-Zone",
+            "type": "mobility-database",
+            "mdb-id": "tld-5757"
+        },
+        {
+            "name": "City-of-Loveland-Transit-(COLT)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6772"
+        },
+        {
+            "name": "Gunnison-Valley-Transportation-Authority-(RTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1581",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gunnison-Valley-Transportation-Authority-(RTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1582",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Via-Mobility",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2396",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Via-Mobility",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2397",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Via-Mobility",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2398",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -31,6 +31,12 @@
                 }
             },
             "function": "delhi_gov_in_csrf"
+        },
+        {
+            "name": "Delhi-Transport-Corporation-mdb-1262",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1262",
+            "extend-calendar": true
         }
     ]
 }

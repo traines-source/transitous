@@ -96,7 +96,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-2127",
             "skip": true,
-            "skip-reason": "Connection timeout"
+            "skip-reason": "Connection timeout",
+            "extend-calendar": true
         },
         {
             "name": "milwaukee",
@@ -160,6 +161,45 @@
             "name": "waukesha",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-dp9k-waukeshacounty~wi~us~rt"
+        },
+        {
+            "name": "Eau-Claire-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-208",
+            "extend-calendar": true
+        },
+        {
+            "name": "Waukesha-Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-396",
+            "extend-calendar": true
+        },
+        {
+            "name": "Green-Bay-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-917",
+            "extend-calendar": true
+        },
+        {
+            "name": "Valley-Transit-(WI)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2069"
+        },
+        {
+            "name": "City-of-La-Crosse-(Municipal-Transit-Utility)-",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50004",
+            "extend-calendar": true
+        },
+        {
+            "name": "Beloit-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-77"
+        },
+        {
+            "name": "Fond-du-Lac-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7929"
         }
     ]
 }

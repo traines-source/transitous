@@ -527,6 +527,396 @@
             "name": "Lime-Kelowna",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-lime~kelowna~gbfs"
+        },
+        {
+            "name": "Aquabus-Ferries",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2031"
+        },
+        {
+            "name": "Hullo-Ferries",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2389"
+        },
+        {
+            "name": "BC-Transit-(Hazelton-|-Kitimat-|-Terrace)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2462"
+        },
+        {
+            "name": "BC-Transit-(Quesnel)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2463"
+        },
+        {
+            "name": "BC-Transit-(Revelstoke)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2464"
+        },
+        {
+            "name": "BC-Transit-(Salt-Spring-Island)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2466"
+        },
+        {
+            "name": "BC-Transit-(Mount-Waddington)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2467"
+        },
+        {
+            "name": "BC-Transit-(Ashcroft-Cache-Creek-Clinton-Transit-S",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2468",
+            "x-possible-duplicate-of": "ca-bc.json: Dawson-Creek-Transit"
+        },
+        {
+            "name": "BC-Transit-(100-Mile-House)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2469"
+        },
+        {
+            "name": "BC-Transit-(Pemberton-Valley)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2470",
+            "x-possible-duplicate-of": "ca-bc.json: Comox-Valley-Transit"
+        },
+        {
+            "name": "BC-Transit-(Merritt)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2471"
+        },
+        {
+            "name": "BC-Transit-(Smithers)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2472"
+        },
+        {
+            "name": "BC-Transit-(Clearwater)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2515"
+        },
+        {
+            "name": "BC-Transit-(Kelowna-Regional-Transit-System)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2555"
+        },
+        {
+            "name": "BC-Transit-(West-Coast)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2575",
+            "x-possible-duplicate-of": "ca-bc.json: Sunshine-Coast-Transit"
+        },
+        {
+            "name": "BC-Transit-(Williams-Lake)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2587"
+        },
+        {
+            "name": "The-Victoria-Clipper",
+            "type": "mobility-database",
+            "mdb-id": "tld-821"
+        },
+        {
+            "name": "Denman-Island-Bus-Service",
+            "type": "mobility-database",
+            "mdb-id": "tld-6755",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gabriola-Community-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "tld-6756"
+        },
+        {
+            "name": "Hornby-Island-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-6757",
+            "extend-calendar": true
+        },
+        {
+            "name": "West-Coast-Trail-Express",
+            "type": "mobility-database",
+            "mdb-id": "tld-6897",
+            "extend-calendar": true
+        },
+        {
+            "name": "BC-Transit-(Smithers)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2465",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Hazelton-|-Kitimat-|-Terrace)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2477",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Hazelton-|-Kitimat-|-Terrace)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2478",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Hazelton-|-Kitimat-|-Terrace)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2479",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Quesnel)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2480",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Quesnel)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2481",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Quesnel)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2482",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Revelstoke)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2483",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Revelstoke)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2484",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Revelstoke)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2485",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Salt-Spring-Island)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2486",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Salt-Spring-Island)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2487",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Salt-Spring-Island)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2488",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Mount-Waddington)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2489",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Mount-Waddington)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2490",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Mount-Waddington)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2491",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Ashcroft-Cache-Creek-Clinton-Transit-S",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2492",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Dawson-Creek-Transit"
+        },
+        {
+            "name": "BC-Transit-(Ashcroft-Cache-Creek-Clinton-Transit-S",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2493",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Dawson-Creek-Transit"
+        },
+        {
+            "name": "BC-Transit-(Ashcroft-Cache-Creek-Clinton-Transit-S",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2494",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Dawson-Creek-Transit"
+        },
+        {
+            "name": "BC-Transit-(100-Mile-House)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2495",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(100-Mile-House)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2496",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(100-Mile-House)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2497",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Pemberton-Valley)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2498",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Comox-Valley-Transit"
+        },
+        {
+            "name": "BC-Transit-(Pemberton-Valley)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2499",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Comox-Valley-Transit"
+        },
+        {
+            "name": "BC-Transit-(Pemberton-Valley)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2500",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Comox-Valley-Transit"
+        },
+        {
+            "name": "BC-Transit-(Merritt)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2501",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Merritt)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2502",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Merritt)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2503",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Smithers)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2504",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Smithers)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2505",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Clearwater)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2506",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Clearwater)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2509",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Clearwater)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2518",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Kelowna-Regional-Transit-System)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2556",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Kelowna-Regional-Transit-System)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2557",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Kelowna-Regional-Transit-System)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2558",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(West-Coast)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2576",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Sunshine-Coast-Transit"
+        },
+        {
+            "name": "BC-Transit-(West-Coast)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2577",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Sunshine-Coast-Transit"
+        },
+        {
+            "name": "BC-Transit-(West-Coast)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2578",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-bc.json: Sunshine-Coast-Transit"
+        },
+        {
+            "name": "BC-Transit-(Williams-Lake)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2588",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Williams-Lake)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2589",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "BC-Transit-(Williams-Lake)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2590",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TransLink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3348",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TransLink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3349",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TransLink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3350",
+            "spec": "gtfs-rt"
         }
     ]
 }

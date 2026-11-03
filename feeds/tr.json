@@ -31,7 +31,8 @@
             "mdb-id": "mdb-1828",
             "fix": true,
             "skip": true,
-            "skip-reason": "Expired feed"
+            "skip-reason": "Expired feed",
+            "extend-calendar": true
         },
         {
             "name": "izmir-tram",
@@ -277,6 +278,43 @@
                 "spdx-identifier": "MIT"
             },
             "fix": true
+        },
+        {
+            "name": "Eshot",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1823",
+            "extend-calendar": true
+        },
+        {
+            "name": "Isparta-Özel-Halk-Otobüsleri",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2381",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kocaeli-Toplu-Taşıma",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2710"
+        },
+        {
+            "name": "Istanbul-IETT-GTFS-Data",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3128"
+        },
+        {
+            "name": "KentKart-Kocaeli---Third-party-generated-from-Kent",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3398"
+        },
+        {
+            "name": "KentKart-Gaziantep---Third-party-generated-from-Ke",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3401"
+        },
+        {
+            "name": "KentKart-Antalya---Third-party-generated-from-Kent",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3406"
         }
     ]
 }

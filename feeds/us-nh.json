@@ -28,6 +28,94 @@
             "name": "dartmouth",
             "type": "mobility-database",
             "mdb-id": "mdb-1958"
+        },
+        {
+            "name": "MOOver",
+            "type": "mobility-database",
+            "mdb-id": "mdb-434",
+            "extend-calendar": true
+        },
+        {
+            "name": "Advance-Transit-(AT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-451",
+            "extend-calendar": true
+        },
+        {
+            "name": "Concord-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2164",
+            "extend-calendar": true
+        },
+        {
+            "name": "Manchester-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3432"
+        },
+        {
+            "name": "Manchester-Transit-Authority-ntd-10002",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10002",
+            "extend-calendar": true
+        },
+        {
+            "name": "Nashua-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10087",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-Express",
+            "type": "mobility-database",
+            "mdb-id": "ntd-10159"
+        },
+        {
+            "name": "Advance-Transit-(AT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1650",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Advance-Transit-(AT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1651",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Rural-Community-Transportation-(RCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1679",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Rural-Community-Transportation-(RCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1680",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MOOver",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1723",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MOOver",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1724",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tri-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1753",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tri-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1754",
+            "spec": "gtfs-rt"
         }
     ]
 }

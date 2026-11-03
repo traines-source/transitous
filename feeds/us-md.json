@@ -119,6 +119,238 @@
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-dr10-carrolltransitsystem~carrollareatransitsystemcats",
             "fix": true
+        },
+        {
+            "name": "Bethesda-Circulator",
+            "type": "mobility-database",
+            "mdb-id": "mdb-231"
+        },
+        {
+            "name": "Allegany-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-408",
+            "extend-calendar": true
+        },
+        {
+            "name": "Delmarva-Community-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-475",
+            "extend-calendar": true
+        },
+        {
+            "name": "St.-Mary's-Transit-System-(STS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-476",
+            "extend-calendar": true
+        },
+        {
+            "name": "Prince-George's-County-(The-Bus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-477"
+        },
+        {
+            "name": "Charles-County-VanGo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-479",
+            "extend-calendar": true
+        },
+        {
+            "name": "Calvert-County-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-480",
+            "extend-calendar": true
+        },
+        {
+            "name": "BWI-Thurgood-Marshall-Airport-(BWI)-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-490",
+            "extend-calendar": true
+        },
+        {
+            "name": "Queen-Anne's-County-Ride",
+            "type": "mobility-database",
+            "mdb-id": "mdb-492",
+            "extend-calendar": true
+        },
+        {
+            "name": "Charm-City-Circulator",
+            "type": "mobility-database",
+            "mdb-id": "mdb-493",
+            "extend-calendar": true
+        },
+        {
+            "name": "Ocean-City-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-495",
+            "extend-calendar": true
+        },
+        {
+            "name": "Carroll-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-500",
+            "extend-calendar": true
+        },
+        {
+            "name": "Harford-Transit-LINK",
+            "type": "mobility-database",
+            "mdb-id": "mdb-501",
+            "extend-calendar": true
+        },
+        {
+            "name": "Harbor-Connector",
+            "type": "mobility-database",
+            "mdb-id": "mdb-618"
+        },
+        {
+            "name": "Towson-Loop",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1784"
+        },
+        {
+            "name": "Saint-Maryʼs-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2268"
+        },
+        {
+            "name": "Annapolis-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2285",
+            "extend-calendar": true
+        },
+        {
+            "name": "Washington-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2286"
+        },
+        {
+            "name": "Shore-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3149"
+        },
+        {
+            "name": "Cecil-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3178"
+        },
+        {
+            "name": "Anne-Arundel-County",
+            "type": "mobility-database",
+            "mdb-id": "ntd-30129",
+            "extend-calendar": true
+        },
+        {
+            "name": "Baltimore-Water-Taxi",
+            "type": "mobility-database",
+            "mdb-id": "tld-984",
+            "extend-calendar": true
+        },
+        {
+            "name": "RTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1657",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1658",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1659",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Towson-Loop",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1785",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Towson-Loop",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1786",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Towson-Loop",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1787",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TransIt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3069",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TransIt",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3070",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-subwaylink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3082",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-subwaylink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3083",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-raillink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3086",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-raillink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3087",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3088",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3089",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Shore-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3442",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Shore-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3443",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Shore-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3444",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Maryland-Transit-Administration",
+            "type": "mobility-database",
+            "mdb-id": "tld-4921-sa",
+            "spec": "gtfs-rt"
         }
     ]
 }

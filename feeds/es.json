@@ -181,7 +181,8 @@
                     "ApiKey": "e8143a1e-d12e-4a01-9b08-caf3071e4853"
                 }
             },
-            "mdb-id": "mdb-2712"
+            "mdb-id": "mdb-2712",
+            "extend-calendar": true
         },
         {
             "name": "Autobuses-Sarbus",
@@ -243,7 +244,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2815"
+            "mdb-id": "mdb-2815",
+            "extend-calendar": true
         },
         {
             "name": "Autobuses-Urbanos-Dos-Hermanas",
@@ -257,7 +259,8 @@
                     "ApiKey": "e8143a1e-d12e-4a01-9b08-caf3071e4853"
                 }
             },
-            "mdb-id": "mdb-2711"
+            "mdb-id": "mdb-2711",
+            "extend-calendar": true
         },
         {
             "name": "Autobuses-Xunta-de-Galicia",
@@ -340,7 +343,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2813"
+            "mdb-id": "mdb-2813",
+            "extend-calendar": true
         },
         {
             "name": "Autobús-metropolitano-Barcelona",
@@ -452,7 +456,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2798"
+            "mdb-id": "mdb-2798",
+            "extend-calendar": true
         },
         {
             "name": "Autobús-urbano-de-Girona",
@@ -538,7 +543,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2804"
+            "mdb-id": "mdb-2804",
+            "extend-calendar": true
         },
         {
             "name": "Autobús-urbano-de-Palma-de-Mallorca",
@@ -576,7 +582,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2716"
+            "mdb-id": "mdb-2716",
+            "extend-calendar": true
         },
         {
             "name": "Autobús-urbano-de-Valladolid",
@@ -700,7 +707,8 @@
             },
             "mdb-id": "mdb-2816",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "Cercanías-Madrid",
@@ -875,7 +883,8 @@
             },
             "mdb-id": "mdb-2717",
             "skip": true,
-            "skip-reason": "Feed expired"
+            "skip-reason": "Feed expired",
+            "extend-calendar": true
         },
         {
             "name": "Funicular-de-Artxanda",
@@ -1359,7 +1368,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2762"
+            "mdb-id": "mdb-2762",
+            "extend-calendar": true
         },
         {
             "name": "Transportes-Urbanos-de-Vitoria-(TUVISA)",
@@ -1462,7 +1472,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2809"
+            "mdb-id": "mdb-2809",
+            "extend-calendar": true
         },
         {
             "name": "VAC-231.-Madrid,-Piedrabuena-(Ciudad-Real)-y-Agudo-(Ciudad-Real)",
@@ -1476,7 +1487,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2811"
+            "mdb-id": "mdb-2811",
+            "extend-calendar": true
         },
         {
             "name": "VAC-232.-Madrid,-Málaga-y-Algeciras-(Cádiz)",
@@ -1490,7 +1502,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2817"
+            "mdb-id": "mdb-2817",
+            "extend-calendar": true
         },
         {
             "name": "VAC-245.-Huesca-Barcelona",
@@ -1504,7 +1517,8 @@
             },
             "skip": true,
             "skip-reason": "Feed expired",
-            "mdb-id": "mdb-2810"
+            "mdb-id": "mdb-2810",
+            "extend-calendar": true
         },
         {
             "name": "Trasnportes-Insular-de-La-Palma-(TILP)",
@@ -1544,7 +1558,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-794",
             "skip": true,
-            "skip-reason": "Feed expired"
+            "skip-reason": "Feed expired",
+            "extend-calendar": true
         },
         {
             "name": "EMT-Valencia",
@@ -1575,7 +1590,8 @@
         {
             "name": "Metro-de-Málaga",
             "type": "mobility-database",
-            "mdb-id": "mdb-1017"
+            "mdb-id": "mdb-1017",
+            "extend-calendar": true
         },
         {
             "name": "Bizkaibus",
@@ -1761,7 +1777,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-2780",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "Viagón-Coaches",
@@ -1807,7 +1824,8 @@
                 }
             },
             "skip": true,
-            "skip-reason": "Feed expired"
+            "skip-reason": "Feed expired",
+            "extend-calendar": true
         },
         {
             "name": "Erandio-City-Council-(Erandio!-Busa)",
@@ -1825,7 +1843,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-2794",
             "skip": true,
-            "skip-reason": "expired"
+            "skip-reason": "expired",
+            "extend-calendar": true
         },
         {
             "name": "Ancebus",
@@ -1986,6 +2005,135 @@
             "name": "Bizi-Zaragoza",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-bizi~zaragoza~gbfs"
+        },
+        {
+            "name": "Metropolitano-de-Tenerife-(Metrotenerife)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-788",
+            "extend-calendar": true
+        },
+        {
+            "name": "TRAM-Alicante",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1039"
+        },
+        {
+            "name": "MetroValencia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1054",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gobierno-de-Navarra-(Navarra-intercity-bus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2150",
+            "extend-calendar": true
+        },
+        {
+            "name": "Junta-de-Extremadura-(Extremadura-Regional-Governm",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2690",
+            "extend-calendar": true
+        },
+        {
+            "name": "Leioa-City-Council-(Lejoan-Busa)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2791",
+            "x-possible-duplicate-of": "es.json: Salamanca-de-Transportes-S.A.-"
+        },
+        {
+            "name": "Etxebarri-Town-Hall",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2792",
+            "x-possible-duplicate-of": "es.json: Salamanca-de-Transportes-S.A.-"
+        },
+        {
+            "name": "Rafael-Nadal-Coaches",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2800",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "es.json: Salamanca-de-Transportes-S.A.-"
+        },
+        {
+            "name": "Pinto-City-Council",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2812",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "es.json: Salamanca-de-Transportes-S.A.-"
+        },
+        {
+            "name": "Santa-Eulalia-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2923",
+            "extend-calendar": true
+        },
+        {
+            "name": "Autobuses-urbanos-de-Burgos-mdb-3145",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3145",
+            "extend-calendar": true
+        },
+        {
+            "name": "Centro-Comercial-RÍO-Shopping-(La-Regional-Valliso",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3181"
+        },
+        {
+            "name": "Zaratán",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3454"
+        },
+        {
+            "name": "RíoBUS",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3455"
+        },
+        {
+            "name": "La-Regional-Vallisoletana-S.A-mdb-3508",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3508",
+            "x-possible-duplicate-of": "es.json: La-Regional-Vallisoletana-S.A"
+        },
+        {
+            "name": "Los-Reginas",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3522"
+        },
+        {
+            "name": "Conda-INTER-ARRIAGA--S.L.-La-Burundesa",
+            "type": "mobility-database",
+            "mdb-id": "tld-650",
+            "extend-calendar": true
+        },
+        {
+            "name": "EMT-Madrid",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3102",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "La-Regional-Vallisoletana-S.A-mdb-3508",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3509",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "La-Regional-Vallisoletana-S.A-mdb-3508",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3510",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "La-Regional-Vallisoletana-S.A-mdb-3508",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3511",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "RENFE-VIAJEROS-SOCIEDAD-MERCANTIL-ESTATAL-SA",
+            "type": "mobility-database",
+            "mdb-id": "tdg-84209",
+            "spec": "gtfs-rt"
         }
     ]
 }

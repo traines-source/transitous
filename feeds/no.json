@@ -41,6 +41,27 @@
             "license": {
                 "spdx-identifier": "NLOD-2.0"
             }
+        },
+        {
+            "name": "SJ-Norge",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3274"
+        },
+        {
+            "name": "Vy-Norge",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3289"
+        },
+        {
+            "name": "Vy-Tåg-AB",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3290"
+        },
+        {
+            "name": "Vestfold-Kollektivtrafikk-Bastø-Fosen",
+            "type": "mobility-database",
+            "mdb-id": "tld-1048",
+            "x-possible-duplicate-of": "no.json: Entur"
         }
     ]
 }

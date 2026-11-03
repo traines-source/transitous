@@ -234,6 +234,513 @@
             "type": "mobility-database",
             "mdb-id": "tld-5555-sa",
             "spec": "gtfs-rt"
+        },
+        {
+            "name": "Coos-County-Area-Transit-(CCAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-21"
+        },
+        {
+            "name": "Curry-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-22"
+        },
+        {
+            "name": "Lincoln-County-Transit-(LCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-23"
+        },
+        {
+            "name": "Rhody-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-24"
+        },
+        {
+            "name": "People-Mover",
+            "type": "mobility-database",
+            "mdb-id": "mdb-112"
+        },
+        {
+            "name": "Josephine-County-Transit-(JCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-121"
+        },
+        {
+            "name": "UTrans",
+            "type": "mobility-database",
+            "mdb-id": "mdb-123",
+            "extend-calendar": true
+        },
+        {
+            "name": "Klamath-Shuttle---Crater-Lake-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-124",
+            "extend-calendar": true
+        },
+        {
+            "name": "Basin-Transit-Service-(BTS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-125"
+        },
+        {
+            "name": "Benton-Area-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-126"
+        },
+        {
+            "name": "Caravan-Airport-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-127"
+        },
+        {
+            "name": "Cherriots-mdb-128",
+            "type": "mobility-database",
+            "mdb-id": "mdb-128",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-2-City-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-129",
+            "extend-calendar": true
+        },
+        {
+            "name": "Diamond-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-130"
+        },
+        {
+            "name": "Lane-Transit-District-(LTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-131",
+            "extend-calendar": true
+        },
+        {
+            "name": "Oregon-Express-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-132"
+        },
+        {
+            "name": "Pacific-Crest-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-133"
+        },
+        {
+            "name": "South-Lane-Wheels",
+            "type": "mobility-database",
+            "mdb-id": "mdb-134",
+            "extend-calendar": true
+        },
+        {
+            "name": "LINX-Transit-Linn-Benton-Loop-Albany-Transit-Syste",
+            "type": "mobility-database",
+            "mdb-id": "mdb-135"
+        },
+        {
+            "name": "Linn-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-137"
+        },
+        {
+            "name": "Central-Oregon-Breeze",
+            "type": "mobility-database",
+            "mdb-id": "mdb-139"
+        },
+        {
+            "name": "Eugene-to-BEND",
+            "type": "mobility-database",
+            "mdb-id": "mdb-140",
+            "extend-calendar": true
+        },
+        {
+            "name": "Malheur-Council-on-Aging-&-Community-Services",
+            "type": "mobility-database",
+            "mdb-id": "mdb-141"
+        },
+        {
+            "name": "Woodburn-Transit-Service-(WTS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-251"
+        },
+        {
+            "name": "Swan-Island-Evening-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-255"
+        },
+        {
+            "name": "Clackamas-Community-College-(CCC)-Xpress",
+            "type": "mobility-database",
+            "mdb-id": "mdb-257",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sandy-Area-Metro-(SAM)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-261",
+            "x-possible-duplicate-of": "us-or.json: SAM"
+        },
+        {
+            "name": "Wallowa-Community-Connection-(WCC)-Northeast-Orego",
+            "type": "mobility-database",
+            "mdb-id": "mdb-289"
+        },
+        {
+            "name": "ClackCo-Connects-(Clackamas-County)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-312",
+            "x-possible-duplicate-of": "us-or.json: ClackamasCounty"
+        },
+        {
+            "name": "Klamath-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-560",
+            "extend-calendar": true
+        },
+        {
+            "name": "Let'er-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-590"
+        },
+        {
+            "name": "Canby-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-605"
+        },
+        {
+            "name": "Eastern-Point",
+            "type": "mobility-database",
+            "mdb-id": "mdb-632",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-or.json: POINT"
+        },
+        {
+            "name": "Valley-Retriever-Busline",
+            "type": "mobility-database",
+            "mdb-id": "mdb-633",
+            "extend-calendar": true
+        },
+        {
+            "name": "Eugene-to-Coos-Bay",
+            "type": "mobility-database",
+            "mdb-id": "mdb-634",
+            "extend-calendar": true
+        },
+        {
+            "name": "SouthWest-POINT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-637",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-or.json: POINT"
+        },
+        {
+            "name": "NorthWest-POINT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-638",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-or.json: POINT"
+        },
+        {
+            "name": "Cascade-POINT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-639",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-or.json: POINT"
+        },
+        {
+            "name": "Water-Avenue-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-831",
+            "extend-calendar": true
+        },
+        {
+            "name": "Wheatland-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-833"
+        },
+        {
+            "name": "Buena-Vista-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-834"
+        },
+        {
+            "name": "Harney-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-931"
+        },
+        {
+            "name": "Link-Lane",
+            "type": "mobility-database",
+            "mdb-id": "mdb-932"
+        },
+        {
+            "name": "Mt.-Bachelor",
+            "type": "mobility-database",
+            "mdb-id": "mdb-933",
+            "extend-calendar": true
+        },
+        {
+            "name": "Astoria-Riverfront-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1254"
+        },
+        {
+            "name": "Shuttle-Oregon",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1284",
+            "extend-calendar": true
+        },
+        {
+            "name": "Quail-Trail-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1327"
+        },
+        {
+            "name": "City-of-Milton-Freewater-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2189"
+        },
+        {
+            "name": "Wahkiakum-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2193"
+        },
+        {
+            "name": "Philomath-Connection",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2205"
+        },
+        {
+            "name": "City-of-Corvallis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2283"
+        },
+        {
+            "name": "Morrow-County-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2418"
+        },
+        {
+            "name": "Burns-Paiute-Tribal-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2621"
+        },
+        {
+            "name": "ClackCo-Connects-(Clackamas-County)-mdb-2741",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2741",
+            "x-possible-duplicate-of": "us-or.json: ClackamasCounty"
+        },
+        {
+            "name": "Columbia-County-Rider",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3037"
+        },
+        {
+            "name": "Benton-Area-Transportation-mdb-3109",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3109"
+        },
+        {
+            "name": "Cascades-East-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-170"
+        },
+        {
+            "name": "Columbia-County-Rider-tld-4210",
+            "type": "mobility-database",
+            "mdb-id": "tld-4210"
+        },
+        {
+            "name": "City-of-Corvallis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1454",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Corvallis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1455",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Wave",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1476",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Wave",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1477",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Wave",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1478",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lincoln-County-Transit-(LCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1499",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lincoln-County-Transit-(LCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1500",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lincoln-County-Transit-(LCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1501",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lane-Transit-District-(LTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1558",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lane-Transit-District-(LTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1559",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TriMet",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1708",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TriMet",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1709",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "TriMet",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1710",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "WashingtonPark",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1744",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-or.json: WashingtonPark"
+        },
+        {
+            "name": "WashingtonPark",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1746",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-or.json: WashingtonPark"
+        },
+        {
+            "name": "Linn-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1751",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Linn-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1752",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Benton-Area-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1760",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Benton-Area-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1761",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Benton-Area-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1762",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "C-TRAN",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1921",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-or.json: C-TRAN"
+        },
+        {
+            "name": "Lane-Transit-District-(LTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3148",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-or.json: LTD"
+        },
+        {
+            "name": "Cascades-East-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4067-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Cascades-East-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4067-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Cascades-East-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4067-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Corvallis",
+            "type": "mobility-database",
+            "mdb-id": "tld-4241-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Rogue-Valley-Transportation-District-(RVTD)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4370-sa",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-or.json: RVTD"
+        },
+        {
+            "name": "Rogue-Valley-Transportation-District-(RVTD)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4370-tu",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-or.json: RVTD"
+        },
+        {
+            "name": "Philomath-Connection",
+            "type": "mobility-database",
+            "mdb-id": "tld-4780-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Philomath-Connection",
+            "type": "mobility-database",
+            "mdb-id": "tld-4780-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Philomath-Connection",
+            "type": "mobility-database",
+            "mdb-id": "tld-4780-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

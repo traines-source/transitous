@@ -47,12 +47,14 @@
         {
             "name": "vilnius",
             "type": "mobility-database",
-            "mdb-id": "mdb-2382"
+            "mdb-id": "mdb-2382",
+            "spec": "gtfs-rt"
         },
         {
             "name": "vilnius",
             "type": "mobility-database",
-            "mdb-id": "mdb-2384"
+            "mdb-id": "mdb-2384",
+            "spec": "gtfs-rt"
         },
         {
             "name": "kaunas",
@@ -151,6 +153,13 @@
             "url": "https://www.stops.lt/kautra/kautra/gtfs.zip",
             "fix": true,
             "script": "generic-bus-to-coach.lua"
+        },
+        {
+            "name": "vilnius",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2383",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "lt.json: vilnius"
         }
     ]
 }

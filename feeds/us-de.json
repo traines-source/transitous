@@ -18,6 +18,24 @@
             "transitland-atlas-id": "f-dr4-dartfirststatewood~rt",
             "skip": true,
             "skip-reason": "api-key is missing"
+        },
+        {
+            "name": "Cecil-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3078",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Cecil-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3079",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Cecil-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3080",
+            "spec": "gtfs-rt"
         }
     ]
 }

@@ -1,6 +1,9 @@
 {
     "maintainers": [
-        { "name": "yikesjp", "github": "yikesjp" }
+        {
+            "name": "yikesjp",
+            "github": "yikesjp"
+        }
     ],
     "sources": [
         {
@@ -12,6 +15,11 @@
             },
             "fix": true,
             "script": "cn-china-railway.lua"
+        },
+        {
+            "name": "Hong-Kong-Government-Transport-Department",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1924"
         }
     ]
 }

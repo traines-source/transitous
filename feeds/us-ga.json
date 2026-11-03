@@ -10,13 +10,203 @@
             "name": "MARTA",
             "type": "mobility-database",
             "mdb-id": "mdb-368",
-            "url-override": "https://itsmarta.com/google_transit_feed/google_transit.zip"
+            "url-override": "https://itsmarta.com/google_transit_feed/google_transit.zip",
+            "extend-calendar": true
         },
         {
             "name": "MARTA",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-dnh-marta~rt",
             "use-feed-proxy": true
+        },
+        {
+            "name": "Groome-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-319",
+            "extend-calendar": true
+        },
+        {
+            "name": "Georgia-Tech-Trolley-&-Stinger-Shuttles",
+            "type": "mobility-database",
+            "mdb-id": "mdb-355",
+            "extend-calendar": true
+        },
+        {
+            "name": "Atlanta-Streetcar",
+            "type": "mobility-database",
+            "mdb-id": "mdb-356",
+            "extend-calendar": true
+        },
+        {
+            "name": "Atlantic-Regional-Commission",
+            "type": "mobility-database",
+            "mdb-id": "mdb-357",
+            "extend-calendar": true
+        },
+        {
+            "name": "Cherokee-Area-Transportation-System-(CATS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-358",
+            "extend-calendar": true
+        },
+        {
+            "name": "Emory-University-Cliff-Shuttles",
+            "type": "mobility-database",
+            "mdb-id": "mdb-370",
+            "extend-calendar": true
+        },
+        {
+            "name": "Chatham-Area-Transit-(CAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2080",
+            "extend-calendar": true
+        },
+        {
+            "name": "Albany-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2146",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gwinnett-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2241"
+        },
+        {
+            "name": "Xpress",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2426",
+            "extend-calendar": true
+        },
+        {
+            "name": "CobbLinc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3193"
+        },
+        {
+            "name": "METRA",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40024"
+        },
+        {
+            "name": "City-of-Hinesville-Georgia",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40193"
+        },
+        {
+            "name": "Georgia-Tech-Stinger-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-478_1"
+        },
+        {
+            "name": "University-of-Georgia",
+            "type": "mobility-database",
+            "mdb-id": "tld-2276"
+        },
+        {
+            "name": "Emory-Hospital-Midtown",
+            "type": "mobility-database",
+            "mdb-id": "tld-4458"
+        },
+        {
+            "name": "Athens-Clarke-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4777"
+        },
+        {
+            "name": "Connect-Douglas",
+            "type": "mobility-database",
+            "mdb-id": "tld-5551"
+        },
+        {
+            "name": "Augusta-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5780",
+            "extend-calendar": true
+        },
+        {
+            "name": "Macon-Bibb-County-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-7846",
+            "extend-calendar": true
+        },
+        {
+            "name": "Chatham-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7925",
+            "extend-calendar": true
+        },
+        {
+            "name": "University-of-Georgia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2617",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "University-of-Georgia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2619",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "University-of-Georgia",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2633",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CobbLinc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3194",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CobbLinc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3195",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CobbLinc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3196",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Athens-Clarke-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4783-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Athens-Clarke-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4783-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Athens-Clarke-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4783-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gwinnett-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5550-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gwinnett-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5550-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gwinnett-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5550-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

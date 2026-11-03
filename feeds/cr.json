@@ -10,6 +10,18 @@
             "name": "INCOFER",
             "type": "http",
             "url": "https://feeds.simovi.org/incofer/schedule/gtfs.zip"
+        },
+        {
+            "name": "Daytrip-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2151",
+            "extend-calendar": true
+        },
+        {
+            "name": "INCOFER-mdb-3480",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3480",
+            "x-possible-duplicate-of": "cr.json: INCOFER"
         }
     ]
 }

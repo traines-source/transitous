@@ -93,6 +93,165 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-metra~rt&feed_type=trip"
+        },
+        {
+            "name": "Metro-Rock-Island-County-Metropolitan-Mass-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-201",
+            "extend-calendar": true
+        },
+        {
+            "name": "Chicago-Water-Taxi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-306"
+        },
+        {
+            "name": "DeKalb-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-308"
+        },
+        {
+            "name": "Indian-Trails-Detroit-Ann-Arbor-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-384",
+            "extend-calendar": true
+        },
+        {
+            "name": "Rockford-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2019",
+            "extend-calendar": true
+        },
+        {
+            "name": "Connect-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2267"
+        },
+        {
+            "name": "Shawnee-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2332"
+        },
+        {
+            "name": "Danville-Mass-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2363"
+        },
+        {
+            "name": "JAX-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3408"
+        },
+        {
+            "name": "Go-West-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50232",
+            "extend-calendar": true
+        },
+        {
+            "name": "South-Central-Illinois-Mass-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50327",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Galesburg",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50502"
+        },
+        {
+            "name": "New-Bourbon-Regional-Port-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-77086",
+            "extend-calendar": true
+        },
+        {
+            "name": "Madison-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4136",
+            "extend-calendar": true
+        },
+        {
+            "name": "University-of-Chicago",
+            "type": "mobility-database",
+            "mdb-id": "tld-4472"
+        },
+        {
+            "name": "Decatur-Public-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-7036"
+        },
+        {
+            "name": "ChampaignUrbana-MTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2887",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ChampaignUrbana-MTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2888",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "ChampaignUrbana-MTD",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2889",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Shore-Line",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3075",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Shore-Line",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3076",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "South-Shore-Line",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3077",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metra",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3351",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metra",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3352",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metra",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3353",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Peoria-CityLink",
+            "type": "mobility-database",
+            "mdb-id": "tld-5581-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Peoria-CityLink",
+            "type": "mobility-database",
+            "mdb-id": "tld-5581-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Peoria-CityLink",
+            "type": "mobility-database",
+            "mdb-id": "tld-5581-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

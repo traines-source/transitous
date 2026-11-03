@@ -70,7 +70,8 @@
             "name": "Kitsap-Transit",
             "type": "mobility-database",
             "mdb-id": "mdb-1304",
-            "url-override": "https://pride.kitsaptransit.com/gtfs/google_transit.zip"
+            "url-override": "https://pride.kitsaptransit.com/gtfs/google_transit.zip",
+            "extend-calendar": true
         },
         {
             "name": "Washington-State-Ferries",
@@ -102,7 +103,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-269",
             "skip": true,
-            "skip-reason": "Expired"
+            "skip-reason": "Expired",
+            "extend-calendar": true
         },
         {
             "name": "Community-Transit",
@@ -352,6 +354,399 @@
             "name": "Asotin-County-PTBA",
             "type": "mobility-database",
             "mdb-id": "mdb-2298"
+        },
+        {
+            "name": "Wahkiakum-on-the-Move",
+            "type": "mobility-database",
+            "mdb-id": "mdb-249"
+        },
+        {
+            "name": "Skamania-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-262"
+        },
+        {
+            "name": "Pierce-Transit-mdb-265",
+            "type": "mobility-database",
+            "mdb-id": "mdb-265"
+        },
+        {
+            "name": "Sound-Transit-Metro-Transit-City-of-Seattle---King",
+            "type": "mobility-database",
+            "mdb-id": "mdb-267"
+        },
+        {
+            "name": "Sound-Transit-mdb-268",
+            "type": "mobility-database",
+            "mdb-id": "mdb-268"
+        },
+        {
+            "name": "Seattle-Children's-Hospital-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-270",
+            "extend-calendar": true
+        },
+        {
+            "name": "People-for-People-(Community-Connector)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-271"
+        },
+        {
+            "name": "Selah-Transit-mdb-278",
+            "type": "mobility-database",
+            "mdb-id": "mdb-278",
+            "extend-calendar": true
+        },
+        {
+            "name": "Puget-Sound-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-281",
+            "extend-calendar": true
+        },
+        {
+            "name": "Jamestown-S'klallam",
+            "type": "mobility-database",
+            "mdb-id": "mdb-285",
+            "extend-calendar": true
+        },
+        {
+            "name": "L.E.W.I.S.-Mountain-Highway-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-567",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lower-Columbia-CAP-(Community-Action-Program)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-568"
+        },
+        {
+            "name": "Mount-Adams-Transportation-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-580"
+        },
+        {
+            "name": "Snoqualmie-Valley-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-816"
+        },
+        {
+            "name": "ruralTRANSIT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-822"
+        },
+        {
+            "name": "Washington-State-Ferries-mdb-1331",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1331",
+            "x-possible-duplicate-of": "us-wa.json: Washington-State-Ferries"
+        },
+        {
+            "name": "Makah-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2196"
+        },
+        {
+            "name": "Squaxin-Island-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2197",
+            "x-possible-duplicate-of": "us-wa.json: Island-Transit"
+        },
+        {
+            "name": "Colville-Confederated-Tribes-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2302"
+        },
+        {
+            "name": "Elwha-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2307"
+        },
+        {
+            "name": "Guemes-Island-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2310",
+            "x-possible-duplicate-of": "us-wa.json: Island-Transit"
+        },
+        {
+            "name": "Homage:-DʼArling-Direct",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2311",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kalispel-Tribal-Transit-(KalTran)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2314",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lady-of-the-Lake",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2318"
+        },
+        {
+            "name": "Lummi-Island-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2319",
+            "x-possible-duplicate-of": "us-wa.json: Island-Transit"
+        },
+        {
+            "name": "Lummi-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2320"
+        },
+        {
+            "name": "The-Moccasin-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2325"
+        },
+        {
+            "name": "Muckleshoot-Tribal-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2326"
+        },
+        {
+            "name": "Nisqually-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2327",
+            "extend-calendar": true
+        },
+        {
+            "name": "Pahto-Public-Passage",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2331"
+        },
+        {
+            "name": "City-of-Ellensburg-Public-Transit-(Central-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2456"
+        },
+        {
+            "name": "C-TRAN",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3129"
+        },
+        {
+            "name": "Clallam-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3532",
+            "x-possible-duplicate-of": "us-wa.json: Clallam-Transit"
+        },
+        {
+            "name": "City-of-Seattle",
+            "type": "mobility-database",
+            "mdb-id": "ntd-23"
+        },
+        {
+            "name": "Central-Puget-Sound-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40-1",
+            "x-possible-duplicate-of": "us-wa.json: Sound-Transit"
+        },
+        {
+            "name": "Central-Puget-Sound-Regional-Transit-Aut-ntd-40-2",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40-2",
+            "x-possible-duplicate-of": "us-wa.json: Sound-Transit"
+        },
+        {
+            "name": "Central-Puget-Sound-Regional-Transit-Authority-Cen",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40-4",
+            "x-possible-duplicate-of": "us-wa.json: Sound-Transit"
+        },
+        {
+            "name": "Okanogan-County-Transportation-&-Nutrition",
+            "type": "mobility-database",
+            "mdb-id": "ntd-332",
+            "extend-calendar": true
+        },
+        {
+            "name": "Pierce-County-Ferries",
+            "type": "mobility-database",
+            "mdb-id": "tld-2289"
+        },
+        {
+            "name": "Seattle-Center-Monorail",
+            "type": "mobility-database",
+            "mdb-id": "tld-2290"
+        },
+        {
+            "name": "Twin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5579"
+        },
+        {
+            "name": "Rural-Resources-Community-Action",
+            "type": "mobility-database",
+            "mdb-id": "tld-5751"
+        },
+        {
+            "name": "Snow-Goose-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5754"
+        },
+        {
+            "name": "Solid-Ground",
+            "type": "mobility-database",
+            "mdb-id": "tld-5755"
+        },
+        {
+            "name": "Special-Mobility-Services",
+            "type": "mobility-database",
+            "mdb-id": "tld-5756"
+        },
+        {
+            "name": "Tulalip-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5760",
+            "extend-calendar": true
+        },
+        {
+            "name": "Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1542",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-wa.json: Metro-Transit"
+        },
+        {
+            "name": "Pierce-Transit-mdb-265",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1543",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pierce-Transit-mdb-265",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1544",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pierce-Transit-mdb-265",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1545",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metro-Transit-Intercity-Transit-City-of-Seattle-Co",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1546",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metro-Transit-Intercity-Transit-City-of-Seattle-Co",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1547",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metro-Transit-Intercity-Transit-City-of-Seattle-Co",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1548",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sound-Transit-mdb-268",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1552",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sound-Transit-mdb-268",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1553",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sound-Transit-mdb-268",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1554",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Washington-State-Ferries-mdb-1331",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1555",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Washington-State-Ferries-mdb-1331",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1556",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Washington-State-Ferries-mdb-1331",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1557",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Ellensburg-Public-Transit-(Central-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1583",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Ellensburg-Public-Transit-(Central-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1584",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Ellensburg-Public-Transit-(Central-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1585",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Seattle-Children's-Hospital-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1674",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Seattle-Children's-Hospital-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1675",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kitsap-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2692",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kitsap-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2693",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kitsap-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2694",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Everett-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3072",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Everett-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3073",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Everett-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3074",
+            "spec": "gtfs-rt"
         }
     ]
 }

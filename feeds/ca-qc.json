@@ -82,7 +82,8 @@
         {
             "name": "Exo-citduhaut-saint-laurent",
             "type": "mobility-database",
-            "mdb-id": "mdb-745"
+            "mdb-id": "mdb-745",
+            "extend-calendar": true
         },
         {
             "name": "Exo-citduhaut-saint-laurent",
@@ -164,7 +165,8 @@
         {
             "name": "STS-Sherbrooke",
             "type": "mobility-database",
-            "mdb-id": "tld-4753-tu"
+            "mdb-id": "tld-4753-tu",
+            "spec": "gtfs-rt"
         },
         {
             "name": "RTC",
@@ -225,6 +227,434 @@
             "name": "REM",
             "type": "mobility-database",
             "mdb-id": "tld-6691"
+        },
+        {
+            "name": "Régie-intermunicipale-de-transport-des-Collines-(T",
+            "type": "mobility-database",
+            "mdb-id": "mdb-739"
+        },
+        {
+            "name": "Exo-Roussillon",
+            "type": "mobility-database",
+            "mdb-id": "mdb-747",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "ca-qc.json: Exo-reseaudetransportmetropolitain"
+        },
+        {
+            "name": "Agence-métropolitaine-de-transport",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1179",
+            "extend-calendar": true
+        },
+        {
+            "name": "MRC-les-Moulins",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1180",
+            "extend-calendar": true
+        },
+        {
+            "name": "MRC-de-Deux-Montagnes",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1182",
+            "extend-calendar": true
+        },
+        {
+            "name": "Société-des-transports-de-Rimouski",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2276"
+        },
+        {
+            "name": "Société-de-transport-collectif-de-Pierre-De-Saurel",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2379"
+        },
+        {
+            "name": "Rouyn-Noranda",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2603"
+        },
+        {
+            "name": "Société-de-transport-de-Laval",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3190"
+        },
+        {
+            "name": "Régie-de-transport-en-commun-de-Shawinigan",
+            "type": "mobility-database",
+            "mdb-id": "tld-857"
+        },
+        {
+            "name": "Bus-Mont-Tremblant",
+            "type": "mobility-database",
+            "mdb-id": "tld-4761"
+        },
+        {
+            "name": "Saint-Jean-Sur-Richelieu",
+            "type": "mobility-database",
+            "mdb-id": "tld-5630"
+        },
+        {
+            "name": "Orléans-Express",
+            "type": "mobility-database",
+            "mdb-id": "tld-5721"
+        },
+        {
+            "name": "L'Inter-des-Laurentides",
+            "type": "mobility-database",
+            "mdb-id": "tld-5722"
+        },
+        {
+            "name": "MRC-de-Montcalm",
+            "type": "mobility-database",
+            "mdb-id": "tld-5869"
+        },
+        {
+            "name": "Bili",
+            "type": "mobility-database",
+            "mdb-id": "tld-6690_1",
+            "extend-calendar": true
+        },
+        {
+            "name": "MRC-du-Haut-Saint-Laurent",
+            "type": "mobility-database",
+            "mdb-id": "tld-6692"
+        },
+        {
+            "name": "Ville-de-Saint-Hyacinthe",
+            "type": "mobility-database",
+            "mdb-id": "tld-6694",
+            "extend-calendar": true
+        },
+        {
+            "name": "Ville-de-Drummondville",
+            "type": "mobility-database",
+            "mdb-id": "tld-6711"
+        },
+        {
+            "name": "Société-de-transport-de-Trois-Rivières",
+            "type": "mobility-database",
+            "mdb-id": "tld-6712"
+        },
+        {
+            "name": "Exo-citduhaut-saint-laurent",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1366",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citduhaut-saint-laurent",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1367",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citduhaut-saint-laurent",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1368",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Régie-intermunicipale-de-transport-des-Collines-(T",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1471",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Régie-intermunicipale-de-transport-des-Collines-(T",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1472",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Société-de-transport-collectif-de-Pierre-De-Saurel",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2380",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citlapresquîle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2998",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citlapresquîle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2999",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-varannes",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3000",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-varannes",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3001",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-varannes",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3002",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citsud",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3003",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citsud",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3004",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citsud",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3005",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citvallée-du-richelieu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3006",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citvallée-du-richelieu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3007",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citvallée-du-richelieu",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3008",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-mrcdelassomption",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3009",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-mrcdelassomption",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3010",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-mrcdelassomption",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3011",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-mrclesmoulinsurbis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3012",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-mrclesmoulinsurbis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3013",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-mrclesmoulinsurbis",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3014",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-reseaudetransportmetropolitain",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3015",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-reseaudetransportmetropolitain",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3016",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-reseaudetransportmetropolitain",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3017",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-omitsainte-julie",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3018",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-omitsainte-julie",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3019",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-omitsainte-julie",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3020",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-richelain-roussillon",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3021",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-richelain-roussillon",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3022",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-richelain-roussillon",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3023",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citchambly-richelieu-carignan",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3024",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citchambly-richelieu-carignan",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3025",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citchambly-richelieu-carignan",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3026",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citlaurentides",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3027",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citlaurentides",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3028",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citlaurentides",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3029",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Exo-citlapresquîle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3030",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "STM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3345",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-qc.json: STM"
+        },
+        {
+            "name": "STS-Sherbrooke",
+            "type": "mobility-database",
+            "mdb-id": "tld-4753-sa",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-qc.json: STS-Sherbrooke"
+        },
+        {
+            "name": "STS-Sherbrooke",
+            "type": "mobility-database",
+            "mdb-id": "tld-4753-vp",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-qc.json: STS-Sherbrooke"
+        },
+        {
+            "name": "Bus-Mont-Tremblant",
+            "type": "mobility-database",
+            "mdb-id": "tld-5619-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bus-Mont-Tremblant",
+            "type": "mobility-database",
+            "mdb-id": "tld-5619-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Saint-Jean-Sur-Richelieu",
+            "type": "mobility-database",
+            "mdb-id": "tld-5631-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Saint-Jean-Sur-Richelieu",
+            "type": "mobility-database",
+            "mdb-id": "tld-5631-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "L'Inter-des-Laurentides",
+            "type": "mobility-database",
+            "mdb-id": "tld-5723-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "L'Inter-des-Laurentides",
+            "type": "mobility-database",
+            "mdb-id": "tld-5723-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MRC-de-Montcalm",
+            "type": "mobility-database",
+            "mdb-id": "tld-5870-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MRC-de-Montcalm",
+            "type": "mobility-database",
+            "mdb-id": "tld-5870-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MRC-du-Haut-Saint-Laurent-tld-6693-tu_vp",
+            "type": "mobility-database",
+            "mdb-id": "tld-6693-tu_vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Ville-de-Saint-Hyacinthe",
+            "type": "mobility-database",
+            "mdb-id": "tld-6695-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Ville-de-Saint-Hyacinthe",
+            "type": "mobility-database",
+            "mdb-id": "tld-6695-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

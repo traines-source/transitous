@@ -394,7 +394,8 @@
         {
             "name": "Ride-Norfolk",
             "type": "mobility-database",
-            "mdb-id": "tld-5874"
+            "mdb-id": "tld-5874",
+            "extend-calendar": true
         },
         {
             "name": "Sarnia-Transit",
@@ -510,6 +511,84 @@
             "name": "York-Region-Transit",
             "type": "mobility-database",
             "mdb-id": "mdb-1749",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Guelph-Transit-mdb-3140",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3140",
+            "extend-calendar": true
+        },
+        {
+            "name": "Niagara-Region-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-859"
+        },
+        {
+            "name": "PC-Connect-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-4684"
+        },
+        {
+            "name": "Quinte-Transit-tld-4685",
+            "type": "mobility-database",
+            "mdb-id": "tld-4685",
+            "x-possible-duplicate-of": "ca-on.json: Quinte-Transit"
+        },
+        {
+            "name": "Middlesex-County-Connect-tld-5875",
+            "type": "mobility-database",
+            "mdb-id": "tld-5875",
+            "x-possible-duplicate-of": "ca-on.json: Middlesex-County-Connect"
+        },
+        {
+            "name": "Hamilton-Street-Railway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1458",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Hamilton-Street-Railway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1459",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Hamilton-Street-Railway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1460",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Grand-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1520",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-on.json: Grand-River-Transit"
+        },
+        {
+            "name": "Grand-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1521",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "ca-on.json: Grand-River-Transit"
+        },
+        {
+            "name": "OCTranspo",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2869",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Toronto-Transit-Commission-(TTC)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6879-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Toronto-Transit-Commission-(TTC)",
+            "type": "mobility-database",
+            "mdb-id": "tld-6879-tu",
             "spec": "gtfs-rt"
         }
     ]

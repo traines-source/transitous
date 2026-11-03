@@ -30,6 +30,13 @@
             "type": "mobility-database",
             "mdb-id": "mdb-3488",
             "spec": "gtfs-rt"
+        },
+        {
+            "name": "lanka-metro-transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3487",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "lk.json: lanka-metro-transit"
         }
     ]
 }

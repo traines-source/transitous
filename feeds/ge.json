@@ -24,6 +24,11 @@
             "spec": "gtfs-rt",
             "url": "http://gtfs.spline.de/gtfs-rt/tbilisi/vehicle-positions.pb",
             "derive-trip-updates": true
+        },
+        {
+            "name": "Georgian-Railway",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3108"
         }
     ]
 }

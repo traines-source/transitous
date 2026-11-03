@@ -76,6 +76,57 @@
             "type": "mobility-database",
             "mdb-id": "tld-5894-vp",
             "spec": "gtfs-rt"
+        },
+        {
+            "name": "Butte-Silver-Bow",
+            "type": "mobility-database",
+            "mdb-id": "mdb-291",
+            "extend-calendar": true
+        },
+        {
+            "name": "University-of-Montana-(UDASH)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-293",
+            "extend-calendar": true
+        },
+        {
+            "name": "Streamline",
+            "type": "mobility-database",
+            "mdb-id": "mdb-295"
+        },
+        {
+            "name": "Capital-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-310",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sunny-Valley-Transit-(Demo)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3473"
+        },
+        {
+            "name": "Great-Falls-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80012",
+            "extend-calendar": true
+        },
+        {
+            "name": "Skyline-Bus",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80255",
+            "extend-calendar": true
+        },
+        {
+            "name": "Park-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-88293"
+        },
+        {
+            "name": "Glacier-National-Park",
+            "type": "mobility-database",
+            "mdb-id": "tld-6908",
+            "extend-calendar": true
         }
     ]
 }

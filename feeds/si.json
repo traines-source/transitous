@@ -55,7 +55,8 @@
             "license": {
                 "spdx-identifier": "CC-BY-SA-4.0",
                 "url": "https://nap.si/en/datasets_details?id=b1f8aacc-e144-490c-a1d7-d0b07c2e8ac3"
-            }
+            },
+            "extend-calendar": true
         },
         {
             "name": "maribor",
@@ -298,6 +299,21 @@
             "type": "url",
             "spec": "gbfs",
             "url": "https://gbfs.derp.si/bolt_proxy/2/359/gbfs"
+        },
+        {
+            "name": "NOMAGO-storitve-mobilnosti-in-potovanj-d.o.o.",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2941"
+        },
+        {
+            "name": "Ariva",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2942"
+        },
+        {
+            "name": "NOMAGO-storitve-mobilnosti-in-potovanj-d-mdb-2944",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2944"
         }
     ]
 }

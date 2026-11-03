@@ -25,6 +25,11 @@
                 "spdx-identifier": "CC-BY-4.0",
                 "url": "https://data.transportforcairo.com/catalogue/#/document/87"
             }
+        },
+        {
+            "name": "Port-Said-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3459"
         }
     ]
 }

@@ -76,7 +76,8 @@
         {
             "name": "ETUFOR",
             "type": "mobility-database",
-            "mdb-id": "mdb-2934"
+            "mdb-id": "mdb-2934",
+            "extend-calendar": true
         },
         {
             "name": "ARCE-Ceara-Metropolitano",
@@ -87,6 +88,42 @@
             "name": "Grande-Recife",
             "type": "http",
             "url": "https://www.granderecife.pe.gov.br/gtfs/gtfs.zip"
+        },
+        {
+            "name": "Empresa-Publica-de-Transportes-e-Circulação-(EPTC)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-7",
+            "extend-calendar": true
+        },
+        {
+            "name": "Prefeitura-de-Bage",
+            "type": "mobility-database",
+            "mdb-id": "mdb-930",
+            "extend-calendar": true
+        },
+        {
+            "name": "METROFOR",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2367",
+            "extend-calendar": true
+        },
+        {
+            "name": "Viação-Senhor-do-Bonfim",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2632",
+            "extend-calendar": true
+        },
+        {
+            "name": "ARCE---Agência-Reguladora-do-Estado-do-Ceará",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2935",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "br.json: ARCE-Ceara-Metropolitano"
+        },
+        {
+            "name": "URBS-Curitiba",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3225"
         }
     ]
 }

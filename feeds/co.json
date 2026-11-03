@@ -28,6 +28,28 @@
                 "spdx-identifier": "CC-BY-SA-4.0"
             },
             "extend-calendar": true
+        },
+        {
+            "name": "Metro-Sabanas",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2407",
+            "extend-calendar": true
+        },
+        {
+            "name": "Transporte-Público-Urbano-de-Ibagué",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3188"
+        },
+        {
+            "name": "MIO-Cali",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3356",
+            "extend-calendar": true
+        },
+        {
+            "name": "SIMUR-Bogota",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3358"
         }
     ]
 }

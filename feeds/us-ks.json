@@ -68,6 +68,47 @@
             "name": "Salina-CityGo",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-salina~city~go~ks"
+        },
+        {
+            "name": "81-Connection-CityGo-KanConnect",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1867",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-ks.json: Salina-CityGo"
+        },
+        {
+            "name": "KU-on-Wheels-&-Lawrence-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2063",
+            "x-possible-duplicate-of": "us-ks.json: Lawrence-Transit"
+        },
+        {
+            "name": "Developmental-Services-of-NW-KansasACCESS-Transpor",
+            "type": "mobility-database",
+            "mdb-id": "ntd-70060"
+        },
+        {
+            "name": "Lyon-County-Area-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "ntd-70248",
+            "extend-calendar": true
+        },
+        {
+            "name": "Reno-County-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6670"
+        },
+        {
+            "name": "Kansas-City-Area-Transportation-Authority-(KCATA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1684",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kansas-City-Area-Transportation-Authority-(KCATA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1685",
+            "spec": "gtfs-rt"
         }
     ]
 }

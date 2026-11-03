@@ -19,7 +19,8 @@
             "type": "mobility-database",
             "mdb-id": "mdb-538",
             "fix": true,
-            "url-override": "https://www.cdta.org/schedules/google_transit.zip"
+            "url-override": "https://www.cdta.org/schedules/google_transit.zip",
+            "extend-calendar": true
         },
         {
             "name": "UCAT",
@@ -310,7 +311,8 @@
         {
             "name": "RGRTA-MonroeCounty",
             "type": "mobility-database",
-            "mdb-id": "mdb-1775"
+            "mdb-id": "mdb-1775",
+            "spec": "gtfs-rt"
         },
         {
             "name": "RGRTA-SenecaCounty",
@@ -394,6 +396,479 @@
             "name": "RochesterVeoBikes",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-veo~rochester~ny~gbfs"
+        },
+        {
+            "name": "Birnie-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-233"
+        },
+        {
+            "name": "Corning-Erwin-Area-Transit-System-(CEATS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-302"
+        },
+        {
+            "name": "Chautauqua-Area-Regional-Transit-System-(CARTS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-304"
+        },
+        {
+            "name": "C-TRAN",
+            "type": "mobility-database",
+            "mdb-id": "mdb-305",
+            "extend-calendar": true
+        },
+        {
+            "name": "Dutchess-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-457"
+        },
+        {
+            "name": "Metropolitan-Transit-Authority-(MTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-507",
+            "x-possible-duplicate-of": "us-ny.json: MTA-BusManhattan"
+        },
+        {
+            "name": "Metropolitan-Transit-Authority-(MTA)-mdb-511",
+            "type": "mobility-database",
+            "mdb-id": "mdb-511",
+            "x-possible-duplicate-of": "us-ny.json: MTA-BusManhattan"
+        },
+        {
+            "name": "Downtown-Alliance",
+            "type": "mobility-database",
+            "mdb-id": "mdb-519"
+        },
+        {
+            "name": "JFK-Airtrain",
+            "type": "mobility-database",
+            "mdb-id": "mdb-522",
+            "extend-calendar": true
+        },
+        {
+            "name": "Access-Allegany",
+            "type": "mobility-database",
+            "mdb-id": "mdb-531"
+        },
+        {
+            "name": "Hornell-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-532"
+        },
+        {
+            "name": "Centro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-534"
+        },
+        {
+            "name": "Tompkins-Consolidated-Area-Transit-Inc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-535"
+        },
+        {
+            "name": "Chenango-First-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-536"
+        },
+        {
+            "name": "City-of-Mechanicville-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-541"
+        },
+        {
+            "name": "Clinton-County-Public-Transit-(CCPT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-544"
+        },
+        {
+            "name": "Franklin-County-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-545",
+            "extend-calendar": true
+        },
+        {
+            "name": "North-Country-Express-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-546"
+        },
+        {
+            "name": "Lewis-County-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-566"
+        },
+        {
+            "name": "Madison-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-573"
+        },
+        {
+            "name": "Olean-Area-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-586"
+        },
+        {
+            "name": "Herkimer-Oneida-Counties-Transportation-Study-(HOC",
+            "type": "mobility-database",
+            "mdb-id": "mdb-588",
+            "extend-calendar": true
+        },
+        {
+            "name": "Otsego-Express-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-589"
+        },
+        {
+            "name": "Greene-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-613"
+        },
+        {
+            "name": "Regional-Transit-Service-Seneca-(RTS-Seneca)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-808",
+            "extend-calendar": true
+        },
+        {
+            "name": "Regional-Transit-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-809",
+            "extend-calendar": true
+        },
+        {
+            "name": "Schuyler-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-814",
+            "extend-calendar": true
+        },
+        {
+            "name": "New-York-Trailways",
+            "type": "mobility-database",
+            "mdb-id": "mdb-825",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-ny.json: Trailways-nyp"
+        },
+        {
+            "name": "Adirondack-Trailways-Pine-Hill-Trailways",
+            "type": "mobility-database",
+            "mdb-id": "mdb-826",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-ny.json: Trailways-nyp"
+        },
+        {
+            "name": "Steuben-Area-Rides",
+            "type": "mobility-database",
+            "mdb-id": "mdb-850",
+            "extend-calendar": true
+        },
+        {
+            "name": "Steuben-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-851"
+        },
+        {
+            "name": "Village-of-Cooperstown-Trolly-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-870",
+            "extend-calendar": true
+        },
+        {
+            "name": "Watertown-Citibus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-871"
+        },
+        {
+            "name": "Yates-Transit-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-875",
+            "extend-calendar": true
+        },
+        {
+            "name": "Cortland-County-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-899",
+            "extend-calendar": true
+        },
+        {
+            "name": "Huntington-Area-Rapid-Transit-(HART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-905"
+        },
+        {
+            "name": "Leprechaun-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-910"
+        },
+        {
+            "name": "Clarkstown-MiniTrans",
+            "type": "mobility-database",
+            "mdb-id": "mdb-911"
+        },
+        {
+            "name": "Lower-Hudson-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-915"
+        },
+        {
+            "name": "Transit-Orange--Newburgh-Local-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-924",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sullivan-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-927"
+        },
+        {
+            "name": "PART-Putnam-Area-Rapid-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-928"
+        },
+        {
+            "name": "Broome-County-Transit-(B.C.-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2079"
+        },
+        {
+            "name": "Hudson-Link",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2312"
+        },
+        {
+            "name": "Kiryas-Joel-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2317",
+            "extend-calendar": true
+        },
+        {
+            "name": "Middletown-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2324",
+            "extend-calendar": true
+        },
+        {
+            "name": "Westchester-County-Bee-Line-System-(WCDOT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2353",
+            "extend-calendar": true
+        },
+        {
+            "name": "St-Lawrence-County-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2611"
+        },
+        {
+            "name": "Gloversville-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2650"
+        },
+        {
+            "name": "Watertown-Citibus-mdb-2881",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2881"
+        },
+        {
+            "name": "Columbia-County-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3116"
+        },
+        {
+            "name": "Jefferson-County-Public-Transit-(JCPT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3392"
+        },
+        {
+            "name": "Oswego-County-Public-Transit-(OPT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3520"
+        },
+        {
+            "name": "Adirondack-Trailways-New-York-Trailways-Pine-Hill-",
+            "type": "mobility-database",
+            "mdb-id": "ntd-20177"
+        },
+        {
+            "name": "Seneca-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "ntd-22929"
+        },
+        {
+            "name": "Niagara-Frontier-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "tld-401"
+        },
+        {
+            "name": "Roosevelt-Island-Operating-Corporation-Tramway",
+            "type": "mobility-database",
+            "mdb-id": "tld-3364"
+        },
+        {
+            "name": "Transport-of-Rockland",
+            "type": "mobility-database",
+            "mdb-id": "tld-3368"
+        },
+        {
+            "name": "Monsey-Trails",
+            "type": "mobility-database",
+            "mdb-id": "tld-4380"
+        },
+        {
+            "name": "Columbia-University",
+            "type": "mobility-database",
+            "mdb-id": "tld-4456"
+        },
+        {
+            "name": "Mercy-College",
+            "type": "mobility-database",
+            "mdb-id": "tld-4465"
+        },
+        {
+            "name": "Governor's-Island-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "tld-5732",
+            "extend-calendar": true
+        },
+        {
+            "name": "Fullington-Trailways",
+            "type": "mobility-database",
+            "mdb-id": "tld-5783",
+            "x-possible-duplicate-of": "us-ny.json: Trailways-nyp"
+        },
+        {
+            "name": "MTA-Metro-North-Railroad",
+            "type": "mobility-database",
+            "mdb-id": "tld-5788"
+        },
+        {
+            "name": "Monroe-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "tld-5790"
+        },
+        {
+            "name": "Connect-Niagara",
+            "type": "mobility-database",
+            "mdb-id": "tld-5791"
+        },
+        {
+            "name": "Schoharie-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5877"
+        },
+        {
+            "name": "TransitOrange-Middletown-TransitOrange-Newburgh",
+            "type": "mobility-database",
+            "mdb-id": "tld-5902",
+            "extend-calendar": true
+        },
+        {
+            "name": "Propark-Mobility-Columbia-County-Public-Transporta",
+            "type": "mobility-database",
+            "mdb-id": "tld-6745"
+        },
+        {
+            "name": "Niagara-Frontier-Transportation-Authorit-tld-6748",
+            "type": "mobility-database",
+            "mdb-id": "tld-6748"
+        },
+        {
+            "name": "Oneonta-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-6777"
+        },
+        {
+            "name": "Suffolk-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1529",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Suffolk-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1530",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metropolitan-Transit-Authority-(MTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1625",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-ny.json: MTA-NYCSubway"
+        },
+        {
+            "name": "MTA-BusCompany",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1628",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-ny.json: MTA-NYCSubway"
+        },
+        {
+            "name": "Metropolitan-Transit-Authority-(MTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1629",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-ny.json: MTA-NYCSubway"
+        },
+        {
+            "name": "NYC-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1638",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NYC-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1639",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tompkins-Consolidated-Area-Transit-Inc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1647",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tompkins-Consolidated-Area-Transit-Inc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1648",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tompkins-Consolidated-Area-Transit-Inc",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1649",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CDTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2699",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CDTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2700",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "CDTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2701",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "NYC-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "tld-4337-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "MTA-Long-Island-Rail-Road-MTA-New-York-City-Transi",
+            "type": "mobility-database",
+            "mdb-id": "tld-4438-sa",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-ny.json: MTA-NYCSubway"
         }
     ]
 }

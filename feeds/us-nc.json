@@ -211,6 +211,177 @@
             "type": "url",
             "spec": "gtfs-rt",
             "url": "https://www.modeshift.app/api/v1/7f67c860-f17a-4319-8978-449368c22105/transport/gtfsrt/alerts.pb"
+        },
+        {
+            "name": "Duke-University",
+            "type": "mobility-database",
+            "mdb-id": "mdb-378",
+            "extend-calendar": true
+        },
+        {
+            "name": "Tar-River-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-472"
+        },
+        {
+            "name": "Greensboro-Transit-Authority-(GTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-615",
+            "extend-calendar": true
+        },
+        {
+            "name": "Asheville-Rides-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-903"
+        },
+        {
+            "name": "Link-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1971"
+        },
+        {
+            "name": "Wave-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2026",
+            "extend-calendar": true
+        },
+        {
+            "name": "Concord-Kannapolis-Area-Transit-(Rider-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2244"
+        },
+        {
+            "name": "Charlotte-Area-Transit-System-(CATS)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2265",
+            "x-possible-duplicate-of": "us-nc.json: CATS"
+        },
+        {
+            "name": "Cape-Lookout-National-Seashore",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3205"
+        },
+        {
+            "name": "Winston-Salem-Transit-Authority-(WSTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3479"
+        },
+        {
+            "name": "Wave-Transit-mdb-3536",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3536"
+        },
+        {
+            "name": "Davidson-County-Transportation-Services",
+            "type": "mobility-database",
+            "mdb-id": "ntd-40131"
+        },
+        {
+            "name": "Greenway-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "tld-962",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mountain-Mobility",
+            "type": "mobility-database",
+            "mdb-id": "tld-4130",
+            "extend-calendar": true
+        },
+        {
+            "name": "High-Point-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4135",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Jacksonville",
+            "type": "mobility-database",
+            "mdb-id": "tld-6735"
+        },
+        {
+            "name": "AppalCART",
+            "type": "mobility-database",
+            "mdb-id": "tld-7056",
+            "extend-calendar": true
+        },
+        {
+            "name": "Eastern-Band-of-Cherokee-Indians-Public-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7066"
+        },
+        {
+            "name": "Orange-County-Public-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "tld-7885"
+        },
+        {
+            "name": "GoDurham",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1464",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-nc.json: GoDurham"
+        },
+        {
+            "name": "GoDurham",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1465",
+            "spec": "gtfs-rt",
+            "x-possible-duplicate-of": "us-nc.json: GoDurham"
+        },
+        {
+            "name": "Asheville-Rides-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1763",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Asheville-Rides-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1764",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Asheville-Rides-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1765",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Concord-Kannapolis-Area-Transit-(Rider-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "tld-5545-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Concord-Kannapolis-Area-Transit-(Rider-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "tld-5545-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Concord-Kannapolis-Area-Transit-(Rider-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "tld-5545-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Jacksonville",
+            "type": "mobility-database",
+            "mdb-id": "tld-6820-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Jacksonville",
+            "type": "mobility-database",
+            "mdb-id": "tld-6820-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Jacksonville",
+            "type": "mobility-database",
+            "mdb-id": "tld-6820-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }

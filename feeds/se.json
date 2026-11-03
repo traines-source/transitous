@@ -19,6 +19,740 @@
                 "Flixbus"
             ],
             "script": "se-Trafiklab.lua"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2939"
+        },
+        {
+            "name": "SL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3237"
+        },
+        {
+            "name": "UL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3238"
+        },
+        {
+            "name": "Sörmlandstrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3239"
+        },
+        {
+            "name": "Östgötatrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3240"
+        },
+        {
+            "name": "JLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3241"
+        },
+        {
+            "name": "Kronoberg",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3242"
+        },
+        {
+            "name": "Gotland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3244"
+        },
+        {
+            "name": "Blekingetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3245"
+        },
+        {
+            "name": "Hallandstrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3247"
+        },
+        {
+            "name": "Västtrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3248"
+        },
+        {
+            "name": "Värmlandstrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3249"
+        },
+        {
+            "name": "Örebro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3250"
+        },
+        {
+            "name": "Västmanland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3251"
+        },
+        {
+            "name": "X-trafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3253"
+        },
+        {
+            "name": "Din-Tur---Västernorrland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3254"
+        },
+        {
+            "name": "Jämtland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3255"
+        },
+        {
+            "name": "Västerbotten",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3256"
+        },
+        {
+            "name": "Norrbotten",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3257"
+        },
+        {
+            "name": "BT-buss",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3258"
+        },
+        {
+            "name": "Destination-Gotland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3259"
+        },
+        {
+            "name": "Falcks-Omnibus-AB",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3260",
+            "extend-calendar": true
+        },
+        {
+            "name": "Flixbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3261"
+        },
+        {
+            "name": "Härjedalingen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3262"
+        },
+        {
+            "name": "Kiruna-Buss",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3263"
+        },
+        {
+            "name": "Lennakatten",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3265",
+            "extend-calendar": true
+        },
+        {
+            "name": "Luleå-Lokaltrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3266"
+        },
+        {
+            "name": "Masexpressen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3267"
+        },
+        {
+            "name": "Mälartåg-ersättningstrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3268"
+        },
+        {
+            "name": "Nikkaluoktaexpressen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3269",
+            "extend-calendar": true
+        },
+        {
+            "name": "Norrtåg-ersättningsstrafik-(VR-Sverige)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3270"
+        },
+        {
+            "name": "Ressel-Rederi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3271"
+        },
+        {
+            "name": "Silverlinjen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3272"
+        },
+        {
+            "name": "SJ",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3273"
+        },
+        {
+            "name": "Sjöstadstrafiken-(Stockholm-Stad)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3275"
+        },
+        {
+            "name": "Skellefteåbuss",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3276"
+        },
+        {
+            "name": "Snälltåget",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3277"
+        },
+        {
+            "name": "Stavsnäs-båttaxi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3278"
+        },
+        {
+            "name": "Strömma-Turism-&-Sjöfart-AB",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3279"
+        },
+        {
+            "name": "TiB-ersättningstrafik-(VR-Sverige)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3280"
+        },
+        {
+            "name": "Trafikverket-RDB",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3282"
+        },
+        {
+            "name": "Trosabussen",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3283"
+        },
+        {
+            "name": "Tågab",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3284"
+        },
+        {
+            "name": "Uddevalla-Skärgårdsbåtar-AB",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3285",
+            "extend-calendar": true
+        },
+        {
+            "name": "VR",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3286"
+        },
+        {
+            "name": "Vy-Bus4You",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3287"
+        },
+        {
+            "name": "Vy-Flygbussarna",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3288"
+        },
+        {
+            "name": "Vy-Värmlandstrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3291"
+        },
+        {
+            "name": "Västervik-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3292"
+        },
+        {
+            "name": "Y-Buss",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3293"
+        },
+        {
+            "name": "Scania-Transport-Services",
+            "type": "mobility-database",
+            "mdb-id": "tld-7891",
+            "extend-calendar": true
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2949",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2950",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2951",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2952",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2953",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2954",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2955",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2956",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2957",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2958",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2959",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2960",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2961",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2962",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2963",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2964",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2965",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2966",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2967",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2968",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2969",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2970",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2971",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2972",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2973",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2974",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2975",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2976",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2977",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2978",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2979",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2980",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2981",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2982",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2983",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2984",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2985",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2986",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2987",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2988",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2989",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Trafiklab-mdb-2939",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2990",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3294",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3295",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3296",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "UL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3297",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "UL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3298",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "UL",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3299",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Östgötatrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3300",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Östgötatrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3301",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Östgötatrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3302",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "JLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3303",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "JLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3304",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "JLT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3305",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kronoberg",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3306",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kronoberg",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3307",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kronoberg",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3308",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gotland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3312",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gotland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3313",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Gotland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3314",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Blekingetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3315",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Blekingetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3316",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Blekingetrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3317",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Hallandstrafiken",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3321",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Värmlandstrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3322",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Värmlandstrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3323",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Värmlandstrafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3324",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Örebro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3325",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Örebro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3326",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Örebro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3327",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Västmanland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3328",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Västmanland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3329",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Västmanland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3330",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "X-trafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3334",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "X-trafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3335",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "X-trafik",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3336",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Din-Tur---Västernorrland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3337",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Din-Tur---Västernorrland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3338",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Din-Tur---Västernorrland",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3339",
+            "spec": "gtfs-rt"
         }
     ]
 }

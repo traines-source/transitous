@@ -225,6 +225,72 @@
             "type": "mobility-database",
             "mdb-id": "tld-4691-tu",
             "spec": "gtfs-rt"
+        },
+        {
+            "name": "Whitehorse-Transit-mdb-689",
+            "type": "mobility-database",
+            "mdb-id": "mdb-689"
+        },
+        {
+            "name": "Roam-Transit-mdb-711",
+            "type": "mobility-database",
+            "mdb-id": "mdb-711",
+            "extend-calendar": true
+        },
+        {
+            "name": "Miramichi-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1806"
+        },
+        {
+            "name": "Rider-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1871",
+            "extend-calendar": true
+        },
+        {
+            "name": "Saint-John-Transit-mdb-2131",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2131"
+        },
+        {
+            "name": "Maritime-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2417"
+        },
+        {
+            "name": "Yellowknife-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4708"
+        },
+        {
+            "name": "Airdrie-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4819"
+        },
+        {
+            "name": "Hinton-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-7921",
+            "extend-calendar": true
+        },
+        {
+            "name": "Calgary-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1420",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Calgary-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1421",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Calgary-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1422",
+            "spec": "gtfs-rt"
         }
     ]
 }

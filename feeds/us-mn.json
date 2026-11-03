@@ -56,6 +56,115 @@
             "type": "mobility-database",
             "mdb-id": "mdb-1462",
             "spec": "gtfs-rt"
+        },
+        {
+            "name": "Minnesota-Valley-Transit-Authority-(MVTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-206"
+        },
+        {
+            "name": "Rochester-City-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1279",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Winona-MN---Winona-Transit-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2032",
+            "extend-calendar": true
+        },
+        {
+            "name": "Brown-County-Heartland-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2037"
+        },
+        {
+            "name": "The-Otter-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2038"
+        },
+        {
+            "name": "Brown-County-Heartland-Express-mdb-2296",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2296"
+        },
+        {
+            "name": "Central-Community-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2301"
+        },
+        {
+            "name": "Hiawathaland-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2859"
+        },
+        {
+            "name": "Metro-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3529"
+        },
+        {
+            "name": "St.-Cloud-Metropolitan-Transit-Commission",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50028"
+        },
+        {
+            "name": "Mankato-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "ntd-50205"
+        },
+        {
+            "name": "Rainbow-Rider",
+            "type": "mobility-database",
+            "mdb-id": "tld-5749",
+            "extend-calendar": true
+        },
+        {
+            "name": "SMART",
+            "type": "mobility-database",
+            "mdb-id": "tld-5753"
+        },
+        {
+            "name": "Community-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5761"
+        },
+        {
+            "name": "Jefferson-Lines---Minneapolis-MN",
+            "type": "mobility-database",
+            "mdb-id": "tld-5878",
+            "extend-calendar": true
+        },
+        {
+            "name": "Minnesota-Valley-Transit-Authority-(MVTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1969",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Minneapolis-St-Paul",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3526",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Minneapolis-St-Paul",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3527",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Minneapolis-St-Paul",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3528",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Minnesota-Valley-Transit-Authority-(MVTA)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4787-tu",
+            "spec": "gtfs-rt"
         }
     ]
 }

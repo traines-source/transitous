@@ -37,6 +37,29 @@
             "name": "Flamingo-Auckland",
             "type": "transitland-atlas",
             "transitland-atlas-id": "f-flamingo~auckland~gbfs"
+        },
+        {
+            "name": "Mahu-City-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3425"
+        },
+        {
+            "name": "AT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1373",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "AT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1374",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "AT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1375",
+            "spec": "gtfs-rt"
         }
     ]
 }

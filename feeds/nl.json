@@ -13,7 +13,7 @@
         {
             "name": "OpenOV",
             "type": "http",
-            "url" : "https://gtfs.openov.nl/gtfs-rt/gtfs-openov-nl.zip",
+            "url": "https://gtfs.openov.nl/gtfs-rt/gtfs-openov-nl.zip",
             "fix": true,
             "drop-agency-names": [
                 "Eurobahn",

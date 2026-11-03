@@ -15,6 +15,12 @@
             "type": "mobility-database",
             "mdb-id": "tld-6738",
             "script": "nz-wko-BUSIT.lua"
+        },
+        {
+            "name": "InterCity-Group",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1144",
+            "extend-calendar": true
         }
     ]
 }

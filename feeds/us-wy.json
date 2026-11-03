@@ -24,6 +24,34 @@
             "transitland-atlas-id": "f-goose~creek~transit~rt~alerts",
             "skip": true,
             "skip-reason": "api-key is missing"
+        },
+        {
+            "name": "Groome-Transportation-(Greenride)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-614",
+            "extend-calendar": true
+        },
+        {
+            "name": "Casper-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80013",
+            "extend-calendar": true
+        },
+        {
+            "name": "Wind-River-Transportation-Authority",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80121"
+        },
+        {
+            "name": "Southern-Teton-Area-Rapid-Transit-(START-Bus)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-80188"
+        },
+        {
+            "name": "Goose-Creek-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4694",
+            "extend-calendar": true
         }
     ]
 }

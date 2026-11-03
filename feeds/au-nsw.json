@@ -2227,6 +2227,17 @@
                 "Authorization": "AGE-ENCRYPTED:YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBTRXRySXYrVjJrY2JrT1lxKzh6SjlDY1pFVnlOSmU5YXFqbEhGeVhTMlNRCmtZa1Z0d3oreFRqVFBEWlZKcFZVTFJhOHcrTDAzTDZvVHdpaHo1dFRKYlUKLS0tIElnbGhWK01PNXI3Ni9VUnBVNnFzRk1vb28rSXhPQTlWWHRxZU5RZ3N1NGMKx6CKT0AQjAKIZe7pkGMwzSnb8lyeVo1IyiQcpiHtnbUBCEEM+om+g13Ir9E1K15cT4Chjz2XdSKJStUuiBXeDrkC2TKmVfAmBdiyPGRWxU2aDMafD3joyWYQqhbRiGr+UC3BNfXgVWlj9rkb55TnADrSACcSBdxR2AwTRb0fmzJmHEb5pcphJKfAtlHKrrh/gbxE/3PuVED+VAOhxjgotzpOQcZQcd1oTXvR3zveyaON7bn5XiVplwG/yyyMIYn1kahgaN82kIJG8Em/1byXWz8dt2xC5g=="
             },
             "use-feed-proxy": true
+        },
+        {
+            "name": "Byron-Easybus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-666",
+            "extend-calendar": true
+        },
+        {
+            "name": "Byron-Bay-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3516"
         }
     ]
 }

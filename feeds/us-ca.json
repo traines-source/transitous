@@ -366,6 +366,1951 @@
             "headers": {
                 "Authorization": "AGE-ENCRYPTED:YWdlLWVuY3J5cHRpb24ub3JnL3YxCi0+IFgyNTUxOSBWSUdtQ1hmUWNQTFJ6WHhQcWp2aTgxaUcvQjB5ZmROYmJsZUh5ME5tTURBCkRxcGtCTHJZNVlycUp4Yy9hWm5VSVViUFYyUjBsUXQ5a1Bod216RVNlUEEKLS0tIGYxVjZDTVg1eUgwdkJpVVJSZllmM0IyaGxRTzloMW5kSnc3RjhTZVFabWcKk2ccIJnSJxzncGhiuO7PFkAzphVdPqj7jDqKPJ3sSr4RguX+kdXw3UA91Ay30gz26I6L/x3r+poPOA6SDtXIwQ=="
             }
+        },
+        {
+            "name": "Avalon-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-12",
+            "extend-calendar": true
+        },
+        {
+            "name": "Laguna-Beach-Transit-(LBT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-16"
+        },
+        {
+            "name": "Redwood-Coast-Transit-(RCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-20",
+            "extend-calendar": true
+        },
+        {
+            "name": "Eastern-Sierra-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-25"
+        },
+        {
+            "name": "Airport-Valet-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-27",
+            "extend-calendar": true
+        },
+        {
+            "name": "Gold-Coast-Transit-South-Coast-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-32",
+            "extend-calendar": true
+        },
+        {
+            "name": "Torrance-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-34"
+        },
+        {
+            "name": "Palos-Verdes-Peninsula-Transit-Authority-(PVPTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-35"
+        },
+        {
+            "name": "Lawndale-Beat",
+            "type": "mobility-database",
+            "mdb-id": "mdb-36"
+        },
+        {
+            "name": "Big-Blue-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-37"
+        },
+        {
+            "name": "Culver-City-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-38",
+            "extend-calendar": true
+        },
+        {
+            "name": "Simi-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-40"
+        },
+        {
+            "name": "Pasadena-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-41"
+        },
+        {
+            "name": "San-Luis-Obispo-Regional-Transit-Authority-(SLORTA",
+            "type": "mobility-database",
+            "mdb-id": "mdb-43"
+        },
+        {
+            "name": "Golden-Empire-Transit-District-(GET)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-46"
+        },
+        {
+            "name": "Kern-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-47"
+        },
+        {
+            "name": "Porterville-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-48",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mission-Bay-Transportation-Management-Association-",
+            "type": "mobility-database",
+            "mdb-id": "mdb-51"
+        },
+        {
+            "name": "Tideline-Water-Taxi",
+            "type": "mobility-database",
+            "mdb-id": "mdb-52",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bay-Area-Rapid-Transit-(BART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-53"
+        },
+        {
+            "name": "Modesto-Area-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-55",
+            "extend-calendar": true
+        },
+        {
+            "name": "Santa-Clara-Valley-Transportation-Authority-(VTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-57"
+        },
+        {
+            "name": "San-Benito-County-Express-(SBCE)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-58"
+        },
+        {
+            "name": "Commute.org-San-Mateo-County-Shuttles",
+            "type": "mobility-database",
+            "mdb-id": "mdb-61"
+        },
+        {
+            "name": "Livermore-Amador-Valley-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-64",
+            "extend-calendar": true
+        },
+        {
+            "name": "eTrans",
+            "type": "mobility-database",
+            "mdb-id": "mdb-65"
+        },
+        {
+            "name": "Sonoma-County-Airport-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-66",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lake-Transit-Authority-(LTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-68"
+        },
+        {
+            "name": "Mendocino-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-69"
+        },
+        {
+            "name": "Sonoma-County-Transit-(SCT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-70"
+        },
+        {
+            "name": "El-Dorado-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-75"
+        },
+        {
+            "name": "Fairfield-and-Suisun-Transit-(FAST-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-76",
+            "extend-calendar": true
+        },
+        {
+            "name": "Placer-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-77",
+            "extend-calendar": true
+        },
+        {
+            "name": "WestCAT",
+            "type": "mobility-database",
+            "mdb-id": "mdb-78"
+        },
+        {
+            "name": "Yuba-Sutter-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-79"
+        },
+        {
+            "name": "SolTrans",
+            "type": "mobility-database",
+            "mdb-id": "mdb-80"
+        },
+        {
+            "name": "Rio-Vista-Delta-Breeze",
+            "type": "mobility-database",
+            "mdb-id": "mdb-81",
+            "extend-calendar": true
+        },
+        {
+            "name": "GrapeLine",
+            "type": "mobility-database",
+            "mdb-id": "mdb-83"
+        },
+        {
+            "name": "Nevada-County-Connects-(Gold-Country-Stage)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-84",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-ca.json: Sage-Stage"
+        },
+        {
+            "name": "Fresno-County-Rural-Transit-Agency-(FCRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-85"
+        },
+        {
+            "name": "Fresno-Area-Express-(FAX)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-90"
+        },
+        {
+            "name": "City-of-Madera",
+            "type": "mobility-database",
+            "mdb-id": "mdb-91",
+            "extend-calendar": true
+        },
+        {
+            "name": "Amador-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-92"
+        },
+        {
+            "name": "Calaveras-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-93"
+        },
+        {
+            "name": "OmniTrans",
+            "type": "mobility-database",
+            "mdb-id": "mdb-97"
+        },
+        {
+            "name": "Riverside-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "mdb-98"
+        },
+        {
+            "name": "Victor-Valley-Transit-Authority-(VVTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-99",
+            "extend-calendar": true
+        },
+        {
+            "name": "El-Monte-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-103",
+            "extend-calendar": true
+        },
+        {
+            "name": "Corona-Cruiser",
+            "type": "mobility-database",
+            "mdb-id": "mdb-104"
+        },
+        {
+            "name": "Beaumont-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-106"
+        },
+        {
+            "name": "Mountain-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-107"
+        },
+        {
+            "name": "Tehama-Rural-Area-Express-(TRAX)-Susanville-Indian",
+            "type": "mobility-database",
+            "mdb-id": "mdb-116",
+            "extend-calendar": true
+        },
+        {
+            "name": "Siskiyou-County",
+            "type": "mobility-database",
+            "mdb-id": "mdb-117"
+        },
+        {
+            "name": "Lassen-Rural-Bus-(LRB)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-118"
+        },
+        {
+            "name": "Plumas-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-119"
+        },
+        {
+            "name": "Alhambra-Community-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-211",
+            "extend-calendar": true
+        },
+        {
+            "name": "Antelope-Valley-Transit-Authority-(AVTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-214",
+            "extend-calendar": true,
+            "x-possible-duplicate-of": "us-ca.json: Antelope-Valley-Transit-Authority"
+        },
+        {
+            "name": "City-of-Banning-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-220"
+        },
+        {
+            "name": "University-of-California-Berkeley-Shuttle-(Bear-Tr",
+            "type": "mobility-database",
+            "mdb-id": "mdb-226",
+            "extend-calendar": true
+        },
+        {
+            "name": "Bell-Gardens-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-228",
+            "extend-calendar": true
+        },
+        {
+            "name": "Blossom-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-236"
+        },
+        {
+            "name": "Calabasas-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "mdb-296",
+            "extend-calendar": true
+        },
+        {
+            "name": "Carson-Circuit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-298",
+            "extend-calendar": true
+        },
+        {
+            "name": "Catalina-Flyer",
+            "type": "mobility-database",
+            "mdb-id": "mdb-300",
+            "extend-calendar": true
+        },
+        {
+            "name": "Compton-Renaissance",
+            "type": "mobility-database",
+            "mdb-id": "mdb-314",
+            "extend-calendar": true
+        },
+        {
+            "name": "Delano-Area-Rapid-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-320"
+        },
+        {
+            "name": "DowneyLINK",
+            "type": "mobility-database",
+            "mdb-id": "mdb-383",
+            "extend-calendar": true
+        },
+        {
+            "name": "Lynwood-Trolley--Breeze",
+            "type": "mobility-database",
+            "mdb-id": "mdb-570",
+            "extend-calendar": true
+        },
+        {
+            "name": "Madera-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-572"
+        },
+        {
+            "name": "Moorpark-City-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-578"
+        },
+        {
+            "name": "Morongo-Basin-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-579"
+        },
+        {
+            "name": "Needles-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-583"
+        },
+        {
+            "name": "Flixbus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-593",
+            "extend-calendar": true
+        },
+        {
+            "name": "Alcatraz-Cruises---Hornblower-Angel-Island-Tiburon",
+            "type": "mobility-database",
+            "mdb-id": "mdb-595",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-Coach",
+            "type": "mobility-database",
+            "mdb-id": "mdb-599",
+            "extend-calendar": true
+        },
+        {
+            "name": "Get-Around-Town-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-606",
+            "extend-calendar": true
+        },
+        {
+            "name": "Guadalupe-Flyer",
+            "type": "mobility-database",
+            "mdb-id": "mdb-617"
+        },
+        {
+            "name": "Turlock-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-619"
+        },
+        {
+            "name": "Go-West-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-623",
+            "extend-calendar": true
+        },
+        {
+            "name": "Union-City-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-628",
+            "extend-calendar": true
+        },
+        {
+            "name": "Tulare-County-Area-Transit-(TCAT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-646"
+        },
+        {
+            "name": "Playa-Vista-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-799",
+            "extend-calendar": true
+        },
+        {
+            "name": "San-Leandro-Links",
+            "type": "mobility-database",
+            "mdb-id": "mdb-810",
+            "extend-calendar": true
+        },
+        {
+            "name": "Santa-Clarita-Transit-mdb-812",
+            "type": "mobility-database",
+            "mdb-id": "mdb-812"
+        },
+        {
+            "name": "Santa-Ynez-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-813"
+        },
+        {
+            "name": "San-Joaquin-Regional-Transit-District-(RTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-886"
+        },
+        {
+            "name": "Commerce-Municipal-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-994"
+        },
+        {
+            "name": "Blue-&-Gold-Fleet",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1178",
+            "extend-calendar": true
+        },
+        {
+            "name": "Long-Beach-Transit-(LBT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1198"
+        },
+        {
+            "name": "Los-Angeles-Department-of-Transportation-(LADOT---",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1210"
+        },
+        {
+            "name": "Santa-Barbara-Metropolitan-Transit-District-(MTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1246"
+        },
+        {
+            "name": "VINE-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1288"
+        },
+        {
+            "name": "Yolo-County-Transportation-District-(Yolobus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1295",
+            "extend-calendar": true
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-Authority-(StanRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1332",
+            "extend-calendar": true
+        },
+        {
+            "name": "UCSC-Transportation-and-Parking-Services",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1842",
+            "extend-calendar": true
+        },
+        {
+            "name": "Tri-Delta-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1974"
+        },
+        {
+            "name": "Beach-Cities-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1999"
+        },
+        {
+            "name": "reLAXsan",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2030",
+            "extend-calendar": true
+        },
+        {
+            "name": "Morro-Bay-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2059",
+            "extend-calendar": true
+        },
+        {
+            "name": "Elk-Grove-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2136",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sacramento-Regional-Transit-(SacRT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2137",
+            "extend-calendar": true
+        },
+        {
+            "name": "Manteca-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2172"
+        },
+        {
+            "name": "MOVE-Stanislaus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2174"
+        },
+        {
+            "name": "San-Joaquin-Regional-Transit-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2180"
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2186",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Tracy",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2187"
+        },
+        {
+            "name": "Palo-Verde-Valley-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2190"
+        },
+        {
+            "name": "Montebello-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2201"
+        },
+        {
+            "name": "Spirit-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2202"
+        },
+        {
+            "name": "South-County-Transit-Link",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2203",
+            "extend-calendar": true
+        },
+        {
+            "name": "Kings-Area-Rural-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2204"
+        },
+        {
+            "name": "El-Segundo-Transportation",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2210",
+            "extend-calendar": true
+        },
+        {
+            "name": "Emery-Go-Round",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2224"
+        },
+        {
+            "name": "Arvin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2233",
+            "extend-calendar": true
+        },
+        {
+            "name": "Camarillo-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2234"
+        },
+        {
+            "name": "San-Juan-Capistrano-Free-Weekend-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2235"
+        },
+        {
+            "name": "Taft-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2236"
+        },
+        {
+            "name": "West-Berkeley-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2238"
+        },
+        {
+            "name": "Arcadia-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2243"
+        },
+        {
+            "name": "Baldwin-Park-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2247"
+        },
+        {
+            "name": "Cudahy-Area-Rapid-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2248",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-Bell-(La-Campana)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2249",
+            "extend-calendar": true
+        },
+        {
+            "name": "La-Puente-LINK",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2250",
+            "extend-calendar": true
+        },
+        {
+            "name": "Sierra-Madre-Gateway-Coach",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2251",
+            "extend-calendar": true
+        },
+        {
+            "name": "GTrans",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2270"
+        },
+        {
+            "name": "Santa-Maria-Area-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2272"
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-(StaRT)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2273"
+        },
+        {
+            "name": "Auburn-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2275"
+        },
+        {
+            "name": "Ridgecrest-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2279",
+            "extend-calendar": true
+        },
+        {
+            "name": "Amtrak-San-Joaquins",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2295"
+        },
+        {
+            "name": "Thousand-Oaks-Transit---Kanan-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2315"
+        },
+        {
+            "name": "North-Lake-Tahoe-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2328"
+        },
+        {
+            "name": "Dana-Point-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2361"
+        },
+        {
+            "name": "San-Clemente-Trolley",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2362"
+        },
+        {
+            "name": "Yosemite-Area-Regional-Transportation-System-(YART",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2394"
+        },
+        {
+            "name": "County-Connection-(CCCTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2421"
+        },
+        {
+            "name": "Alameda-Contra-Costa-Transit-District-(AC-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2455"
+        },
+        {
+            "name": "Huntington-Park-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2648",
+            "extend-calendar": true
+        },
+        {
+            "name": "The-Santa-Cruzer",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2667",
+            "extend-calendar": true
+        },
+        {
+            "name": "Altamont-Corridor-Express",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2684"
+        },
+        {
+            "name": "SamTrans",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2708"
+        },
+        {
+            "name": "Trinity-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2709"
+        },
+        {
+            "name": "Redding-Area-Bus-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2853",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mountain-View-Transportation-Management-Associatio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2880"
+        },
+        {
+            "name": "Mountain-View-Community-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2883"
+        },
+        {
+            "name": "San-Francisco-Municipal-Transportation-Agency-(SFM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2886",
+            "extend-calendar": true
+        },
+        {
+            "name": "Clovis-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2894"
+        },
+        {
+            "name": "Marin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2937"
+        },
+        {
+            "name": "Petaluma-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2947"
+        },
+        {
+            "name": "Santa-Rosa-CityBus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2948"
+        },
+        {
+            "name": "Redding-Area-Bus-Authority-mdb-3031",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3031"
+        },
+        {
+            "name": "Humboldt-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3032"
+        },
+        {
+            "name": "North-County-Transit-District-(NCTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3093"
+        },
+        {
+            "name": "Glenn-Transit-Service",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3094"
+        },
+        {
+            "name": "Bellflower-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3095",
+            "extend-calendar": true
+        },
+        {
+            "name": "Ventura-County-Transportation-Commission",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3096"
+        },
+        {
+            "name": "Glendora-Transportation-Division",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3097",
+            "extend-calendar": true
+        },
+        {
+            "name": "Rosemead-Explorer",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3098"
+        },
+        {
+            "name": "City-of-Tracy-(TRACER)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3099"
+        },
+        {
+            "name": "Thousand-Oaks-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3100"
+        },
+        {
+            "name": "Merced-County-Transit-(The-Bus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3117"
+        },
+        {
+            "name": "San-Francisco-Bay-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3143"
+        },
+        {
+            "name": "Devils-Postpile-National-Monument",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3206"
+        },
+        {
+            "name": "Golden-Gate-National-Recreation-Area-(Alcatraz-Isl",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3208"
+        },
+        {
+            "name": "Sonoma-Marin-Area-Rail-Transit-(SMART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3222"
+        },
+        {
+            "name": "City-of-San-Luis-Obispo-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3533"
+        },
+        {
+            "name": "Visalia-Transit",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90091"
+        },
+        {
+            "name": "Tri-Delta-Transit-ntd-90162",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90162"
+        },
+        {
+            "name": "Butte-Regional-Transit-(B-Line)",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90208"
+        },
+        {
+            "name": "City-of-Manteca",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90217"
+        },
+        {
+            "name": "Alhambra-Community-Transit-ntd-90247",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90247",
+            "extend-calendar": true
+        },
+        {
+            "name": "Carson-Transportation-Services",
+            "type": "mobility-database",
+            "mdb-id": "ntd-90258"
+        },
+        {
+            "name": "SunLine-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "tld-461"
+        },
+        {
+            "name": "Norwalk-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-881"
+        },
+        {
+            "name": "Tulare-InterModal-Express-",
+            "type": "mobility-database",
+            "mdb-id": "tld-1238"
+        },
+        {
+            "name": "Los-Angeles-County-Shuttles",
+            "type": "mobility-database",
+            "mdb-id": "tld-1253"
+        },
+        {
+            "name": "Santa-Ynez-Valley-Transit-tld-1301",
+            "type": "mobility-database",
+            "mdb-id": "tld-1301"
+        },
+        {
+            "name": "LAX-Flyaway",
+            "type": "mobility-database",
+            "mdb-id": "tld-4327",
+            "extend-calendar": true
+        },
+        {
+            "name": "City-of-West-Hollywood",
+            "type": "mobility-database",
+            "mdb-id": "tld-4386"
+        },
+        {
+            "name": "Chapman-University",
+            "type": "mobility-database",
+            "mdb-id": "tld-4454"
+        },
+        {
+            "name": "Fresno-State-University",
+            "type": "mobility-database",
+            "mdb-id": "tld-4461"
+        },
+        {
+            "name": "Cerritos-On-Wheels",
+            "type": "mobility-database",
+            "mdb-id": "tld-4667"
+        },
+        {
+            "name": "Artesia-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4763",
+            "extend-calendar": true
+        },
+        {
+            "name": "I-Line-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "tld-4781"
+        },
+        {
+            "name": "Maywood-Express-Shuttle",
+            "type": "mobility-database",
+            "mdb-id": "tld-4782",
+            "extend-calendar": true
+        },
+        {
+            "name": "Eureka-Transit-Service-Blue-Lake-Rancheria-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4798"
+        },
+        {
+            "name": "Imperial-Valley-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-5547",
+            "extend-calendar": true
+        },
+        {
+            "name": "Valley-Express",
+            "type": "mobility-database",
+            "mdb-id": "tld-5762",
+            "extend-calendar": true
+        },
+        {
+            "name": "Yosemite-National-Park",
+            "type": "mobility-database",
+            "mdb-id": "tld-6679"
+        },
+        {
+            "name": "Yosemite-National-Park-tld-6681",
+            "type": "mobility-database",
+            "mdb-id": "tld-6681"
+        },
+        {
+            "name": "City-of-Irvine",
+            "type": "mobility-database",
+            "mdb-id": "tld-6724"
+        },
+        {
+            "name": "Sequoia-&-Kings-Canyon-National-Parks",
+            "type": "mobility-database",
+            "mdb-id": "tld-6907",
+            "extend-calendar": true
+        },
+        {
+            "name": "Mission-Viejo",
+            "type": "mobility-database",
+            "mdb-id": "tld-7930"
+        },
+        {
+            "name": "Bay-Area-Rapid-Transit-(BART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1385",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Bay-Area-Rapid-Transit-(BART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1386",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Alameda-Contra-Costa-Transit-District-(AC-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1399",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Alameda-Contra-Costa-Transit-District-(AC-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1400",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Alameda-Contra-Costa-Transit-District-(AC-Transit)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1401",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Big-Blue-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1436",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Big-Blue-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1437",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Big-Blue-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1438",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "North-County-Transit-District-(NCTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1439",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "North-County-Transit-District-(NCTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1440",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "North-County-Transit-District-(NCTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1441",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Banning-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1479",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Banning-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1480",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Banning-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1481",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Redding-Area-Bus-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1485",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Redding-Area-Bus-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1486",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Redding-Area-Bus-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1487",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lake-Transit-Authority-(LTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1491",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Lake-Transit-Authority-(LTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1492",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Humboldt-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1493",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Humboldt-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1494",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Humboldt-Transit-Authority",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1495",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Merced-County-Transit-(The-Bus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1506",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Merced-County-Transit-(The-Bus)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1507",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kern-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1508",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kern-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1509",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "VINE-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1522",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "VINE-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1523",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Beach-Cities-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1564",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Beach-Cities-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1565",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Beach-Cities-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1566",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metro-LosAngeles-Rail",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1574",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metro-LosAngeles-Rail",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1575",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-Authority-(StanRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1613",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-Authority-(StanRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1614",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-Authority-(StanRTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1615",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Monterey-Salinas-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1616",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Monterey-Salinas-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1617",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Monterey-Salinas-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1618",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "OC-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1641",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "OC-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1642",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "OC-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1643",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tahoe-Transportation-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1652",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tahoe-Transportation-District",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1653",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pasadena-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1654",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pasadena-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1655",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Riverside-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1663",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Riverside-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1664",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Riverside-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1665",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Nevada-County-Connects-(Gold-Country-Stage)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1669",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Nevada-County-Connects-(Gold-Country-Stage)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1670",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Nevada-County-Connects-(Gold-Country-Stage)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1671",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Joaquin-Regional-Transit-District-(RTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1687",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Joaquin-Regional-Transit-District-(RTD)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1688",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Thousand-Oaks-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1689",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Turlock-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1717",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Turlock-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1718",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Turlock-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1719",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Avalon-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1728",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Avalon-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1729",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Clara-Valley-Transportation-Authority-(VTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1742",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Clara-Valley-Transportation-Authority-(VTA)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1743",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Madera-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1755",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Madera-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1756",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Madera-County-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1757",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Eastern-Sierra-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1758",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Eastern-Sierra-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1759",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Commerce-Municipal-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1794",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Commerce-Municipal-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1795",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Commerce-Municipal-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1796",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Francisco-Municipal-Transportation-Agency-(SFM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1843",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Francisco-Municipal-Transportation-Agency-(SFM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1844",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Francisco-Municipal-Transportation-Agency-(SFM",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1845",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Cruz-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1910",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Cruz-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1911",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Cruz-Metro",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1912",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tri-Delta-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1975",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tri-Delta-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1976",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Tri-Delta-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-1977",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Mountain-View-Transportation-Management-Associatio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2109",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Mountain-View-Transportation-Management-Associatio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2110",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Mountain-View-Transportation-Management-Associatio",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2111",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Montebello-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2217",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Montebello-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2218",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Montebello-Bus-Lines",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2219",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Spirit-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2220",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Spirit-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2221",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Spirit-Bus",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2222",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Emery-Go-Round",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2225",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Emery-Go-Round",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2226",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Emery-Go-Round",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2227",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Foothill-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2228",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Foothill-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2229",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Foothill-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2230",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Butte-Regional-Transit-(B-Line)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2427",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Butte-Regional-Transit-(B-Line)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2428",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Butte-Regional-Transit-(B-Line)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2429",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metrolink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2891",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metrolink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2892",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metrolink",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2893",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Clovis-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2895",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Clovis-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2896",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Clovis-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-2897",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Caltrain",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3053",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Caltrain",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3054",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Caltrain",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3055",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Marin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3090",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Marin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3091",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Marin-Transit",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3092",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sonoma-Marin-Area-Rail-Transit-(SMART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3223",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Sonoma-Marin-Area-Rail-Transit-(SMART)",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3224",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Francisco-Bay-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3616",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Francisco-Bay-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3617",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Francisco-Bay-Ferry",
+            "type": "mobility-database",
+            "mdb-id": "mdb-3618",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-(StaRT)",
+            "type": "mobility-database",
+            "mdb-id": "tld-1258-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Stanislaus-Regional-Transit-(StaRT)",
+            "type": "mobility-database",
+            "mdb-id": "tld-1258-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Long-Beach-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-1260-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Long-Beach-Transit-tld-1260-tu",
+            "type": "mobility-database",
+            "mdb-id": "tld-1260-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Long-Beach-Transit-tld-1260-vp",
+            "type": "mobility-database",
+            "mdb-id": "tld-1260-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Pasadena-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-1261-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kings-Area-Rural-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4336-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kings-Area-Rural-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4336-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Kings-Area-Rural-Transit",
+            "type": "mobility-database",
+            "mdb-id": "tld-4336-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Barbara-Metropolitan-Transit-District-(MTD)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4360-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Barbara-Metropolitan-Transit-District-(MTD)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4360-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Barbara-Metropolitan-Transit-District-(MTD)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4360-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Torrance-Transit-tld-4364-sa",
+            "type": "mobility-database",
+            "mdb-id": "tld-4364-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Torrance-Transit-tld-4364-tu",
+            "type": "mobility-database",
+            "mdb-id": "tld-4364-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Torrance-Transit-tld-4364-vp",
+            "type": "mobility-database",
+            "mdb-id": "tld-4364-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fresno-Area-Express-(FAX)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4483-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fresno-Area-Express-(FAX)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4483-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Fresno-Area-Express-(FAX)",
+            "type": "mobility-database",
+            "mdb-id": "tld-4483-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SunLine-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "tld-4706-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SunLine-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "tld-4706-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "SunLine-Transit-Agency",
+            "type": "mobility-database",
+            "mdb-id": "tld-4706-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Norwalk-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-5546-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Norwalk-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-5546-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Norwalk-Transit-System",
+            "type": "mobility-database",
+            "mdb-id": "tld-5546-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Luis-Obispo-Regional-Transit-Authority-(SLORTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-5553-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Luis-Obispo-Regional-Transit-Authority-(SLORTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-5553-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "San-Luis-Obispo-Regional-Transit-Authority-(SLORTA",
+            "type": "mobility-database",
+            "mdb-id": "tld-5553-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Santa-Ynez-Valley-Transit-tld-1301",
+            "type": "mobility-database",
+            "mdb-id": "tld-5569-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Metro-LosAngeles",
+            "type": "mobility-database",
+            "mdb-id": "tld-5847-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Culver-City-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-5892-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Culver-City-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-5892-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Culver-City-Bus",
+            "type": "mobility-database",
+            "mdb-id": "tld-5892-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Irvine",
+            "type": "mobility-database",
+            "mdb-id": "tld-6725-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Irvine",
+            "type": "mobility-database",
+            "mdb-id": "tld-6725-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "City-of-Irvine",
+            "type": "mobility-database",
+            "mdb-id": "tld-6725-vp",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Rosemead-Explorer",
+            "type": "mobility-database",
+            "mdb-id": "tld-6732-sa",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Rosemead-Explorer",
+            "type": "mobility-database",
+            "mdb-id": "tld-6732-tu",
+            "spec": "gtfs-rt"
+        },
+        {
+            "name": "Rosemead-Explorer",
+            "type": "mobility-database",
+            "mdb-id": "tld-6732-vp",
+            "spec": "gtfs-rt"
         }
     ]
 }
